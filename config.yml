@@ -1,0 +1,62 @@
+defaultContentLanguage: ro
+defaultContentLanguageInSubdir: false
+title: Code for Romania
+theme: code4
+
+languages:
+  ro:
+    languageName: Română
+    languageCode: ro_RO
+    copy: Organizație neguvernamentală independentă, neafiliată politic și apolitică.
+    contentDir: content/ro
+
+  en:
+    languageName: English
+    languageCode: en_US
+    copy: An independent, non-partisan, non-political, non-govermental organization.
+    contentDir: content/en
+
+menu:
+  social:
+    - name: facebook
+      url: https://www.facebook.com/code4romania/
+      weight: 1
+    - name: twitter
+      url: https://twitter.com/Code4Romania
+      weight: 2
+    - name: github
+      url: https://github.com/code4romania/
+      weight: 3
+    - name: linkedin
+      url: https://www.linkedin.com/company/code-for-romania
+      weight: 4
+
+params:
+  sitemapExclude:
+    - staff
+    - programs
+
+  appStatus:
+    - id: done
+      icon: check
+    - id: developing
+      icon: wrench
+    - id: incubation
+      icon: exclamation-triangle
+
+  # Must match exact button config on paypal
+  paypal:
+    buttonID:
+      recurring: YED2GFGKUFXBJ
+      onetime: C39VZYTTZGF82
+    amounts: [ 5, 10, 20, 50, 100 ]
+
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm

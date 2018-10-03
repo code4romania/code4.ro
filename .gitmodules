@@ -1,0 +1,3 @@
+[submodule "themes/code4"]
+	path = themes/code4
+	url = https://github.com/code4romania/theme.git
