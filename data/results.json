@@ -1,0 +1,26 @@
+[
+	{
+		"label": "results.contributors",
+		"value": 550
+	},
+	{
+		"label": "results.projects.complete",
+		"value": 7
+	},
+	{
+		"label": "results.hours",
+		"value": 45000
+	},
+	{
+		"label": "results.timezones",
+		"value": 11
+	},
+	{
+		"label": "results.projects.pending",
+		"value": 10
+	},
+	{
+		"label": "results.commits",
+		"value": 5600
+	}
+]

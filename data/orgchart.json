@@ -1,0 +1,90 @@
+[
+	{
+		"name": "Management",
+		"icon": "flag",
+		"titles": [
+			"Managing Director"
+		]
+	},
+	{
+		"name": "Operations",
+		"icon": "cogs",
+		"titles": [
+			"Chief Communication and Operation Officer",
+			"Operations Officer",
+			"Open Data Officer",
+			"Budgets and Operation Officer",
+			"Incubation and Project Support Officer"
+		]
+	},
+	{
+		"name": "Community Management",
+		"icon": "users",
+		"titles": [
+			"Chief Community Manager",
+			"Community Manager",
+			"Events Manager",
+			"Onboarding Officer",
+			"Internal Communication Officer",
+			"Regional Manager – Bucharest",
+			"Regional Manager – Cluj",
+			"Regional Manager – Disapora",
+			"Regional Manager – Iași",
+			"Regional Manager – Timișoara",
+			"Regional Manager – Brașov",
+			"Regional Manager – Chișinău",
+			"Regional Manager – Oradea"
+		]
+	},
+	{
+		"name": "Communication",
+		"icon": "comment-dots",
+		"titles": [
+			"Chief Communication Manager",
+			"Content Officer",
+			"Social Media Officer",
+			"Graphic Design Officer",
+			"Branding Officer"
+		]
+	},
+	{
+		"name": "Funding",
+		"icon": "comments-dollar",
+		"titles": [
+			"Chief Fundraising Officer",
+			"Fundraising Officer",
+			"Grants Officer",
+			"Accountant"
+		]
+	},
+	{
+		"name": "Tech",
+		"icon": "terminal",
+		"titles": [
+			"Chief Technology Officer",
+			"Technology Officer",
+			"Infrastructure Officer",
+			"IT Security & Infrastructure Officer",
+			"Tech Research & Analysis Officer",
+			"BA Officer"
+		]
+	},
+	{
+		"name": "Partnerships",
+		"icon": "handshake",
+		"titles": [
+			"Chief Partnerships Officer",
+			"Partnerships and Growth Officer",
+			"Global Partnerships Officer",
+			"Legal Officer"
+		]
+	},
+	{
+		"name": "Talent Management",
+		"icon": "star",
+		"titles": [
+			"Chief Talent Manager",
+			"Learning & Developement Officer"
+		]
+	}
+]
