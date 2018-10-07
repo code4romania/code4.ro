@@ -1,5 +1,5 @@
-defaultContentLanguage: ro
-defaultContentLanguageInSubdir: false
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
 title: Code for Romania
 theme: code4
 
@@ -39,7 +39,7 @@ params:
   appStatus:
     - id: done
       icon: check
-    - id: developing
+    - id: development
       icon: wrench
     - id: incubation
       icon: exclamation-triangle
@@ -51,10 +51,21 @@ params:
       onetime: C39VZYTTZGF82
     amounts: [ 5, 10, 20, 50, 100 ]
 
+blackfriday:
+  hrefTargetBlank: true
+  fractions: false
+
 sitemap:
   changefreq: weekly
   filename: sitemap.xml
   priority: 0.5
+
+googleAnalytics: UA-44645831-1
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+    useSessionStorage: true
 
 disableKinds:
   - RSS
