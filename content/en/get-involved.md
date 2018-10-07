@@ -68,7 +68,7 @@ menu:
   **[Report a problem](https://cetetine.ro/)**
 {{% /infobox %}}
 
-{{% infobox icon="graduation-cap" title="Universități" %}}
+{{% infobox icon="graduation-cap" title="Universities" %}}
   A partnership between Code For Romania and the academic environment is a very attractive way of involving students in extracurricular activities.
 
   We can jointly develop student practice projects or collaborate on research projects.
