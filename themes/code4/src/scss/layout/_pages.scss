@@ -1,0 +1,42 @@
+.page-donate {
+	.hero-donate {
+		padding: 2rem 1.5rem;
+
+		@include tablet {
+			padding: 3.75rem 4.75rem;
+		}
+	}
+
+	.donate-step {
+		.donate-step-label {
+			margin-bottom: .75rem;
+		}
+
+		& + .donate-step {
+			margin-top: 2.35rem;
+		}
+	}
+
+	.has-dashed-border {
+		border-color: $success;
+	}
+
+	.title,
+	.subtitle {
+		color: $success;
+	}
+}
+
+.page {
+	&.narrow {
+		.container {
+			max-width: $tablet;
+		}
+	}
+}
+
+.page-staff {
+	.container.content {
+		max-width: $tablet;
+	}
+}

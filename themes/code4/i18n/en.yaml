@@ -1,0 +1,125 @@
+- id: or
+  translation: or
+- id: month
+  translation: month
+- id: getinvolved
+  translation: Get involved
+- id: donate
+  translation: Donate
+- id: team
+  translation: Team
+- id: partners
+  translation: Partners
+
+- id: donation.plural
+  translation: donations
+- id: donation.cta
+  translation: Congratulations make us happy, <a class='button is-success' href='%s'>donations</a> help us keep going.
+
+- id: 404.title
+  translation: Are you lost?
+- id: 404.about
+  translation: Find out who we are
+- id: 404.getinvolved
+  translation: Want to get involved?
+
+- id: hero.title
+  translation: Together, we build tech tools for a stronger society
+- id: hero.text
+  translation: We are a community of 550+ volunteers who create open source digital tools for solving societal challenges. Our mission is to innovate through open data, transparency and civic tech. At Code for Romania, we believe that technology can enable citizens to more meaningfully engage in the public sphere and have a positive impact on their communities.
+
+- id: results.title
+  translation: Results
+- id: results.contributors
+  translation: contributors
+- id: results.projects.complete
+  translation: finished projects
+- id: results.hours
+  translation: work hours
+- id: results.timezones
+  translation: timezones
+- id: results.projects.pending
+  translation: pending projects
+- id: results.commits
+  translation: GitHub commits
+
+- id: programs.title
+  translation: Programs
+- id: programs.view.all
+  translation: View all the programs
+- id: programs.codeforall
+  translation: Code for Romania is part of
+- id: programs.moreinfo
+  translation: Find out more
+- id: programs.support
+  translation: Support this program
+
+- id: apps.title
+  translation: Apps
+- id: apps.view.all
+  translation: View all the apps
+- id: apps.view.single
+  translation: View the app
+
+- id: apps.status.incubation
+  translation:
+    one: Project in incubation
+    other: Projects in incubation
+- id: apps.status.development
+  translation:
+    one: Proiect in development
+    other: Proiects in development
+- id: apps.status.done
+  translation:
+    one: Finished project
+    other: Finished projects
+
+- id: apps.work.hours
+  translation: work hours
+- id: apps.work.value
+  translation: worth
+
+- id: apps.code
+  translation: Source code
+- id: apps.idea
+  translation: An idea by
+
+- id: apps.stage.concept
+  translation: Concept
+- id: apps.stage.ux
+  translation: UX & Design
+- id: apps.stage.arch
+  translation: Technical Architecture
+- id: apps.stage.development
+  translation: Development
+- id: apps.stage.testing
+  translation: Testing
+- id: apps.stage.launch
+  translation: Launch
+
+- id: support.title
+  translation: Get involved
+- id: support.text
+  translation: It’s up to us to contribute and empower others to do so! In the long term, civic engagement and participation will lead to a better Romania, and not only.
+- id: support.join.title
+  translation: Become a volunteer
+- id: support.join.text
+  translation: A couple of hours of your time per week or your know-how. You’ll get back the excitement of doing meaningful work with like-minded people.
+- id: support.donate.text
+  translation: You can also choose invest in us by donating. It allows us to invest our energy in developing civic innovation projects and growing the community.
+
+- id: support.donate.recurring.label
+  translation: Every recurring donation helps us deliver solutions faster and faster every month.
+- id: support.donate.recurring.currency
+  translation: €
+- id: support.donate.onetime.label
+  translation: Or you can support us one-time-only, we appreciate every contribution.
+- id: support.donate.onetime.button
+  translation: Donate only once
+- id: support.donate.secure
+  translation: Your transaction is secure, you will be redirected to PayPal in order to complete your donation. Thank you!
+
+- id: support.cta.title
+  translation: A powerful society contributes to a healthy business environment
+- id: support.cta.text
+  translation: If you want to help our projects create relevant change in todays Romania, we would love to hear from you, tell you more about our organisation and find ways to work together.

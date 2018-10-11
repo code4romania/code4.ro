@@ -1,0 +1,61 @@
+{{- $size := 100 -}}
+{{- $items := (len .items) -}}
+
+{{- $cols := .cols -}}
+{{- $rows := cond (ne (mod $items $cols) 0) (add (div $items $cols) 1) (div $items $cols) -}}
+
+{{- $width := mul (mul $size $cols) 0.81667 | math.Round -}}
+{{- $height := add (mul $size 0.45) (mul (mul $rows $size) 0.89) -}}
+
+<!-- http://nicolasgallagher.com/canvas-fix-svg-scaling-in-internet-explorer/ -->
+<div class="hexgrid-container">
+	<canvas width="{{ $width }}" height="{{ $height }}"></canvas>
+	<svg class="hexgrid" viewBox="0 0 {{ $width }} {{ $height }}">
+		<defs>
+			<path id="hex-blank" d="M100,43.3L75,86.6H25L0,43.3L25,0h50L100,43.3z"/>
+			<clipPath id="hex-clip">
+				<use xlink:href="#hex-blank"/>
+			</clipPath>
+		</defs>
+
+		{{- $item := newScratch -}}
+		{{- $item.Set "row" 0 -}}
+		{{- $item.Set "rowCount" 0 -}}
+		{{- range $i, $hex := .items -}}
+			<!-- ($i % $cols) * $size * 0,78 -->
+			{{- $item.Set "x" (mul (mul (mod $i $cols) $size) 0.78) -}}
+
+			<!-- ($i // $cols) * $size * 0,90 -->
+			{{- $item.Set "y" (mul (mul (div $i $cols) $size) 0.90) -}}
+
+			<!-- Offset even grid items -->
+			{{- if ne (mod ($item.Get "rowCount") 2) 0 -}}
+				{{- $item.Set "y" (add ($item.Get "y") (mul $size 0.45)) -}}
+			{{- end -}}
+
+			{{- if and (isset $hex "image") (ne ($hex).image "") -}}
+				<!-- We have an image url and it's not empty -->
+				{{- if and (isset $hex "url") (ne ($hex).url "") -}}
+					<a class="hex hex-link" transform="translate({{ $item.Get "x" }},{{ $item.Get "y" }})" xlink:href="{{ ($hex).url | relLangURL }}">
+				{{- else -}}
+					<g class="hex" transform="translate({{ $item.Get "x" }},{{ $item.Get "y" }})">
+				{{- end -}}
+					<image clip-path="url(#hex-clip)" xlink:href="{{ ($hex).image | absURL }}" width="100" height="86.6" />
+				{{- cond (and (isset $hex "url") (ne ($hex).url "")) "</a>" "</g>" | safeHTML -}}
+
+			{{- else -}}
+				<!-- No image url, treat it as a filler -->
+				<g class="hex {{- with ($hex).type }} hex-{{ . }} {{- end }}" transform="translate({{ $item.Get "x" }},{{ $item.Get "y" }})">
+					<use xlink:href="#hex-blank" />
+				</g>
+			{{- end -}}
+
+			{{- if eq (sub $cols 1) ($item.Get "rowCount") }}
+				{{- $item.Add "row" 1 -}}
+				{{- $item.Set "rowCount" 0 -}}
+			{{- else -}}
+				{{- $item.Add "rowCount" 1 -}}
+			{{- end -}}
+		{{- end -}}
+	</svg>
+</div>

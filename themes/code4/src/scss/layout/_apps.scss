@@ -1,0 +1,197 @@
+.app-list {
+	.hex-badge {
+		.title {
+			font-size: 1.5rem;
+
+			@include tablet {
+				font-size: 1.875rem;
+			}
+
+			@include desktop {
+				font-size: 2.25rem;
+			}
+		}
+
+		.badge {
+			font-size: 1.375rem;
+			line-height: 3em;
+			height: 3em;
+			width: 3em;
+
+			@include tablet {
+				font-size: 1.75rem;
+			}
+		}
+
+		&.app-status-incubation .badge {
+			background-image: url('images/hex-red.png');
+
+			@include modernizr(svgasimg) {
+				background-image: url('images/hex-red.svg');
+			}
+		}
+
+		&.app-status-development .badge {
+			background-image: url('images/hex-green.png');
+
+			@include modernizr(svgasimg) {
+				background-image: url('images/hex-green.svg');
+			}
+		}
+
+		&.app-status-done .badge {
+			background-image: url('images/hex-primary.png');
+
+			@include modernizr(svgasimg) {
+				background-image: url('images/hex-primary.svg');
+			}
+		}
+	}
+}
+
+.apps-container {
+	.app-status {
+		border-top: 1rem solid;
+
+		@each $status, $color in $app-status {
+			&.app-status-#{$status} {
+				border-top-color: $color;
+			}
+		}
+	}
+
+	.app-brand {
+		.logo-container {
+			border-top: 0;
+		}
+	}
+
+	.app-info {
+		padding: .675rem 0;
+		line-height: 1.15;
+
+		.app-title {
+			word-break: break-word;
+			margin: 0 0 .25em;
+			font-size: 1.5rem;
+			font-weight: 700;
+			hyphens: auto;
+		}
+
+		.app-idea {
+			font-size: .875rem;
+		}
+	}
+}
+
+%logo-container {
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	overflow: hidden;
+	display: flex;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+
+	img {
+		width: 75%;
+	}
+}
+
+
+.app-brand {
+	position: relative;
+	padding: 0 0 100%;
+	height: 0;
+
+	.logo-container {
+		@extend %logo-container;
+
+		border: 1px solid $grey-light;
+		background-color: $white;
+
+		img {
+			width: 65%;
+		}
+	}
+}
+
+.app-header {
+	.app-info {
+		@include tablet {
+			padding-left: 2rem;
+		}
+
+		.media-left.image {
+			border: 1px solid $grey-light;
+		}
+	}
+
+	.app-status {
+		text-transform: uppercase;
+		letter-spacing: .25em;
+		font-size: .875rem;
+		font-weight: 700;
+
+		i {
+			font-size: 2rem;
+		}
+
+		i,
+		span {
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		@each $status, $color in $app-status {
+			&.app-status-#{$status} {
+				color: $color;
+			}
+		}
+	}
+
+	.app-numbers {
+		margin-bottom: 3.75rem;
+		margin-top: 1.875rem;
+	}
+
+	.content {
+		font-size: 1.125rem;
+		margin: 1.5rem 0;
+	}
+
+	.app-code {
+		font-family: $family-monospace;
+
+		i {
+			vertical-align: middle;
+			font-size: 1.5rem;
+		}
+	}
+}
+
+.app-progress {
+	.status {
+		text-transform: uppercase;
+		letter-spacing: .15rem;
+		text-align: center;
+		font-size: .875rem;
+		font-weight: 700;
+
+		&.status-inactive {
+			color: $grey-lighter;
+		}
+
+		/*
+		@include mobile {
+			display: none;
+
+			&.status-current {
+				display: block;
+			}
+		}
+		*/
+	}
+}

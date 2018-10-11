@@ -1,0 +1,21 @@
+<section class="hero is-primary front-results">
+	<div class="hero-body">
+		<div class="container">
+			<h1 class="title is-size-4-mobile is-size-3-tablet is-size-2-desktop has-text-weight-bold has-text-centered">{{ i18n "results.title" }}</h1>
+			<div class="columns is-multiline is-mobile">
+				{{- range $.Site.Data.results -}}
+					<div class="result column is-6-mobile is-4-tablet">
+						<div class="hexbadge columns">
+							<div class="column is-narrow">
+								<div class="badge is-number">{{ .value }}</div>
+							</div>
+							<div class="column is-narrow-tablet">
+								<div class="desc">{{ i18n .label }}</div>
+							</div>
+						</div>
+					</div>
+				{{- end -}}
+			</div>
+		</div>
+	</div>
+</section>

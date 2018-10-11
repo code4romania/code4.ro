@@ -1,0 +1,11 @@
+{{- define "main" -}}
+	<div class="page-about">
+		<div class="container">
+			{{- partial "page-header.html" . -}}
+		</div>
+
+		{{- partial "hexgrid.html" .Params.grid -}}
+
+		{{- partial "cta-donate.html" . -}}
+	</div>
+{{- end -}}

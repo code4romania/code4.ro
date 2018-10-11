@@ -1,0 +1,23 @@
+{{- define "main" -}}
+	<div class="page-404">
+		<section class="hero is-halfheight is-large">
+			<div class="hero-body">
+				<div class="container has-text-centered">
+					<h1 class="title">
+						{{- i18n "404.title" -}}
+					</h1>
+
+					<div class="buttons is-centered">
+						{{- with .Site.GetPage "about" -}}
+							<a href="{{ .URL }}" class="button is-text is-outlined has-text-primary is-large">{{ i18n "404.about" }}</a>
+						{{- end -}}
+
+						{{- with .Site.GetPage "get-involved.md" -}}
+							<a href="{{ .URL }}" class="button is-text is-outlined has-text-primary is-large">{{ i18n "404.getinvolved" }}</a>
+						{{- end -}}
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+{{- end -}}

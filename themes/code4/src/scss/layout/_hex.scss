@@ -1,0 +1,108 @@
+.hexgrid-container {
+	max-width: $fullhd;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+
+	canvas {
+		visibility: hidden;
+		display: block;
+		width: 100%;
+	}
+
+	.hexgrid {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 0;
+
+		.hex {
+			fill: $blue;
+
+			&.hex-blank {
+				fill: none;
+			}
+		}
+
+		.hex-link {
+			image {
+				transition: opacity $speed;
+
+				&:hover,
+				&:focus {
+					opacity: .75;
+				}
+			}
+		}
+
+		@at-root {
+			.page-about & {
+				margin: 0 auto 7rem;
+			}
+		}
+	}
+}
+
+.hexbadge {
+	align-items: center;
+
+	.badge {
+		background-image: url('images/hex-white.png');
+		background-size: 100%;
+		display: inline-block;
+		font-size: 1.125rem;
+		text-align: center;
+		line-height: 4em;
+		color: $primary;
+		height: 4em;
+		width: 4em;
+
+		@include desktop {
+			font-size: 1.5rem;
+		}
+
+		@include modernizr(svgasimg) {
+			background-image: url('images/hex-white.svg');
+		}
+
+		&.is-primary {
+			background-image: url('images/hex-primary.png');
+			color: $white;
+
+			@include modernizr(svgasimg) {
+				background-image: url('images/hex-primary.svg');
+			}
+		}
+
+		.fas {
+			line-height: inherit;
+			font-size: 1.5em;
+		}
+	}
+
+	.desc {
+		font-size: 1.25rem;
+
+		strong {
+			display: block;
+		}
+
+		@include desktop {
+			font-size: 1.5em;
+		}
+	}
+
+	&.is-primary {
+		color: $primary;
+
+		.badge {
+			background-image: url('images/hex-primary.png');
+			color: $primary-invert;
+
+			@include modernizr(svgasimg) {
+				background-image: url('images/hex-primary.svg');
+			}
+		}
+	}
+}

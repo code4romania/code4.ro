@@ -1,0 +1,29 @@
+<div class="column is-6-mobile is-3-tablet is-3-desktop">
+	<a href="{{ .Permalink }}" class="is-block is-inverse">
+		<div class="app-status {{- with .Params.status }} app-status-{{.}} {{- end }}"></div>
+		<div class="app-brand">
+			{{- if (fileExists (printf "static/images/apps/%s.png"  .BaseFileName )) -}}
+				<div class="logo-container" {{- with .Params.color }} style="background-color:{{ . }}"{{end}}>
+					<img src="{{ (printf "images/apps/%s.png"  .BaseFileName ) | absURL }}" alt="{{ .Title }}">
+				</div>
+			{{- else -}}
+				<div class="logo-container">
+					<img src="{{ "images/logo-gray.svg" | absURL }}" class="svg-fallback" alt="">
+				</div>
+			{{- end -}}
+		</div>
+		<div class="app-info">
+			<h2 class="app-title">{{ .Title }}</h2>
+			<span class="app-idea">
+				{{- $.Scratch.Set "creds" "" -}}
+				{{- range .Params.credits -}}
+					{{- $.Scratch.Add "creds" (.name) -}}
+					{{- $.Scratch.Add "creds" ", " -}}
+				{{- end -}}
+
+				{{ trim ($.Scratch.Get "creds") ", " }}
+				{{ $.Scratch.Delete "creds" }}
+			</span>
+		</div>
+	</a>
+</div>

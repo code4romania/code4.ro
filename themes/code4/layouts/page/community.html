@@ -1,0 +1,26 @@
+{{- define "main" -}}
+	<div class="page-community">
+		<div class="container">
+			<header class="section section-header">
+				<h1 class="title">{{ .Title }}</h1>
+				<div class="desc">{{ .Content }}</div>
+			</header>
+		</div>
+		<div class="section">
+			<div class="container">
+				<div class="columns is-multiline">
+					{{- range getCSV "," "/resources/community.csv" -}}
+						{{- $.Scratch.SetInMap "person" "id" (index . 0) -}}
+						{{- $.Scratch.SetInMap "person" "name" (index . 1) -}}
+
+						{{- if not ($.Site.GetPage (printf "/staff/%s.md" (index . 0))) -}}
+							{{- partial "loop-person.html" ($.Scratch.Get "person") -}}
+						{{- end -}}
+					{{- end -}}
+				</div>
+			</div>
+		</div>
+
+		{{- partial "cta-donate.html" . -}}
+	</div>
+{{- end -}}

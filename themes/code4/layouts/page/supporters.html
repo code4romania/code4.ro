@@ -1,0 +1,36 @@
+{{- define "main" -}}
+	<div class="page-supporters">
+		<div class="container">
+			<header class="section section-header">
+				<h1 class="title">{{ .Title }}</h1>
+				<div class="desc">{{ .Content }}</div>
+			</header>
+		</div>
+		<div class="container">
+			{{- $types := (slice "Sponsors" "In Kind") -}}
+			{{- $supporters := getCSV "," "/resources/supporters.csv" -}}
+			{{- range $type := $types -}}
+				<div class="section">
+					<h2 class="title is-size-2 has-text-weight-bold has-text-black">{{ $type }}</h2>
+
+					<div class="columns is-mobile is-multiline">
+						{{- range $supporter := $supporters -}}
+							{{- if eq (index $supporter 0) $type -}}
+
+								{{- $.Scratch.SetInMap "partner" "id" (index $supporter 1) -}}
+								{{- $.Scratch.SetInMap "partner" "name" (index $supporter 2) -}}
+								{{- $.Scratch.SetInMap "partner" "url" (index $supporter 3) -}}
+
+								{{- partial "loop-supporter.html" ($.Scratch.Get "partner") -}}
+
+								{{- $.Scratch.Delete "partner" -}}
+							{{- end -}}
+						{{- end -}}
+					</div>
+				</div>
+			{{- end -}}
+		</div>
+
+		{{- partial "cta-support.html" . -}}
+	</div>
+{{- end -}}

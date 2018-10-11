@@ -1,0 +1,8 @@
+name = "Code4Romania Hugo Theme"
+license = "MPL-2.0"
+licenselink = "https://github.com/code4romania/code4.ro/blob/master/LICENSE"
+description = ""
+homepage = "https://code4.ro/"
+tags = []
+features = []
+min_version = "0.47"

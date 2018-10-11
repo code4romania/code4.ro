@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" class="no-js" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{{ if not .IsHome }}{{ .Title }} &mdash; {{ end }}{{ .Site.Title }}</title>
+	<meta property="og:title" content="{{ .Title }}">
+
+	{{- with .Site.Params.description -}}
+		<meta name="description" content="{{ . }}">
+		<meta property="og:description" content="{{ . }}">
+		<meta name="twitter:description" content="{{ . }}">
+	{{- end -}}
+
+	{{- with .Site.Params.keywords -}}
+		<meta name="keywords" content="{{ . }}">
+	{{- end -}}
+
+	<link rel="canonical" href="{{ .Permalink }}" />
+	<meta property="og:url" content="{{ .Permalink }}">
+
+	<meta property="og:image" content="{{ "images/fb.png" | absURL }}"/>
+
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Titillium+Web:400,600,700&subset=latin-ext">
+	<link rel="stylesheet" href="{{ "app.css" | absURL }}">
+	<script src="{{ "modernizr.js" | absURL }}"></script>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicon/apple-touch-icon.png" | absURL }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon/favicon-32x32.png" | absURL }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon/favicon-16x16.png" | absURL }}">
+	<link rel="mask-icon" href="{{ "images/favicon/safari-pinned-tab.svg" | absURL }}" color="#0000FF">
+	<meta name="msapplication-TileColor" content="#2D89EF">
+	<meta name="theme-color" content="#FFFFFF">
+
+	{{- .Hugo.Generator -}}
+</head>
+<body>
+
+	{{- partial "header.html" . -}}
+	{{- block "main" . }}{{- end }}
+	{{- partial "footer.html" . -}}
+
+	{{- template "_internal/google_analytics.html" . -}}
+	<script src="{{ "app.js" | absURL }}"></script>
+</body>
+</html>

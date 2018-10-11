@@ -1,0 +1,5 @@
+@mixin modernizr($selector) {
+	@at-root html.#{$selector} & {
+		@content;
+	}
+}

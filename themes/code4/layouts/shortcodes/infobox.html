@@ -1,0 +1,17 @@
+<div class="column">
+	<div class="infobox has-dashed-border">
+		{{- with .Get "title" -}}
+			<h2 class="is-size-4 is-size-3-desktop has-text-weight-bold subtitle">
+				{{- with $.Get "icon" -}}
+					<i class="fas fa-fw fa-{{ . }}" aria-hidden="true"></i>
+				{{- end -}}
+
+				{{- . -}}
+			</h2>
+		{{- end -}}
+		<div class="content">
+			{{- .Inner -}}
+		</div>
+	</div>
+</div>
+

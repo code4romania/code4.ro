@@ -1,0 +1,13 @@
+{{- define "main" -}}
+	<div class="page {{- if .Layout }} {{ .Layout }} {{- end }}">
+		<div class="container">
+			{{- partial "page-header.html" . -}}
+
+			<div class="section">
+				<div class="content">
+					{{- .Content -}}
+				</div>
+			</div>
+		</div>
+	</div>
+{{- end -}}

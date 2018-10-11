@@ -1,0 +1,125 @@
+- id: or
+  translation: sau
+- id: month
+  translation: lună
+- id: getinvolved
+  translation: Implică-te
+- id: donate
+  translation: Donează
+- id: team
+  translation: Echipa
+- id: partners
+  translation: Parteneri
+
+- id: donation.plural
+  translation: donațiile
+- id: donation.cta
+  translation: Felicitările ne fac fericiți, <a class='button is-success' href='%s'>donațiile</a> ne ajută să continuăm.
+
+- id: 404.title
+  translation: Te-ai pierdut?
+- id: 404.about
+  translation: Află cine suntem
+- id: 404.getinvolved
+  translation: Vrei să te implici?
+
+- id: hero.title
+  translation: Îți place România.<br>Și nu îți place.
+- id: hero.text
+  translation: Ai rămas. Sau ai plecat. O iubești, dar te și enervează. Ca să-ți placă mai mult România, vino alături de noi. Suntem o comunitate de oameni care dezvoltă soluții IT ce rezolvă probleme ale societății, adică și ale tale.
+
+- id: results.title
+  translation: Rezultate
+- id: results.contributors
+  translation: colaboratori
+- id: results.projects.complete
+  translation: proiecte finalizate
+- id: results.hours
+  translation: ore de lucru
+- id: results.timezones
+  translation: fusuri orare
+- id: results.projects.pending
+  translation: proiecte în lucru
+- id: results.commits
+  translation: commit-uri în GitHub
+
+- id: programs.title
+  translation: Programe
+- id: programs.view.all
+  translation: Vezi toate programele
+- id: programs.codeforall
+  translation: Code for Romania face parte din
+- id: programs.moreinfo
+  translation: Află mai multe detalii
+- id: programs.support
+  translation: Susține acest program
+
+- id: apps.title
+  translation: Aplicații
+- id: apps.view.all
+  translation: Vezi toate proiectele
+- id: apps.view.single
+  translation: Vezi proiectul
+
+- id: apps.status.incubation
+  translation:
+    one: Proiect în incubare
+    other: Proiecte în incubare
+- id: apps.status.development
+  translation:
+    one: Proiect în dezvoltare
+    other: Proiecte în dezvoltare
+- id: apps.status.done
+  translation:
+    one: Proiect finalizat
+    other: Proiecte finalizate
+
+- id: apps.work.hours
+  translation: ore de lucru
+- id: apps.work.value
+  translation: în valoare de
+
+- id: apps.code
+  translation: Codul sursă
+- id: apps.idea
+  translation: O Idee
+
+- id: apps.stage.concept
+  translation: Concept
+- id: apps.stage.ux
+  translation: UX & Design
+- id: apps.stage.arch
+  translation: Arhitectură tehnică
+- id: apps.stage.development
+  translation: Dezvoltare
+- id: apps.stage.testing
+  translation: Testare
+- id: apps.stage.launch
+  translation: Lansare
+
+- id: support.title
+  translation: Implică-te
+- id: support.text
+  translation: Comunitățile active creează o societate mai puternică, deci mai eficientă în rezolvarea problemelor. Dacă vrei să contribui și tu, vino alături de noi.
+- id: support.join.title
+  translation: Fii voluntar
+- id: support.join.text
+  translation: Know-how-ul tău sau câteva ore din timpul tău pe săptămână ne pot ajuta.
+- id: support.donate.text
+  translation: De asemenea, poți alege să investești în noi prin donații. Acestea ne permit să ne investim energia în dezvoltarea proiectelor și comunității.
+
+- id: support.donate.recurring.label
+  translation: Fiecare donație recurentă ne ajută să construim soluții din ce în ce mai repede.
+- id: support.donate.recurring.currency
+  translation: €
+- id: support.donate.onetime.label
+  translation: Sau ne poți susține o singură dată. Fiecare donație ne ajuta.
+- id: support.donate.onetime.button
+  translation: Donează doar luna asta
+- id: support.donate.secure
+  translation: Tranzacția ta este in siguranța, vei fi redirecționat către PayPal pentru a finaliza procesul de donație. Îți mulțumim!
+
+- id: support.cta.title
+  translation: O societate puternică contribuie la un mediu de business mai sănătos
+- id: support.cta.text
+  translation: Dacă vrei să susții proiecte care vor schimba încet încet România, ne-ar plăcea să ne prezentăm și să vedem cum putem lucra împreună.

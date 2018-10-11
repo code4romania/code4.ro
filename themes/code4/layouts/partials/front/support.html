@@ -1,0 +1,34 @@
+<section class="section front-support">
+	<div class="container">
+		<div class="columns">
+			<div class="column">
+				<div class="inner">
+					<h1 class="title">{{ i18n "support.title" }}</h1>
+					<p>{{ i18n "support.text" }}</p>
+				</div>
+			</div>
+			<div class="column">
+				{{- with .Site.GetPage "get-involved.md" -}}
+					<a href="{{ .Permalink }}" class="inner infobox has-dashed-border has-text-primary is-block">
+						<h2 class="is-size-4 has-text-weight-bold subtitle">
+							<i class="fas fa-fw fa-user-plus" aria-hidden="true"></i>
+							{{- i18n "support.join.title" -}}
+						</h2>
+						<p>{{ i18n "support.join.text" }}</p>
+					</a>
+				{{- end -}}
+			</div>
+			<div class="column">
+				{{- with .Site.GetPage "donate.md" -}}
+					<a href="{{ .Permalink }}" class="inner infobox has-background-success has-text-white is-block">
+						<h2 class="is-size-4 has-text-weight-bold subtitle has-text-white">
+							<i class="fas fa-fw fa-credit-card" aria-hidden="true"></i>
+							{{- i18n "donate" -}}
+						</h2>
+						<p>{{ i18n "support.donate.text" }}</p>
+					</a>
+				{{- end -}}
+			</div>
+		</div>
+	</div>
+</section>

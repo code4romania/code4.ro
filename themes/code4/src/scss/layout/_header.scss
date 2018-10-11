@@ -1,0 +1,15 @@
+.navbar {
+
+	@include tablet {
+		padding: 1.125rem 0;
+	}
+
+	.navbar-brand {
+		.navbar-item {
+			.logo {
+				width: 8.825rem;
+				display: block;
+			}
+		}
+	}
+}
