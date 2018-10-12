@@ -1,0 +1,37 @@
+.footer {
+	border-top: 2px solid $primary;
+	margin-top: 3rem;
+
+	.navbar,
+	.social {
+		justify-content: center;
+	}
+
+	.social {
+		padding: 2.125rem 0 3.25rem;
+		align-items: stretch;
+		font-size: 2rem;
+		display: flex;
+
+		li {
+			align-items: center;
+			display: flex;
+		}
+	}
+
+	.copy {
+		font-family: $family-monospace;
+		font-size: .8125rem;
+
+		.brand {
+			display: inline-block;
+			margin: 0 0 1rem;
+		}
+
+		.logo {
+			width: 6.7125rem;
+			height: 1.875rem;
+		}
+	}
+
+}

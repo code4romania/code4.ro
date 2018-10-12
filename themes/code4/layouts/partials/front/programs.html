@@ -1,0 +1,22 @@
+<section class="section front-programs">
+	<div class="container">
+		<div class="level">
+			<div class="level-left">
+				<h1 class="title">{{ i18n "programs.title" }}</h1>
+			</div>
+		</div>
+
+		<div class="programs-container">
+			{{- range first 2 (where .Pages "Section" "programs") -}}
+				{{- partial "loop-programs.html" . -}}
+			{{- end -}}
+		</div>
+
+		<aside class="codeforall">
+			<span>{{ i18n "programs.codeforall" }}</span>
+			<a href="https://codeforall.org/" target="_blank" class="logo has-text-info">
+				<img src="{{ "images/codeforall.svg" | absURL }}" class="svg-fallback" alt="Code for All">
+			</a>
+		</aside>
+	</div>
+</section>

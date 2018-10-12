@@ -1,0 +1,33 @@
+<section class="hero front-intro">
+	<div class="hero-body container">
+		<div class="columns is-vcentered">
+			<div class="column is-6">
+				<h1 class="title">
+					{{- i18n "hero.title" | markdownify -}}
+				</h1>
+
+				<p>
+					{{- i18n "hero.text" | markdownify -}}
+				</p>
+
+				<div class="call-to-action columns is-vcentered has-text-centered is-mobile is-size-5-tablet">
+					<div class="column">
+						{{- with .Site.GetPage "get-involved.md" -}}
+							<a href="{{ .URL }}" class="is-link">{{ i18n "getinvolved" }}</a>
+						{{- end -}}
+					</div>
+					<div class="column">{{ i18n "or" }}</div>
+					<div class="column">
+						{{- with .Site.GetPage "donate.md" -}}
+							<a href="{{ .URL }}" class="button is-success">{{ i18n "donate" }}</a>
+						{{- end -}}
+					</div>
+					<div class="column is-hidden-mobile"></div>
+				</div>
+			</div>
+			<div class="column is-6">
+				<img src="{{ "images/hero.svg" | absURL }}" class="svg-fallback" alt="">
+			</div>
+		</div>
+	</div>
+</section>

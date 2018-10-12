@@ -1,0 +1,35 @@
+<nav class="navbar">
+	<div class="container">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="{{ "/" | absLangURL }}">
+				<img src="{{ "images/logo-full.svg" | absURL }}" class="logo svg-fallback" alt="{{ .Site.Title }}">
+			</a>
+			<a role="button" class="navbar-burger" data-target="header-menu" aria-label="menu" aria-expanded="false">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+		<div id="header-menu" class="navbar-menu">
+			<ul class="navbar-end has-text-centered-touch">
+				{{- range .Site.Menus.header -}}
+					<li class="navbar-item">
+						<a class="button {{ cond (eq .Identifier "donate") "is-success" "is-text has-text-primary" | safeHTMLAttr }}" href="{{ .URL }}">
+							{{- .Name -}}
+						</a>
+					</li>
+				{{- end -}}
+
+				<li class="navbar-item">
+					{{- range .Translations -}}
+						{{- if ne $.Site.Language .Language -}}
+							<a class="button is-text is-uppercase has-text-primary" href="{{ .URL }}" hreflang="{{ .Language }}">
+								{{- .Language -}}
+							</a>
+						{{- end -}}
+					{{- end -}}
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

@@ -1,0 +1,5 @@
+{{- with .Site.GetPage "donate.md" -}}
+	<div class="section cta-donate">
+		{{- printf (i18n "donation.cta") .Permalink | safeHTML -}}
+	</div>
+{{- end -}}

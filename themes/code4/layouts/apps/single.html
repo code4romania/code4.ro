@@ -1,0 +1,197 @@
+{{- define "main" -}}
+	<header class="section app-header">
+		<div class="container">
+			<div class="columns">
+				<div class="column is-6-tablet">
+					<div class="app-brand">
+						{{- if (fileExists (printf "static/images/apps/%s.png"  .BaseFileName )) -}}
+							<div class="logo-container" {{- with .Params.color }} style="background-color:{{ . }}"{{end}}>
+								<img src="{{ (printf "images/apps/%s.png"  .BaseFileName ) | absURL }}" alt="{{ .Title }}">
+							</div>
+						{{- else -}}
+							<div class="logo-container">
+								<img src="{{ "images/logo-gray.svg" | absURL }}" class="svg-fallback" alt="">
+							</div>
+						{{- end -}}
+					</div>
+				</div>
+
+				<div class="column is-6-tablet app-info">
+					<div class="app-status {{- with .Params.status }} app-status-{{.}} {{- end }}">
+						<i class="fas fa-fw fa-wrench" aria-hidden="true"></i>
+						<span>{{ i18n (printf "apps.status.%s" .Params.status) 1 -}}</span>
+					</div>
+					<h1 class="title">{{ .Title }}</h1>
+
+					{{- with .Params.link -}}
+						<a href="{{.}}" target="_blank" class="app-link uppercase">
+							<span class="icon">
+								<i class="fas fa-fw fa-external-link-alt" aria-hidden="true"></i>
+							</span>
+							{{ i18n "apps.view.single" -}}
+						</a>
+					{{- end }}
+
+					<div class="content">
+						{{- .Content -}}
+					</div>
+
+					{{- with .Params.work -}}
+						<div class="app-numbers columns is-multiline is-mobile">
+							{{- range $id, $number := . -}}
+								<div class="column is-6-desktop">
+									<div class="hexbadge is-primary columns is-mobile">
+										<div class="column is-narrow">
+											<div class="badge">
+												{{- if (eq $id "hours") -}}
+													<i class="fas fa-fw fa-clock" aria-hidden="true"></i>
+												{{- else if (eq $id "value") -}}
+													<i class="fas fa-fw fa-dollar-sign" aria-hidden="true"></i>
+												{{- end -}}
+											</div>
+										</div>
+										<div class="column">
+											<div class="desc">
+												{{- i18n (printf "apps.work.%s" $id) -}}
+												<strong>
+													{{- cond (eq $id "value") "&euro;" "" | safeHTML -}}
+													{{- $number | lang.NumFmt 0 -}}
+												</strong>
+											</div>
+										</div>
+									</div>
+								</div>
+							{{- end -}}
+						</div>
+					{{- end -}}
+					<div class="columns is-mobile is-multiline">
+						{{- with .Params.code -}}
+							<div class="column is-6-tablet">
+								<h2 class="subtitle uppercase">{{ i18n "apps.code" }}</h2>
+								<ul>
+									{{- range . -}}
+										<li>
+											<a href="https://github.com/{{ .repo }}" target="_blank" class="app-code is-inverse">
+												<i class="fab fa-fw fa-github" aria-hidden="true"></i>
+												<span>/{{ .label }}</span>
+											</a>
+										</li>
+									{{- end -}}
+								</ul>
+							</div>
+						{{- end -}}
+
+						{{- with .Params.credits -}}
+							<div class="column is-6-tablet">
+								<h2 class="subtitle uppercase">{{ i18n "apps.idea" }}</h2>
+								{{- range . -}}
+									<div class="media">
+										<div class="columns is-vcentered is-mobile is-marginless">
+											<figure class="media-left image is-64x64">
+												<img src="{{ (printf "images/%s" .image ) | absURL }}" alt="">
+											</figure>
+											<div class="media-content">
+												<h1 class="is-size-6 has-text-weight-bold">{{ .name }}</h1>
+											</div>
+										</div>
+									</div>
+								{{- end -}}
+							</div>
+						{{- end -}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	{{- partial "cta-donate.html" . -}}
+
+	{{- with .Params.stage -}}
+		<section class="section app-progress">
+			<div class="container">
+				{{- $stages := (slice "concept" "ux" "arch" "development" "testing" "launch") -}}
+				{{- $stage := (sub . 1) -}}
+				{{- $progress := (div (add (mul (div 100.0 (len $stages)) $stage) (mul (div 100.0 (len $stages)) (add $stage 1))) 2) -}}
+				<progress class="progress is-primary is-large" value="{{ $progress | lang.NumFmt 3 }}" max="100"></progress>
+				<ul class="progress-labels columns">
+					{{- range $index, $label := $stages -}}
+						<li class="column status {{- cond (gt $index $stage) " status-inactive" "" | safeHTMLAttr }}  {{- cond (eq $index $stage) " status-current" "" | safeHTMLAttr }}">
+							{{- i18n (printf "apps.stage.%s" $label) -}}
+						</li>
+					{{- end -}}
+				</ul>
+			</div>
+		</section>
+	{{- end -}}
+
+	{{- with .Params.team -}}
+		<section class="section app-team">
+			<div class="container">
+				<header class="hexbadge columns is-mobile">
+					<div class="column is-narrow">
+						<div class="badge is-primary">
+							<i class="fas fa-users" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="column is-narrow-tablet">
+						<h1 class="is-size-3 has-text-weight-bold">{{ i18n "team" }}</h1>
+					</div>
+				</header>
+				<div class="columns is-multiline">
+					{{- $community := getCSV "," "/resources/community.csv" -}}
+					{{- $team := . -}}
+
+					{{- range $member := $team -}}
+						{{- range $community -}}
+							{{- if eq $member (index . 0) -}}
+								{{- $.Scratch.SetInMap "person" "id" (index . 0) -}}
+								{{- $.Scratch.SetInMap "person" "name" (index . 1) -}}
+
+								{{- partial "loop-person.html" ($.Scratch.Get "person") -}}
+
+								{{- $.Scratch.Delete "person" -}}
+							{{- end -}}
+						{{- end -}}
+					{{- end -}}
+				</div>
+			</div>
+		</section>
+	{{- end -}}
+
+	{{- with .Params.partners -}}
+		<section class="section app-partners">
+			<div class="container">
+				<header class="hexbadge columns is-mobile">
+					<div class="column is-narrow">
+						<div class="badge is-primary">
+							<i class="fas fa-handshake" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="column is-narrow-tablet">
+						<h1 class="is-size-3 has-text-weight-bold">{{ i18n "partners" }}</h1>
+					</div>
+				</header>
+				<div class="columns is-mobile is-multiline">
+					{{- $allpartners := getCSV "," "/resources/partners.csv" -}}
+					{{- $partners := . -}}
+
+					{{- range $partner := $partners -}}
+						{{- range $allpartners -}}
+							{{- if eq $partner (index . 0) -}}
+								{{- $.Scratch.SetInMap "partner" "id" (index . 0) -}}
+								{{- $.Scratch.SetInMap "partner" "name" (index . 1) -}}
+								{{- $.Scratch.SetInMap "partner" "url" (index . 2) -}}
+
+								{{- $.Scratch.SetInMap "partner" "compact" true -}}
+
+								{{- partial "loop-partner.html" ($.Scratch.Get "partner") -}}
+
+								{{- $.Scratch.Delete "partner" -}}
+							{{- end -}}
+						{{- end -}}
+					{{- end -}}
+				</div>
+			</div>
+		</section>
+	{{- end -}}
+{{- end -}}

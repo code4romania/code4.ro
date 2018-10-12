@@ -1,0 +1,31 @@
+// Fonts
+$family-sans-serif             : 'Titillium Web', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$family-monospace              : Courier, monospace;
+$fa-font-path                  : 'fonts';
+
+// Colors
+$blue                          : #3A54A4;
+$cyan                          : #349ED8;
+$green                         : #6FCF97;
+$red                           : #EA4C52;
+$green-invert                  : #FFF;
+
+$primary                       : $blue;
+$strong-color                  : inherit;
+$body-color                    : #2C2C2C;
+$progress-bar-background-color : #EBEEF6;
+
+$app-status                    : (incubation: $red, development: $green, done: $blue);
+
+// Navbar
+$navbar-height                 : 4rem;
+$navbar-item-img-max-height    : 2.5rem;
+
+
+// Footer
+$footer-background-color       : #FFF;
+
+
+// Other
+$variable-columns              : false;
+$dimensions                    : 16 24 32 48 64 96 128 192;

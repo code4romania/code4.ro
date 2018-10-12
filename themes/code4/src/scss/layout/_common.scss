@@ -1,0 +1,235 @@
+.title {
+	margin-bottom: 0;
+	font-weight: 700;
+	font-size: 2rem;
+
+	@include tablet {
+		font-size: 3rem;
+	}
+}
+
+img {
+	border: 0;
+}
+
+.content {
+	@include tablet {
+		font-size: 1.125rem;
+	}
+
+	a:not(.button) {
+		text-decoration: underline;
+	}
+}
+
+.uppercase {
+	text-transform: uppercase;
+	letter-spacing: .175em;
+	font-size: .875rem;
+	font-weight: 700;
+}
+
+a {
+	&.is-link {
+		text-decoration: underline;
+	}
+
+	&.is-inverse {
+		color: $link-hover;
+
+		&:hover {
+			color: $link;
+		}
+	}
+}
+
+.button {
+	text-decoration: none;
+}
+
+.has-no-size {
+	display: block;
+	height: 0;
+	width: 0;
+}
+
+.has-dashed-border {
+	border: 1px dashed;
+
+	@each $name, $pair in $colors {
+		&.is-#{$name} {
+			border-color: nth($pair, 1);
+		}
+	}
+
+	&.is-link {
+		transition-property: background-color, color;
+		transition-timing-function: ease-out;
+		transition-duration: $speed;
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			background-color: $primary;
+			color: $white;
+			outline: 0;
+		}
+	}
+}
+
+.section-header {
+	text-align: center;
+	max-width: 620px;
+	margin: 0 auto;
+
+	.desc {
+		font-size: 1.125rem;
+	}
+}
+
+.cta-donate {
+	text-align: center;
+	font-size: 1.15rem;
+
+	@include tablet {
+		font-size: 1.375rem;
+	}
+
+	@include desktop {
+		font-size: 1.625rem;
+	}
+
+	.button {
+		vertical-align: middle;
+		display: inline-block;
+		font-size: inherit;
+		padding: 0 .25em;
+		height: auto;
+	}
+}
+
+.cta-support {
+	.container {
+		max-width: $tablet;
+	}
+}
+
+.hero {
+	font-size: 1.125rem;
+
+	p {
+		margin: 2.35em 0;
+	}
+
+	.call-to-action {
+		white-space: nowrap;
+
+		.button {
+			font-size: inherit;
+		}
+	}
+}
+
+.department {
+	+ .department {
+		margin-top: 3rem;
+	}
+
+	.hexbadge {
+		margin-bottom: 2rem;
+	}
+
+	.person {
+		padding: 0 0 2rem;
+	}
+}
+
+.person {
+	.person-social {
+		transition: background $speed ease-out, color $speed ease-out;
+		background-color: $primary;
+		border-radius: 50%;
+		position: absolute;
+		color: $white;
+		right: 0;
+		top: 0;
+
+		&:hover {
+			background-color: $white;
+			color: $primary;
+		}
+	}
+
+	img {
+		border-radius: 50%;
+	}
+
+	.content {
+		margin-top: 2rem;
+	}
+}
+
+.partner {
+	display: block;
+	transition: border-color $speed;
+	border: 1px solid $grey-light;
+
+	position: relative;
+	padding: 0 0 100%;
+	height: 0;
+
+	.logo-container {
+		@extend %logo-container;
+
+		bottom: .5em;
+		right: .5em;
+		left: .5em;
+		top: .5em;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&.is-link:hover {
+		border-color: $grey-dark;
+	}
+}
+
+.infobox {
+	font-size: 1.125rem;
+	padding: 2rem;
+	height: 100%;
+
+	i {
+		vertical-align: top;
+		margin: 0 .5em 0 0;
+		font-size: 1.25em;
+	}
+
+	.title,
+	.subtitle {
+		color: inherit;
+	}
+
+	@at-root {
+		.page & {
+			.title,
+			.subtitle {
+				color: $primary;
+			}
+
+			strong > a {
+				@extend .button;
+				@extend .is-primary;
+
+				text-decoration: none;
+				font-size: 1.125rem;
+
+				@include tablet {
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+<footer class="footer">
+	<div class="container has-text-centered">
+		<nav>
+			<ul class="navbar columns is-multiline is-mobile">
+				{{- range .Site.Menus.footer -}}
+					<li class="navbar-item">
+						<a class="button {{ cond (eq .Identifier "donate") "is-success" "is-text has-text-primary" | safeHTMLAttr }}" href="{{ .URL }}">
+							{{- .Name -}}
+						</a>
+					</li>
+				{{- end -}}
+			</ul>
+		</nav>
+
+		<ul class="social">
+			{{- range .Site.Menus.social -}}
+				<li class="navbar-item">
+					<a href="{{ .URL }}" target="_blank">
+						<i class="fab fa-fw fa-{{ .Name }}" aria-hidden="true"></i>
+					</a>
+				</li>
+			{{- end -}}
+		</ul>
+
+		<div class="copy">
+			<a href="{{ "/" | absLangURL }}" class="brand">
+				<img src="{{ "images/logo-full-gray.svg" | absURL }}" class="logo svg-fallback" alt="{{ .Site.Title }}">
+			</a>
+			<p>
+				&copy; {{ now.Format "2006" }} {{ .Site.Title }}.<br>
+				{{- .Site.Params.copy -}}
+			</p>
+		</div>
+	</div>
+</footer>

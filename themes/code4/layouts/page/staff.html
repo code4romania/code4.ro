@@ -1,0 +1,58 @@
+{{- define "main" -}}
+	<div class="page-staff">
+		<section class="section">
+			<header class="section section-header">
+				<h1 class="title">{{ .Title }}</h1>
+			</header>
+			<div class="container content">
+				{{- .Content -}}
+			</div>
+		</section>
+		<section class="section">
+			<header class="section section-header">
+				{{- with .Params.staff.title -}}
+					<h1 class="title">{{ . }}</h1>
+				{{- end -}}
+				{{- with .Params.staff.desc -}}
+					<div class="desc">{{ . }}</div>
+				{{- end -}}
+			</header>
+			<div class="container">
+				{{- range $.Site.Data.orgchart -}}
+					{{- $department := newScratch -}}
+					{{- $department.Set "people" 0 -}}
+
+					{{- range $title := .titles -}}
+						{{- with where $.Site.Pages "Params.position" $title -}}
+							{{- $department.Add "people" 1 -}}
+						{{- end -}}
+					{{- end -}}
+
+					{{- if gt ($department.Get "people") 0 -}}
+						<section class="department">
+							<header class="hexbadge columns is-mobile">
+								<div class="column is-narrow">
+									<div class="badge is-primary">
+										<i class="fas fa-{{ .icon }}" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class="column is-narrow-tablet">
+									<h1 class="is-size-4 has-text-weight-bold">{{ .name }}</h1>
+								</div>
+							</header>
+							<div class="columns is-multiline">
+								{{- range $title := .titles -}}
+									{{- range where $.Site.Pages "Params.position" $title -}}
+										{{- partial "loop-staff.html" . -}}
+									{{- end -}}
+								{{- end -}}
+							</div>
+						</section>
+					{{- end -}}
+				{{- end -}}
+			</div>
+		</section>
+
+		{{- partial "cta-donate.html" . -}}
+	</div>
+{{- end -}}

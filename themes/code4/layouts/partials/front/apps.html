@@ -1,0 +1,18 @@
+<section class="section front-apps">
+	<div class="container">
+		<div class="level">
+			<div class="level-left">
+				<h1 class="title">{{ i18n "apps.title" }}</h1>
+			</div>
+			<div class="level-right">
+				<a class="is-link view-all" href="{{ with .GetPage "apps" }}{{ .Permalink }}{{ end }}">{{ i18n "apps.view.all" }}</a>
+			</div>
+		</div>
+
+		<div class="apps-container columns is-multiline is-mobile">
+			{{- range first 4 (where .Pages "Section" "apps") -}}
+				{{- .Render "loop" -}}
+			{{- end -}}
+		</div>
+	</div>
+</section>

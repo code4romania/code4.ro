@@ -1,0 +1,32 @@
+<article class="column is-6-tablet is-4-desktop">
+	<div class="person">
+		<div class="media">
+			<div class="columns is-vcentered is-mobile is-marginless">
+				<figure class="media-left image is-96x96">
+					{{- if (fileExists (printf "static/images/people/%s.jpg" .BaseFileName)) -}}
+						<img src="{{ (printf "images/people/%s.jpg" .BaseFileName ) | absURL }}" alt="">
+					{{- else -}}
+						<img src="//www.fillmurray.com/96/96" alt="">
+					{{- end -}}
+
+					{{- with .Params.linkedin -}}
+						<a href="{{ . }}" target="_blank" class="person-social icon is-medium">
+							<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+						</a>
+					{{- end -}}
+				</figure>
+				<div class="media-content">
+					<h1 class="is-size-5 has-text-weight-bold">{{ .Title }}</h1>
+					{{- with .Params.position -}}
+						<p>{{ . }}</p>
+					{{- end -}}
+				</div>
+			</div>
+		</div>
+		{{- with .Content -}}
+			<div class="content">
+				{{- . -}}
+			</div>
+		{{- end -}}
+	</div>
+</article>

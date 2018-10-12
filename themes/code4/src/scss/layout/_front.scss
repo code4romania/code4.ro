@@ -1,0 +1,71 @@
+.front-intro {
+	img {
+		display: block;
+		width: 100%;
+
+		@include mobile {
+			margin: 1.5em auto;
+			max-width: 75%;
+		}
+	}
+}
+
+.front-results {
+	.title {
+		margin-bottom: 2.5rem;
+	}
+
+	.result {
+		font-size: 1.125rem;
+		text-align: center;
+		font-weight: 700;
+
+		@include desktop {
+			text-align: left;
+		}
+	}
+}
+
+.section {
+	.view-all {
+		font-size: 1.15rem;
+		font-weight: 700;
+
+		@include tablet {
+			font-size: 1.325rem;
+		}
+
+		@include desktop {
+			font-size: 1.5rem;
+		}
+	}
+}
+
+.front-programs {
+	.codeforall {
+		margin: 2.25rem 0 0;
+		font-size: 1.75rem;
+		font-weight: 700;
+		color: $cyan;
+
+		.logo {
+			vertical-align: middle;
+			display: inline-block;
+			padding: 0 .2em;
+
+			img {
+				display: block;
+				height: 1.5em;
+			}
+		}
+	}
+}
+
+.front-support {
+	.column:first-of-type {
+		.inner {
+			font-size: 1.125rem;
+			padding: 2rem 0 0;
+		}
+	}
+}

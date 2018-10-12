@@ -1,0 +1,18 @@
+<article class="column is-6-tablet is-4-desktop is-3-widescreen">
+	<div class="person">
+		<div class="media">
+			<div class="columns is-vcentered is-mobile is-marginless">
+				<figure class="media-left image is-96x96">
+					{{- if (fileExists (printf "static/images/people/%s.jpg" .id )) -}}
+						<img src="{{ (printf "images/people/%s.jpg" .id ) | absURL }}" alt="">
+					{{- else -}}
+						<img src="//www.fillmurray.com/96/96" alt="">
+					{{- end -}}
+				</figure>
+				<div class="media-content">
+					<h1 class="is-size-5 has-text-weight-bold">{{ .name }}</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</article>
