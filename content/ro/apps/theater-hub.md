@@ -39,5 +39,8 @@ partners:
   - punctart
 
 weight: 1
+
+aliases:
+  - /proiect/theater-hub/
 ---
 Theater Hub este o platformă online pentru scena independentă de teatru din România și Republica Moldova. Acest spațiu virtual îi susține pe oamenii de teatru să își creeze o prezență online, să propună proiecte culturale și să formeze echipe pentru a le pune în scenă. Hub-ul va fi format din actori, regizori, scenografi, sunetiști, luminiști, toți specialiștii de care ai nevoie, alături de cetățenii care pot voluntaria să îi ajute pe aceștia cu experiența în domeniul comunicării, al designului și nu numai.

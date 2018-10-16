@@ -1,6 +1,6 @@
 ---
 title: E-services Platform Bihor
-# link:
+link: 
 color: "#FFF"
 
 status: incubation # incubation, development, done

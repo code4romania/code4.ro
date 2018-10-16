@@ -1,6 +1,6 @@
 ---
 title: Brain Gain
-link: https://votdiaspora.ro
+link: 
 color: "#7AB1FF"
 
 status: development # incubation, development, done
@@ -33,6 +33,9 @@ team:
   - stelianamoraru
 
 weight: 1
+
+aliases:
+  - /proiect/brain-gain/
 ---
 Brain Gain este o platformă de colaborare pentru experţi români (stabiliţi în România sau în străinătate), care îşi propune să sprijine transferul de informaţii, cunoştinţe şi date ştiinţifice către spaţiul public. Proiectul va agrega o masă critică de experţi români (din mediul academic, privat şi nonprofit), care să acţioneze ca o resursă interdisciplinară pentru proiecte care necesită expertiză şi conţinut verificat ştiinţific.
 

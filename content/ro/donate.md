@@ -12,6 +12,9 @@ menu:
     identifier: donate
     name: "Donează"
     weight: 999
+
+aliases:
+  - /doneaza/
 ---
 
 <div class="columns">

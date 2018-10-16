@@ -1,6 +1,6 @@
 ---
 title: WelcoME
-link: http://theaterhub.ro/
+link: 
 color: "#FFF"
 
 status: incubation # incubation, development, done
@@ -37,5 +37,8 @@ partners:
   - younitedcultures
 
 weight: 1
+
+aliases:
+  - /proiect/welcome/
 ---
 WelcoME este un proiect european care facilitează integrarea azilanților, prin intermediul unei platforme de comunicare online. Deşi într-o poziție vulnerabilă, experiența și cunoștințele lor sunt valoroase în orice societate. Pe WelcoME, aplicanţii de azil îşi pot crea un profil complet de prezentare personală şi profesională, accesibil celor din comunitatea gazdă, pentru a se prezenta, a comunica, a învăţa şi a dezvolta evenimente sau proiecte de interes comun.

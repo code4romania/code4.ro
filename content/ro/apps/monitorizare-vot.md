@@ -58,6 +58,9 @@ partners:
   - funky
 
 weight: 1
+
+aliases:
+  - /proiect/monitorizare-vot/
 ---
 Monitorizarea alegerilor în România a fost, înainte de Monitorizare Vot, un proces derulat cu pixul pe hârtie. Nu au existat înregistrări video, foto sau audio care să poată fi distribuite în timp real din secțiile de votare, iar rapoartele scrise de mână au fost centralizate după săptămâni și săptămâni, făcând orice constatări simple observații post-factum.  
 

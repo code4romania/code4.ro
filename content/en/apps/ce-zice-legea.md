@@ -86,6 +86,9 @@ partners:
   - codeforpoland
 
 weight: 1
+
+aliases:
+  - /en/project/ce-zice-legea/
 ---
 With dozens of institutions involved in the process and incomplete information fragmented across a myriad of websites, it is almost impossible for a regular citizen to follow the long process by which a proposal becomes law. In these circumstances, it is extremely difficult to speak of active engagement in the legislative drafting process on the part of the citizens.
 

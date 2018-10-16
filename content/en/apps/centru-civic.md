@@ -1,6 +1,6 @@
 ---
 title: Centru Civic
-link: http://www.centrucivic.ro
+link: http://www.centrucivic.ro/
 color: "#441D5C"
 
 status: done # incubation, development, done
@@ -42,6 +42,9 @@ partners:
   - vice
 
 weight: 1
+
+aliases:
+  - /en/project/centru-civic/
 ---
 It is sadly common for NGOs or individuals to be working on specific civic tech projects without being aware about similar or identical initiatives. This phenomena is conducive to resource wasting in an area already plagued by a dire lack of resources. Moreover, this lack of resources leads to projects and apps being rapidly abandoned even when proving to be extremely useful.
 

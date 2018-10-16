@@ -67,8 +67,8 @@
     other: Projects in incubation
 - id: apps.status.development
   translation:
-    one: Proiect in development
-    other: Proiects in development
+    one: Project in development
+    other: Projects in development
 - id: apps.status.done
   translation:
     one: Finished project

@@ -7,6 +7,9 @@ menu:
     weight: 50
   footer:
     weight: 50
+
+aliases:
+  - /implica-te/
 ---
 
 <div class="columns">

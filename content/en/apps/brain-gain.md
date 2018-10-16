@@ -1,6 +1,6 @@
 ---
 title: Brain Gain
-link: https://votdiaspora.ro
+link: 
 color: "#7AB1FF"
 
 status: development # incubation, development, done
@@ -33,6 +33,9 @@ team:
   - stelianamoraru
 
 weight: 1
+
+aliases:
+  - /en/project/brain-gain/
 ---
 Despite hopes to the contrary, the mass emigration of the last decades has not been losing steam, translating, among others, into a powerful "brain drain". However, this very migration, together with stronger connections with the developed world and ease of access for Romanians to the world's best professional and academic career tracks, resulted into an unprecedented number of high-level Romanian experts covering a vast array of subjects. As much as Romania needs their expertise, they are currently dis-connected from experts in the country and largely inaccessible to the Romanian public.
 

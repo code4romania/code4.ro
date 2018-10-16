@@ -1,7 +1,6 @@
 ---
 title: Cine suntem
 slug: cine-suntem
-# description:
 layout: staff
 type: page
 
@@ -12,6 +11,9 @@ staff:
 menu:
   header:
     weight: 10
+
+aliases:
+  - /cine-suntem/
 ---
 Code for Romania este o comunitate de tineri profesioniști și entuziaști care dezvoltă soluţii IT cu scopul de a rezolva probleme ale societăţii. Cu alte cuvinte, creăm aplicații civice în următoarele domenii:
 

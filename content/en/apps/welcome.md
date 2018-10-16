@@ -1,6 +1,6 @@
 ---
 title: WelcoME
-link: http://theaterhub.ro/
+link: 
 color: "#FFF"
 
 status: incubation # incubation, development, done
@@ -37,6 +37,9 @@ partners:
   - younitedcultures
 
 weight: 1
+
+aliases:
+  - /en/project/welcome/
 ---
 Communication and information exchange are highly important within vulnerable groups. In many cases, a constant flow of information is essential for the survival of group members or for their access to jobs, support or necessary assistance. Moreover, this flow of information needs to happen in a safe and secure setting.
 

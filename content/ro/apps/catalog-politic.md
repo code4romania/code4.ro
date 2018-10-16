@@ -56,5 +56,8 @@ partners:
   - codeforpoland
 
 weight: 1
+
+aliases:
+  - /proiect/catalog-politic/
 ---
 Catalog Politic este o platformă online care centralizează informațiile existente despre persoanele din funcții publice din România. Scopul este de a pune la dispoziția cetățenilor informații obiective cu privire la cei care le reprezintă interesele. Mai mult, prin baze de date complete și ușor de utilizat, proiectul oferă jurnaliștilor și cercetătorilor suport în activitățile de documentare. Sursele datelor sunt: ANI, DNA, site-urile candidaților și site-urile instituțiilor statului.

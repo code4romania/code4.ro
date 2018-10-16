@@ -1,6 +1,6 @@
 ---
 title: ANABI
-# link: 
+link: 
 color: "#FFF"
 
 status: development # incubation, development, done
@@ -35,6 +35,9 @@ partners:
   - just
 
 weight: 1
+
+aliases:
+  - /en/project/portalul-bunurilor-confiscate/
 ---
 Code 4 Romania is currently developing a platform centralizing all criminal assets seized in Romania, their net worth and location for the National Agency for the Management of Seized Assets. Goods are often seized as part of corruption-related or other criminal activities. Romania does not have a manageable digital inventory of every confiscated good, therefore the agency is struggling with managing the confiscation process, allocating space in warehouses throughout the country, protecting them, evaluating them and finally reselling or repurposing those goods. 
 
