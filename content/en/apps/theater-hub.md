@@ -39,6 +39,9 @@ partners:
   - punctart
 
 weight: 1
+
+aliases:
+  - /en/project/theater-hub/
 ---
 Ironically, for the age of communication, the development of the Romanian theater scene is currently undermined by lack of resources, collaboration and support within the profession.
 

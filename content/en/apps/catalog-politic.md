@@ -56,6 +56,9 @@ partners:
   - codeforpoland
 
 weight: 1
+
+aliases:
+  - /en/project/catalog-politic/
 ---
 Currently, in Romania, public information on elected officials is spread on a multitude of media, in a multitude of formats and requires a priori knowledge of the sources where data resides, making it hard, if not impossible for a regular citizen to make sense of the data. Furthermore, no comprehensive analysis of data on elected officials can be attempted, as most of it is not digitised, hence not in an open format.
 

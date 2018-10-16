@@ -30,5 +30,8 @@ team:
   - razvanpavel
 
 weight: 1
+
+aliases:
+  - /proiect/vot-diaspora/
 ---
 Vot Diaspora este un tutorial online de informare a românilor din străinătate cu privire la regulile de înscriere pentru a vota la alegerile parlamentare din 2016. Vot Diaspora a apărut din dorința de a prezenta într-o formă simplă și interactivă pașii pe care trebuie să îi urmeze românii pentru a putea vota din străinătate. Proiectul poate fi utilizat, pe viitor, și pentru alte runde de alegeri.

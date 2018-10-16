@@ -41,6 +41,9 @@ partners:
   - vice
 
 weight: 1
+
+aliases:
+  - /proiect/centru-civic/
 ---
 Din păcate, este o practică uzuală ca ONG-urile să lucreze la proiecte de tehnologie civică, fără să fie conștienți de inițiative similare sau identice. Acest fenomen conduce la risipirea resurselor într-o zonă deja afectată de lipsa de resurse. Mai mult, această lipsă de resurse conduce la abandonarea rapidă a proiectelor și aplicațiilor, chiar și atunci când se dovedesc extrem de utile.
 

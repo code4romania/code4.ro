@@ -86,5 +86,8 @@ partners:
   - codeforpoland
 
 weight: 1
+
+aliases:
+  - /proiect/ce-zice-legea/
 ---
 Ce Zice Legea este un proiect care își propune să mențină cetățenii informați cu privire la legislația propusă și aflată în dezbatere la orice moment, pentru a încuraja societatea sa ia parte la discuțiile legate de aceasta. Noi asigurăm tracking-ul legilor, tu trebuie doar să îți construiești un profil și să alegi ce anume vrei să afli în timp real despre legi. Vei primi notificări când ceva se schimbă astfel încât să poți lua atitudine în cunoștință de cauză. Platforma va oferi de asemenea access la legislația consolidată.

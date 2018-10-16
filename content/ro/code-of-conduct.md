@@ -5,6 +5,9 @@ layout: narrow
 menu: 
   footer:
     weight: 40
+
+aliases:
+  - /codul-de-conduita/
 ---
 Acest document se bazează pe [Codul de Conduită al Code for America](https://github.com/codeforamerica/codeofconduct).
 

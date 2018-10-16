@@ -1,7 +1,6 @@
 ---
 title: Who we are
 slug: who-we-are
-# description:
 layout: staff
 type: page
 

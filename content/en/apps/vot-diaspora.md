@@ -30,5 +30,8 @@ team:
   - razvanpavel
 
 weight: 1
+
+aliases:
+  - /en/project/vot-diaspora/
 ---
 Vot Diaspora is an online tutorial that guides Romanians living abroad through the registering process so that they can vote in the 2016 parliamentary elections. The project can be used in the future for further rounds of elections.

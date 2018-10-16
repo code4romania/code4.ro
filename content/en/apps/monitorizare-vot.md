@@ -58,6 +58,9 @@ partners:
   - funky
 
 weight: 1
+
+aliases:
+  - /en/project/monitorizare-vot/
 ---
 Election monitoring in Romania was, before Monitorizare Vot a pen-and-paper affair. There were no video, photo or audio recordings that could be shared in real time and hand written reports were centralized after weeks and weeks, making any findings simple post-factum observations.
 
