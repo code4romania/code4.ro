@@ -1,6 +1,6 @@
 ---
 title: WelcoME
-link: http://theaterhub.ro/
+link: 
 color: "#FFF"
 
 status: incubation # incubation, development, done

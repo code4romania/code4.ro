@@ -1,6 +1,6 @@
 ---
 title: Data Portal
-link: https://votdiaspora.ro
+link: 
 color: "#132135"
 
 status: development # incubation, development, done

@@ -1,6 +1,6 @@
 ---
 title: Centru Civic
-link: http://www.centrucivic.ro
+link: http://www.centrucivic.ro/
 color: "#441D5C"
 
 status: done # incubation, development, done

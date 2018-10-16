@@ -1,6 +1,6 @@
 ---
 title: "National Anticorruption Strategy: Data Visualization"
-# link: 
+link: 
 color: "#FFF"
 
 status: done # incubation, development, done

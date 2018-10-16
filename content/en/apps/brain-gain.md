@@ -1,6 +1,6 @@
 ---
 title: Brain Gain
-link: https://votdiaspora.ro
+link: 
 color: "#7AB1FF"
 
 status: development # incubation, development, done
