@@ -1,4 +1,3 @@
-/* jshint esversion: 6 */
 const gulp       = require('gulp'),
 	fs           = require('fs'),
 	path         = require('path'),
@@ -22,7 +21,7 @@ const gulp       = require('gulp'),
 	uglify       = require('gulp-uglify'),
 
 	banner       = '/*! ${pkg.name} - v${pkg.version} */\n',
-	target       = !!process.env.TRAVIS_TAG ? 'dist' : 'dev',
+	target       = !!process.env.CI ? 'dist' : 'dev',
 	isDist       = target == 'dist';
 
 function getFolders(dir) {

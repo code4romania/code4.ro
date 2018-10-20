@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"author": "Code for Romania",
 	"assetsDir": "",
-	"buildDir": "static/",
+	"buildDir": "theme/",
 	"srcDir": "src/",
 	"license": "MPL-2.0",
 	"private": true,
