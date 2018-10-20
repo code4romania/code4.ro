@@ -1,7 +1,6 @@
 defaultContentLanguage: ro
 defaultContentLanguageInSubdir: true
 title: Code for Romania
-theme: code4
 
 languages:
   ro:
@@ -15,6 +14,10 @@ languages:
     languageCode: en_US
     copy: An independent, non-partisan, non-political, non-govermental organization.
     contentDir: content/en
+
+staticDir:
+  - static
+  - theme
 
 menu:
   social:

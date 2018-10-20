@@ -7,8 +7,8 @@ install:
   - tar -xzf /tmp/hugo.tar.gz -C $HOME/bin
 
 script:
-  - npm install --prefix themes/code4
-  - npm run build --prefix themes/code4
+  - npm install
+  - npm run build
   - hugo --baseURL $BASE_URL
 
 before_deploy:

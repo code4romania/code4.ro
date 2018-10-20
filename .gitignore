@@ -4,6 +4,4 @@
 
 node_modules/
 public/
-static/*.js
-static/*.css
-static/*.map
+theme/
