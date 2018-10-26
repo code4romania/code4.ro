@@ -8,6 +8,8 @@
   translation: Donate
 - id: team
   translation: Team
+- id: community
+  translation: Community
 - id: partners
   translation: Partners
 
@@ -15,6 +17,11 @@
   translation: donations
 - id: donation.banner
   translation: Congratulations make us happy, <a class='button is-success' href='%s'>donations</a> help us keep going.
+
+- id: city-labs.banner
+  translation: Do you want to join the <span>Code for %s</span> community?
+- id: city-labs.button
+  translation: Register here
 
 - id: 404.title
   translation: Are you lost?

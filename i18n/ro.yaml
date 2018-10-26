@@ -8,6 +8,8 @@
   translation: Donează
 - id: team
   translation: Echipa
+- id: community
+  translation: Comunitate
 - id: partners
   translation: Parteneri
 
@@ -15,6 +17,11 @@
   translation: donațiile
 - id: donation.banner
   translation: Felicitările ne fac fericiți, <a class='button is-success' href='%s'>donațiile</a> ne ajută să continuăm.
+
+- id: city-labs.banner
+  translation: Vrei sa te alături comunității <span>Code for %s</span>?
+- id: city-labs.button
+  translation: Înscrie-te aici
 
 - id: 404.title
   translation: Te-ai pierdut?
