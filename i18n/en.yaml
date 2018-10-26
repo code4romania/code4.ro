@@ -13,7 +13,7 @@
 
 - id: donation.plural
   translation: donations
-- id: donation.cta
+- id: donation.banner
   translation: Congratulations make us happy, <a class='button is-success' href='%s'>donations</a> help us keep going.
 
 - id: 404.title
@@ -119,7 +119,7 @@
 - id: support.donate.secure
   translation: Your transaction is secure, you will be redirected to PayPal in order to complete your donation. Thank you!
 
-- id: support.cta.title
+- id: support.banner.title
   translation: A powerful society contributes to a healthy business environment
-- id: support.cta.text
+- id: support.banner.text
   translation: If you want to help our projects create relevant change in todays Romania, we would love to hear from you, tell you more about our organisation and find ways to work together.

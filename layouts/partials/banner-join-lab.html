@@ -1,0 +1,8 @@
+<aside class="section banner banner-join-lab">
+	<div class="container content">
+		<h2 class="title">{{- printf (i18n "city-labs.banner") .Title | safeHTML -}}</h2>
+		{{- with .Site.GetPage "city-labs/_index.md" -}}
+			<a href="{{ .Params.Form }}" target="_blank" class="button is-primary is-medium">{{ i18n "city-labs.button" }}</a>
+		{{- end -}}
+	</div>
+</aside>

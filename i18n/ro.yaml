@@ -13,7 +13,7 @@
 
 - id: donation.plural
   translation: donațiile
-- id: donation.cta
+- id: donation.banner
   translation: Felicitările ne fac fericiți, <a class='button is-success' href='%s'>donațiile</a> ne ajută să continuăm.
 
 - id: 404.title
@@ -119,7 +119,7 @@
 - id: support.donate.secure
   translation: Tranzacția ta este in siguranța, vei fi redirecționat către PayPal pentru a finaliza procesul de donație. Îți mulțumim!
 
-- id: support.cta.title
+- id: support.banner.title
   translation: O societate puternică contribuie la un mediu de business mai sănătos
-- id: support.cta.text
+- id: support.banner.text
   translation: Dacă vrei să susții proiecte care vor schimba încet încet România, ne-ar plăcea să ne prezentăm și să vedem cum putem lucra împreună.
