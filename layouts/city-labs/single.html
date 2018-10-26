@@ -1,0 +1,64 @@
+{{- define "main" -}}
+	<header class="section">
+		<div class="container">
+			<div class="columns">
+				<div class="column is-6-tablet">
+					<div class="lab-brand">
+						<div class="logo-container">
+							{{- if (fileExists (printf "theme/images/city-labs/%s.svg"  .BaseFileName )) -}}
+								<img src="{{ (printf "images/city-labs/%s.svg"  .BaseFileName ) | absURL }}" alt="{{ .Title }}" class="svg-fallback">
+							{{- else -}}
+								<img src="{{ "images/logo-gray.svg" | absURL }}" class="svg-fallback" alt="">
+							{{- end -}}
+						</div>
+					</div>
+				</div>
+
+				<div class="column is-6-tablet lab-info">
+					<h1 class="title">{{ .Title }}</h1>
+					<div class="content">
+						{{- .Content -}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	{{- partial "banner-join-lab.html" . -}}
+
+	{{- with .Params.volunteers -}}
+		<section class="section app-team">
+			<div class="container">
+				<header class="hexbadge columns is-mobile">
+					<div class="column is-narrow">
+						<div class="badge is-primary">
+							<i class="fas fa-users" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="column is-narrow-tablet">
+						<h1 class="is-size-3 has-text-weight-bold">{{ i18n "community" }}</h1>
+					</div>
+				</header>
+				<div class="columns is-multiline">
+					{{- $community := getCSV "," "/resources/community.csv" -}}
+					{{- $team := . -}}
+
+					{{- range $member := $team -}}
+						{{- range $community -}}
+							{{- if eq $member (index . 0) -}}
+								{{- $.Scratch.SetInMap "person" "id" (index . 0) -}}
+								{{- $.Scratch.SetInMap "person" "name" (index . 1) -}}
+
+								{{- partial "loop-person.html" ($.Scratch.Get "person") -}}
+
+								{{- $.Scratch.Delete "person" -}}
+							{{- end -}}
+						{{- end -}}
+					{{- end -}}
+				</div>
+			</div>
+		</section>
+	{{- end -}}
+
+	{{- partial "banner-donate.html" . -}}
+{{- end -}}

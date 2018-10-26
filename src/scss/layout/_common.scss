@@ -87,8 +87,9 @@ a {
 	}
 }
 
-.cta-donate {
+.banner {
 	text-align: center;
+
 	font-size: 1.15rem;
 
 	@include tablet {
@@ -99,18 +100,28 @@ a {
 		font-size: 1.625rem;
 	}
 
-	.button {
-		vertical-align: middle;
-		display: inline-block;
-		font-size: inherit;
-		padding: 0 .25em;
-		height: auto;
+	&.banner-donate {
+		.button {
+			vertical-align: middle;
+			display: inline-block;
+			font-size: inherit;
+			padding: 0 .25em;
+			height: auto;
+		}
 	}
-}
 
-.cta-support {
-	.container {
-		max-width: $tablet;
+	&.banner-support {
+		.container {
+			max-width: $tablet;
+		}
+	}
+
+	&.banner-join-lab {
+		.title {
+			span {
+				display: inline-block;
+			}
+		}
 	}
 }
 

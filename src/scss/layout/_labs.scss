@@ -1,0 +1,26 @@
+.lab-brand {
+	position: relative;
+	padding: 0 0 100%;
+	height: 0;
+
+	.logo-container {
+		@extend %logo-container;
+
+		border: 1px solid $grey-light;
+		background-color: $white;
+
+		img {
+			width: 65%;
+		}
+	}
+}
+
+.lab-info {
+	@include tablet {
+		padding-left: 2rem;
+	}
+
+	.media-left.image {
+		border: 1px solid $grey-light;
+	}
+}

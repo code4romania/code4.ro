@@ -1,0 +1,5 @@
+{{- with .Site.GetPage "donate.md" -}}
+	<aside class="section banner banner-donate">
+		{{- printf (i18n "donation.banner") .Permalink | safeHTML -}}
+	</aside>
+{{- end -}}
