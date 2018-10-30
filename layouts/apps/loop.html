@@ -2,9 +2,9 @@
 	<a href="{{ .Permalink }}" class="is-block is-inverse">
 		<div class="app-status {{- with .Params.status }} app-status-{{.}} {{- end }}"></div>
 		<div class="app-brand">
-			{{- if (fileExists (printf "static/images/apps/%s.png"  .BaseFileName )) -}}
-				<div class="logo-container" {{- with .Params.color }} style="background-color:{{ . }}"{{end}}>
-					<img src="{{ (printf "images/apps/%s.png"  .BaseFileName ) | absURL }}" alt="{{ .Title }}">
+			{{- with .Resources.GetMatch "logo.png" -}}
+				<div class="logo-container" {{- with $.Params.color }} style="background-color:{{ . }}"{{ end }}>
+					<img src="{{ .Permalink }}" alt="{{ $.Title }}">
 				</div>
 			{{- else -}}
 				<div class="logo-container">
@@ -21,8 +21,8 @@
 					{{- $.Scratch.Add "creds" ", " -}}
 				{{- end -}}
 
-				{{ trim ($.Scratch.Get "creds") ", " }}
-				{{ $.Scratch.Delete "creds" }}
+				{{- trim ($.Scratch.Get "creds") ", " -}}
+				{{- $.Scratch.Delete "creds" -}}
 			</span>
 		</div>
 	</a>

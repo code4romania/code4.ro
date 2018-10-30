@@ -2,7 +2,7 @@
 	<div class="container content">
 		<h2 class="title is-size-3 has-text-weight-bold has-text-black">{{ i18n "support.banner.title" }}</h2>
 		<p>{{ i18n "support.banner.text" }}</p>
-		{{- with .Site.GetPage "get-involved.md" -}}
+		{{- with .Site.GetPage "/get-involved" -}}
 			<a href="{{ .Permalink }}" class="button is-primary is-large">{{ .Title }}</a>
 		{{- end -}}
 	</div>
