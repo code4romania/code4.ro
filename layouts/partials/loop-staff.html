@@ -3,8 +3,8 @@
 		<div class="media">
 			<div class="columns is-vcentered is-mobile is-marginless">
 				<figure class="media-left image is-96x96">
-					{{- if (fileExists (printf "static/images/people/%s.jpg" .BaseFileName)) -}}
-						<img src="{{ (printf "images/people/%s.jpg" .BaseFileName ) | absURL }}" alt="">
+					{{- if (fileExists (printf "static/images/people/%s.jpg" .ContentBaseName)) -}}
+						<img src="{{ (printf "images/people/%s.jpg" .ContentBaseName ) | absURL }}" alt="">
 					{{- else -}}
 						<img src="//www.fillmurray.com/96/96" alt="">
 					{{- end -}}

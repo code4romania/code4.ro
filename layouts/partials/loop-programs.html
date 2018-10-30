@@ -1,14 +1,20 @@
 <div class="program columns is-vcentered">
 	<div class="program-brand column is-4-tablet">
-		<img src="{{ (printf "images/programs/%s.png" .BaseFileName ) | absURL }}" alt="">
+		{{- with .Resources.GetMatch "poster.*" -}}
+			{{- if eq .ResourceType "image" -}}
+				<img src="{{ .RelPermalink }}" alt="">
+			{{- end -}}
+		{{- end -}}
 	</div>
 	<div class="program-info column is-8-tablet">
 		<h2 class="title is-size-4">{{ .Title }}</h2>
 		<div class="content">{{ .Content }}</div>
 
 		<ul class="program-links">
-			<a href="{{ (printf "files/programs/%s.pdf" .BaseFileName ) | absURL }}" class="is-link" download>{{ i18n "programs.moreinfo" }}</a>
-			{{- with .Site.GetPage "/donate.md" -}}
+			{{- with .Resources.GetMatch "*.pdf" -}}
+				<a href="{{ .RelPermalink }}" class="is-link" download>{{ i18n "programs.moreinfo" }}</a>
+			{{- end -}}
+			{{- with .Site.GetPage "/donate" -}}
 				<a href="{{ .Permalink }}" class="is-link has-text-success">{{ i18n "programs.support" }}</a>
 			{{- end -}}
 		</ul>

@@ -7,13 +7,11 @@ languages:
     languageName: Română
     languageCode: ro_RO
     copy: Organizație neguvernamentală independentă, neafiliată politic și apolitică.
-    contentDir: content/ro
 
   en:
     languageName: English
     languageCode: en_US
     copy: An independent, non-partisan, non-political, non-govermental organization.
-    contentDir: content/en
 
 staticDir:
   - static

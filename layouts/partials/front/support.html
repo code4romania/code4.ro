@@ -8,7 +8,7 @@
 				</div>
 			</div>
 			<div class="column">
-				{{- with .Site.GetPage "get-involved.md" -}}
+				{{- with .Site.GetPage "/get-involved" -}}
 					<a href="{{ .Permalink }}" class="inner infobox has-dashed-border has-text-primary is-block">
 						<h2 class="is-size-4 has-text-weight-bold subtitle">
 							<i class="fas fa-fw fa-user-plus" aria-hidden="true"></i>
@@ -19,7 +19,7 @@
 				{{- end -}}
 			</div>
 			<div class="column">
-				{{- with .Site.GetPage "donate.md" -}}
+				{{- with .Site.GetPage "/donate" -}}
 					<a href="{{ .Permalink }}" class="inner infobox has-background-success has-text-white is-block">
 						<h2 class="is-size-4 has-text-weight-bold subtitle has-text-white">
 							<i class="fas fa-fw fa-credit-card" aria-hidden="true"></i>
