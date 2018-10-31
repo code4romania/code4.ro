@@ -1,0 +1,65 @@
+{{- define "main" -}}
+	<div class="page page-blog">
+		<div class="container">
+			<header class="section page-header">
+				<h1 class="title">{{ .Title }}</h1>
+
+				{{- with .Params.excerpt -}}
+					<div class="excerpt">
+						<p>{{ . }}</p>
+					</div>
+				{{- end -}}
+
+				<aside class="page-meta">
+					{{- with .Params.Author -}}
+						<span class="page-author">
+							<span class="icon is-medium has-text-primary">
+								<i class="fas fa-fw fa-lg fa-user-circle" aria-hidden="true"></i>
+							</span>
+							<span>{{ . }}</span>
+						</span>
+					{{- end -}}
+
+					<span class="page-date">
+						<span class="icon is-medium has-text-primary">
+							<i class="fas fa-fw fa-lg fa-calendar-alt" aria-hidden="true"></i>
+						</span>
+						<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+							{{- .PublishDate.Format "2 January 2006" -}}
+						</time>
+					</span>
+
+					<span class="page-time">
+						<span class="icon is-medium has-text-primary">
+							<i class="fas fa-fw fa-lg fa-stopwatch" aria-hidden="true"></i>
+						</span>
+						<span>{{ printf (i18n "readtime") .ReadingTime }}</span>
+					</span>
+				</aside>
+			</header>
+
+			<div class="section">
+				<div class="content is-medium">
+					{{- with .Resources.GetMatch (string .Params.image) -}}
+						<figure>
+							<img src="{{ .RelPermalink }}" alt="">
+						</figure>
+					{{- end -}}
+
+					{{- .Content -}}
+				</div>
+			</div>
+
+			{{- if .Params.tags -}}
+				<aside class="buttons">
+					{{- range .Params.tags -}}
+						{{ $tag := . }}
+						{{- with $.Site.GetPage (printf "/tags/%s/" $tag) -}}
+							<a class="button is-light" href="{{ .Permalink }}">{{ $tag }}</a>
+						{{- end -}}
+					{{- end -}}
+				</aside>
+			{{- end -}}
+		</div>
+	</div>
+{{- end -}}

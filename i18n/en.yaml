@@ -130,3 +130,6 @@
   translation: A powerful society contributes to a healthy business environment
 - id: support.banner.text
   translation: If you want to help our projects create relevant change in todays Romania, we would love to hear from you, tell you more about our organisation and find ways to work together.
+
+- id: readtime
+  translation: "%d min read"
