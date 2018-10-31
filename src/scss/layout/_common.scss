@@ -18,7 +18,13 @@ img {
 	}
 
 	a:not(.button) {
+		transition: color $speed, text-decoration $speed;
 		text-decoration: underline;
+		text-decoration-color: lighten($primary, 40%);
+
+		&:hover {
+			text-decoration-color: currentColor;
+		}
 	}
 }
 

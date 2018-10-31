@@ -130,3 +130,6 @@
   translation: O societate puternică contribuie la un mediu de business mai sănătos
 - id: support.banner.text
   translation: Dacă vrei să susții proiecte care vor schimba încet încet România, ne-ar plăcea să ne prezentăm și să vedem cum putem lucra împreună.
+
+- id: readtime
+  translation: "%d min read"
