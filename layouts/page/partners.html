@@ -9,7 +9,7 @@
 		<div class="section">
 			<div class="container">
 				<div class="columns is-mobile is-multiline">
-					{{- range getCSV "," "/resources/partners.csv" -}}
+					{{- range getCSV "," "/csv/partners.csv" -}}
 						{{- $.Scratch.SetInMap "partner" "id" (index . 0) -}}
 						{{- $.Scratch.SetInMap "partner" "name" (index . 1) -}}
 						{{- $.Scratch.SetInMap "partner" "url" (index . 2) -}}

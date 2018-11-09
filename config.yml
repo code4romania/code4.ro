@@ -37,7 +37,7 @@ menu:
       url: https://github.com/code4romania/
       weight: 3
     - name: linkedin
-      url: https://www.linkedin.com/company/code-for-romania
+      url: https://www.linkedin.com/company/code4romania/
       weight: 4
 
 params:

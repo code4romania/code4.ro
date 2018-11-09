@@ -1,6 +1,6 @@
 language: generic
 env:
-  HUGO_VERSION: "0.50"
+  HUGO_VERSION: "0.51"
 
 cache:
   pip: true
@@ -14,7 +14,7 @@ install:
 script:
   - npm install
   - npm run build
-  - hugo --baseURL $BASE_URL
+  - hugo --minify --baseURL $BASE_URL
 
 before_deploy:
   - pyenv global system 3.6

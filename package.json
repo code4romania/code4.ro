@@ -11,9 +11,9 @@
 		"build": "gulp build"
 	},
 	"devDependencies": {
-		"@fortawesome/fontawesome-free": "^5.3.1",
-		"autoprefixer": "^9.1.5",
-		"bulma": "^0.7.1",
+		"@fortawesome/fontawesome-free": "^5.5.0",
+		"autoprefixer": "^9.3.1",
+		"bulma": "^0.7.2",
 		"gulp": "^4.0.0",
 		"gulp-concat": "^2.6.1",
 		"gulp-eslint": "^5.0.0",
@@ -23,12 +23,12 @@
 		"gulp-postcss": "^8.0.0",
 		"gulp-raster": "^0.2.0",
 		"gulp-rename": "^1.4.0",
-		"gulp-sass": "^4.0.1",
+		"gulp-sass": "^4.0.2",
 		"gulp-sass-lint": "^1.4.0",
 		"gulp-sourcemaps": "^2.4.1",
 		"gulp-svgmin": "^2.1.0",
 		"gulp-uglify": "^3.0.1",
 		"merge-stream": "^1.0.1",
-		"through2": "^2.0.3"
+		"through2": "^3.0.0"
 	}
 }

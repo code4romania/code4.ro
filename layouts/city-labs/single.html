@@ -40,7 +40,7 @@
 					</div>
 				</header>
 				<div class="columns is-multiline">
-					{{- $community := getCSV "," "/resources/community.csv" -}}
+					{{- $community := getCSV "," "/csv/community.csv" -}}
 					{{- $team := . -}}
 
 					{{- range $member := $team -}}
