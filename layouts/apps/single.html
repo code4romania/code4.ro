@@ -138,7 +138,7 @@
 					</div>
 				</header>
 				<div class="columns is-multiline">
-					{{- $community := getCSV "," "/resources/community.csv" -}}
+					{{- $community := getCSV "," "/csv/community.csv" -}}
 					{{- $team := . -}}
 
 					{{- range $member := $team -}}
@@ -172,7 +172,7 @@
 					</div>
 				</header>
 				<div class="columns is-mobile is-multiline">
-					{{- $allpartners := getCSV "," "/resources/partners.csv" -}}
+					{{- $allpartners := getCSV "," "/csv/partners.csv" -}}
 					{{- $partners := . -}}
 
 					{{- range $partner := $partners -}}
