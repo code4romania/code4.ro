@@ -14,7 +14,7 @@ install:
 script:
   - npm install
   - npm run build
-  - hugo --baseURL $BASE_URL
+  - hugo --minify --baseURL $BASE_URL
 
 before_deploy:
   - pyenv global system 3.6
