@@ -31,4 +31,4 @@ weight: 1
 aliases:
   - /proiect/inlar/
 ---
-Rețeaua Internațională de Asistență Juridică pentru Refugiați (INLAR) este proiectul câștigător al Forumului Tinerilor Profesioniști "Europa Lab" 2016. Aplicația web, dezvoltată de Codul pentru România, găzduiește ONG-uri care oferă sprijin juridic refugiaților, facilitând schimbul de cunoștințe între aceste entități, precum și accesul la servicii și la informație relevantă pentru refugiați și migranți. 
+Rețeaua Internațională de Asistență Juridică pentru Refugiați (INLAR) este proiectul câștigător al Forumului Tinerilor Profesioniști "Europa Lab" 2016. Aplicația web, dezvoltată de Code for Romania, găzduiește ONG-uri care oferă sprijin juridic refugiaților, facilitând schimbul de cunoștințe între aceste entități, precum și accesul la servicii și la informație relevantă pentru refugiați și migranți. 
