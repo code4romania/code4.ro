@@ -7,7 +7,7 @@ type: page
 
 staff:
   title: Staff
-  desc: Ei sunt cei care fac toate lucrurile posibile la Code for Romania. Grație eforturilor lor, acum suntem cea mai mare organizație de civic tech din România și una dintre cele mai mari din lume.
+  desc: Ei sunt cei care fac toate lucrurile posibile la Code for Romania. Grație eforturilor lor, suntem cea mai mare organizație de civic tech din România și una dintre cele mai mari din lume.
 
 menu:
   header:
