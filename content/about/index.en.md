@@ -7,13 +7,13 @@ type: page
 
 staff:
   title: Staff
-  desc: They are the people that make everything run smoothly in Code for Romania. Thanks to their  efforts we are now the biggest civic tech community in Romania and one the largest in the world.
+  desc: They are the people that make everything run smoothly in Code for Romania. Thanks to their efforts we are now the biggest civic tech community in Romania and one the largest in the world.
 
 menu:
   header:
     weight: 10
 ---
-Inspired by the Code for America movement and the Code for All network all around the world, we are a strong and enthusiastic group of developers, designers, social scientists and communication specialists who aim to improve the society they live in. Since the beginning of 2016, we’ve created a community of like-minded volunteers who love the challenge of coming up with digital solutions to societal issues.
+Inspired by the Code for America movement and the Code for All network, we are a strong and enthusiastic group of developers, designers, social scientists and communication specialists who aim to improve the society they live in. Since the beginning of 2016, we’ve created a community of like-minded volunteers who love the challenge of coming up with digital solutions to societal issues.
 
 We promote openness in our work and in the work of our civil society & government partners. All of our digital tools are open source. We actively encourage documentation, sharing, collaboration, and reuse of all of our tools, programs, and processes. We create civic apps initiated by our community, or we partner with NGOs and public institutions in order to create projects in the following areas:
 
