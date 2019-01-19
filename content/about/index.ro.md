@@ -7,7 +7,7 @@ type: page
 
 staff:
   title: Staff
-  desc: Ei sunt cei care fac toate lucrurile posibile la Code for Romania. Grație eforturilor lor, acum suntem cea mai mare organizație de civic tech din România și una dintre cele mai mari din lume.
+  desc: Ei sunt cei care fac toate lucrurile posibile la Code for Romania. Grație eforturilor lor, suntem cea mai mare organizație de civic tech din România și una dintre cele mai mari din lume.
 
 menu:
   header:
@@ -16,7 +16,7 @@ menu:
 aliases:
   - /cine-suntem/
 ---
-Code for Romania este o comunitate de tineri profesioniști și entuziaști care dezvoltă soluţii IT cu scopul de a rezolva probleme ale societăţii. Cu alte cuvinte, creăm aplicații civice în următoarele domenii:
+Code for Romania este o comunitate de tineri profesioniști și entuziaști care dezvoltă pro-bono soluţii IT cu scopul de a rezolva probleme ale societăţii. Cu alte cuvinte, creăm aplicații civice în următoarele domenii:
 
 <div class="columns has-text-weight-bold has-text-centered">
   <div class="column">
