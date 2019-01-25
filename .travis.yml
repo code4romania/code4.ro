@@ -1,6 +1,6 @@
 language: generic
 env:
-  HUGO_VERSION: "0.51"
+  HUGO_VERSION: "0.53"
 
 cache:
   pip: true

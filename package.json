@@ -11,14 +11,14 @@
 		"build": "gulp build"
 	},
 	"devDependencies": {
-		"@fortawesome/fontawesome-free": "^5.5.0",
-		"autoprefixer": "^9.3.1",
+		"@fortawesome/fontawesome-free": "^5.6.3",
+		"autoprefixer": "^9.4.5",
 		"bulma": "^0.7.2",
 		"gulp": "^4.0.0",
 		"gulp-concat": "^2.6.1",
 		"gulp-eslint": "^5.0.0",
-		"gulp-header": "^2.0.5",
-		"gulp-modernizr": "^3.0.0",
+		"gulp-header": "^2.0.7",
+		"gulp-modernizr": "^3.1.0",
 		"gulp-pngquant": "^1.0.12",
 		"gulp-postcss": "^8.0.0",
 		"gulp-raster": "^0.2.0",

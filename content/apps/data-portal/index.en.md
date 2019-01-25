@@ -1,7 +1,7 @@
 ---
 title: Data Portal
 link: 
-color: "#132135"
+color: "#FFF"
 
 status: development # incubation, development, done
 stage: 3 # 1-7
