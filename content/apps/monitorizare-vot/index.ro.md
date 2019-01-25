@@ -64,7 +64,7 @@ aliases:
 ---
 Monitorizarea alegerilor în România a fost, înainte de Monitorizare Vot, un proces derulat cu pixul pe hârtie. Nu au existat înregistrări video, foto sau audio care să poată fi distribuite în timp real din secțiile de votare, iar rapoartele scrise de mână au fost centralizate după săptămâni și săptămâni, făcând orice constatări simple observații post-factum.  
 
-Monitorizare Vot este prima aplicație de monitorizare a alegerlor din România și una dintre puținele folosite în întreaga lume. Aceasta oferă în timp real o mai bună înțelegere a evoluției desfășurării alegerilor în România. Pentru prima dată, ONG-urile care au acreditat observatori au primit rapoarte în timp real cu privire la situația de pe teren, permițându-le să ofere sprijin observatorilor lor și să reacționeze în timp util atunci când au fost raportate probleme sau nereguli.  
+Monitorizare Vot este prima aplicație de monitorizare a alegerilor din România și una dintre puținele folosite în întreaga lume. Aceasta oferă în timp real o mai bună înțelegere a evoluției desfășurării alegerilor în România. Pentru prima dată, ONG-urile care au acreditat observatori au primit rapoarte în timp real cu privire la situația de pe teren, permițându-le să ofere sprijin observatorilor lor și să reacționeze în timp util atunci când au fost raportate probleme sau nereguli.  
 
 Monitorizare Vot este conceput atat pentru observatori electorali cat si pentru cetateni obisnuiti, fiind compus din:  
 
