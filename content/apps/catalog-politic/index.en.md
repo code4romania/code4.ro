@@ -43,6 +43,7 @@ team:
   - razvanpavel
   - robertbadea
   - sergiumunteanu
+  - silviafierascu
   - victorcleja
   - viorelsfetea
   - vladfratila
