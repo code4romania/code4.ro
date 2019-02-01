@@ -21,10 +21,18 @@ credits:
 team:
   - alexandrarusu
   - alexandrualbu
+  - alexandruionascu
+  - ancaspatariu
   - andrabrinzaniuc
   - andreiionita
   - costinbleotu
+  - cristianboldisteanu
   - danjecan
+  - ianiciocani
+  - iuraboncalo
+  - mihaelatopirceanu
+  - nicusurdu
+  - silviamagurean
   - stefanmarogel
 
 weight: 1
