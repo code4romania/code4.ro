@@ -1,7 +1,7 @@
 ---
 title: "Hooked"
 excerpt: "I’m a volunteering developer in Code for Romania. By the end of this article you’re going to want to be one as well."
-cover: 
+cover: hooked.jpg
 
 date: 2019-02-03
 author: Sabina-Alexandra Ștefănescu
