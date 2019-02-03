@@ -40,3 +40,5 @@ I don’t think in terms of languages and frameworks anymore. I work with the to
 I learn from the Code for Romania volunteers in real-time, as we pour over how to best address the latest constraint or the most pressing problem. In turn, I work hard to structure and deliver as much of my knowledge to the people who can benefit from it. Security, online and offline, is something I try to raise awareness about. It takes me back to my college days - here’s a cheat sheet of what software to use and how to browse the Internet, safely. If you’re wondering: yes, I wrote this cheat sheet. I might have a copy left when we meet over beer. 
 
 **_I hope you get hooked, too._**
+
+Not sure yet? Join us every last Saturday of the month at our HackDays. Register [here.](https://tfsg.code4.ro/hackday/)
