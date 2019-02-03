@@ -7,6 +7,8 @@ date: 2019-02-03
 author: Sabina-Alexandra Ștefănescu
 ---
 
+{{% figure src="hooked.jpg" %}}
+
 It’s august, 2015. It’s the 29th - tomorrow, I get to have my namesake day - Saint Alexander. I’m in a room filled with strangers, I’m carrying my laptop in a backpack and I’m trying to find a cure to one of life’s most debilitating afflictions: the “what do I do now?” post-college flu. 
 
 I’m at the tail end of four years of college education. I’ll graduate as an Engineer. In spite of knowing how to solve triple integrals and build a mp3 player from scratch, I’m clueless as to what I’ll do next. I expected to run towards my goals like a sprinter picturing the gold medal - instead, I’m shuffling in place. I’m trying to convert my passions into a career path. Instead, I’m second-guessing myself on things I thought had clear answers? What do I enjoy doing so much that I’d do it for eight hours, every day, for the rest of my life?
