@@ -9,7 +9,6 @@ volunteers:
   - ciprianchichirita
   - corneliuchitanu
   - alexmitan
-  - alexandrarusu
   - andradanalachi
   - augustinciubotariu
   - calingeorgescu

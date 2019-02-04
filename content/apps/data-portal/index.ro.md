@@ -19,7 +19,6 @@ credits:
 #     label: reponame
 
 team:
-  - alexandrarusu
   - alexandrualbu
   - alexandruionascu
   - ancaspatariu
