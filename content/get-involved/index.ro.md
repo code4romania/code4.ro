@@ -22,9 +22,9 @@ aliases:
 {{% /infobox %}}
 
 {{% infobox icon="coins" title="Bani" %}}
-  Proiectul Code for Romania se bazează pe voluntariat. Cu toate acestea, întreţinerea platformei, domeniile web și hostingul, participarea în anumite proiecte, lucrurile administrative etc. implică anumite costuri.
+   Code for Romania se bazează pe voluntariat. Cu toate acestea, întreţinerea platformei, domeniile web și hostingul, participarea în anumite proiecte, lucrurile administrative etc. implică anumite costuri.
 
-  Dacă îți plac [proiectele noastre]({{< relref "apps" >}}), poți investi în ele printr-o donație. Orice contribuţie, oricât de mică, este utilă şi foarte apreciată. Fiecare donație ajută proiectele să meargă înainte și ne permite să ne investim energia în lucrurile cu adevărat importante: dezvoltarea proiectelor și creșterea comunității.
+  Dacă îți plac [aplicațiile noastre]({{< relref "apps" >}}), poți investi în ele printr-o donație. Orice contribuţie, oricât de mică, este utilă şi foarte apreciată. Fiecare donație ajută aplicațiile să meargă înainte și ne permite să ne investim energia în lucrurile cu adevărat importante: dezvoltarea aplicațiilor și creșterea comunității.
 
   **[Ajută-ne să continuăm!]({{< relref "donate" >}})**
 {{% /infobox %}}

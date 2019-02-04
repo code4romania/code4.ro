@@ -35,11 +35,11 @@ menu:
 
 <div class="columns">
 {{% infobox icon="briefcase" title="Companies" %}}
-  A stronger society contributes to a healthier business environment. If you want to support projects that will improve Romania step by step, let’s have a talk. Here are some ideas of how you can contribute to civic innovation:
+  A stronger society contributes to a healthier business environment. If you want to support apps that will improve Romania step by step, let’s have a talk. Here are some ideas of how you can contribute to civic innovation:
 
   - “Donating” lines of code (for software development companies)
   - Organisational support (e.g. host the volunteers’ meetings)
-  - (Partially) Covering the costs of a project
+  - (Partially) Covering the costs of an app
   - Award our volunteers
   - Donating products (e.g. software or hardware)
   - Meet & Greet your employees (great for employer branding!)

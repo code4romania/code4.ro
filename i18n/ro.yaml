@@ -40,13 +40,13 @@
 - id: results.contributors
   translation: colaboratori
 - id: results.projects.complete
-  translation: proiecte finalizate
+  translation: aplicații finalizate
 - id: results.hours
   translation: ore de lucru
 - id: results.timezones
   translation: fusuri orare
 - id: results.projects.pending
-  translation: proiecte în lucru
+  translation: aplicații în lucru
 - id: results.commits
   translation: commit-uri în GitHub
 
@@ -64,9 +64,9 @@
 - id: apps.title
   translation: Aplicații
 - id: apps.view.all
-  translation: Vezi toate proiectele
+  translation: Vezi toate aplicațiile
 - id: apps.view.single
-  translation: Vezi proiectul
+  translation: Vezi aplicația
 
 - id: apps.status.incubation
   translation:
@@ -113,7 +113,7 @@
 - id: support.join.text
   translation: Know-how-ul tău sau câteva ore din timpul tău pe săptămână ne pot ajuta.
 - id: support.donate.text
-  translation: De asemenea, poți alege să investești în noi prin donații. Acestea ne permit să ne investim energia în dezvoltarea proiectelor și comunității.
+  translation: De asemenea, poți alege să investești în noi prin donații. Acestea ne permit să ne investim energia în dezvoltarea aplicațiilor și comunității.
 
 - id: support.donate.recurring.label
   translation: Fiecare donație recurentă ne ajută să construim soluții din ce în ce mai repede.
@@ -129,7 +129,7 @@
 - id: support.banner.title
   translation: O societate puternică contribuie la un mediu de business mai sănătos
 - id: support.banner.text
-  translation: Dacă vrei să susții proiecte care vor schimba încet încet România, ne-ar plăcea să ne prezentăm și să vedem cum putem lucra împreună.
+  translation: Dacă vrei să susții aplicații care vor schimba încet încet România, ne-ar plăcea să ne prezentăm și să vedem cum putem lucra împreună.
 
 - id: readtime
   translation: "%d min read"
