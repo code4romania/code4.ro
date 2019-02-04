@@ -40,13 +40,13 @@
 - id: results.contributors
   translation: contributors
 - id: results.projects.complete
-  translation: finished projects
+  translation: finished apps
 - id: results.hours
   translation: work hours
 - id: results.timezones
   translation: timezones
 - id: results.projects.pending
-  translation: pending projects
+  translation: pending apps
 - id: results.commits
   translation: GitHub commits
 
@@ -113,7 +113,7 @@
 - id: support.join.text
   translation: A couple of hours of your time per week or your know-how. You’ll get back the excitement of doing meaningful work with like-minded people.
 - id: support.donate.text
-  translation: You can also choose invest in us by donating. It allows us to invest our energy in developing civic innovation projects and growing the community.
+  translation: You can also choose invest in us by donating. It allows us to invest our energy in developing civic innovation applications and growing the community.
 
 - id: support.donate.recurring.label
   translation: Every recurring donation helps us deliver solutions faster and faster every month.
@@ -129,7 +129,7 @@
 - id: support.banner.title
   translation: A powerful society contributes to a healthy business environment
 - id: support.banner.text
-  translation: If you want to help our projects create relevant change in todays Romania, we would love to hear from you, tell you more about our organisation and find ways to work together.
+  translation: If you want to help our applications create relevant change in todays Romania, we would love to hear from you, tell you more about our organisation and find ways to work together.
 
 - id: readtime
   translation: "%d min read"
