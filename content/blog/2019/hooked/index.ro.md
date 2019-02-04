@@ -33,7 +33,7 @@ Am păstrat legătura cu voluntarii din Code for Romania. Am urmărit din depăr
  
 Contribuțiile mele la Code for Romania au crescut lent. Inițial, totul era o tentativă - ceva interesant de făcut într-un weekend, la un hackathon. Am intrat într-un proiect și am descoperit o lipsă totală de lux. Noi conturam ipoteza problemelor și tot noi formulam soluția. Descopeream, încetul cu încetul, până unde se întind zidurile constrângerilor. Uneori intram cu nasu-n ele. Ne alegeam uneltele astfel încât să maximizăm cooperarea. Faptul că scriam cod era un lucru de făcut de pe o listă care se putea derula ca un pergament egipteam în lungul camerei. 
 
-**_M-a pins treaba asta._**
+**_M-a prins treaba asta._**
 
 Construirea soluțiilor și diseminarea cunoștințelor sunt două fețe ale aceleiași monede - asta mă face fericită. 
 
