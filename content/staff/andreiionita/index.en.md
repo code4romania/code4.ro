@@ -1,5 +1,5 @@
 ---
 title: "Andrei Ioniță"
-position: "Chief Technology Officer"
+position: "Technology Officer"
 linkedin: "https://www.linkedin.com/in/andreiio/"
 ---

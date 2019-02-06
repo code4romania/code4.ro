@@ -22,7 +22,6 @@ code:
 
 team:
   - alexandrualbu
-  - alexandrarusu
   - andrapopazu
   - andreiantal
   - biancaantohe

@@ -1,5 +1,5 @@
 ---
 title: "Costin Bleotu"
-position: "Community Manager"
+position: "Technology Officer"
 linkedin: "https://www.linkedin.com/in/costin-bleotu-627674a7/"
 ---

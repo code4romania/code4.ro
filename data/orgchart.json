@@ -14,7 +14,10 @@
 			"Operations Officer",
 			"Open Data Officer",
 			"Budgets and Operation Officer",
-			"Incubation and Project Support Officer"
+			"Incubation and Project Support Officer",
+			"Events Manager",
+			"Tech Research & Analysis Officer",
+			"Grants Officer"
 		]
 	},
 	{
@@ -65,7 +68,6 @@
 			"Technology Officer",
 			"Infrastructure Officer",
 			"IT Security & Infrastructure Officer",
-			"Tech Research & Analysis Officer",
 			"BA Officer"
 		]
 	},

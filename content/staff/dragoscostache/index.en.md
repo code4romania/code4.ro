@@ -1,5 +1,5 @@
 ---
 title: "Dragoș Costache"
-position: "Content Officer"
+position: "Grants Officer"
 linkedin: ""
 ---

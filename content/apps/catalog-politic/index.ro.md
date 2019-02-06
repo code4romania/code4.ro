@@ -20,7 +20,6 @@ credits:
 
 team:
   - alexandralucescu
-  - alexandrarusu
   - bogdanivanel
   - catalincioloca
   - claudiutufis
