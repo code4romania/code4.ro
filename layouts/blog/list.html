@@ -10,54 +10,55 @@
 
 			<div class="section content">
 				<div class="columns is-multiline">
-				{{- range $i, $page := .Pages -}}
-					<article class="column {{ cond (lt $i 1) "is-12-tablet" "is-6-tablet" }}">
-						<div class="card">
-							<div class="card-image card-header">
-								<a href="{{ ($page).RelPermalink }}" class="image is-2by1">
-									{{- with .Resources.GetMatch (string .Params.cover) -}}
-										{{ $thumb := .Fill "720x360 Center" }}
-										<img src="{{ ($thumb).RelPermalink }}" alt="">
-									{{- end -}}
+					{{- range $i, $page := .Pages -}}
+						<article class="column {{ cond (lt $i 1) "is-12-tablet" "is-6-tablet" }}">
+							<div class="card">
+								<div class="card-image card-header">
+									<a href="{{ ($page).RelPermalink }}" class="image is-2by1">
+										{{- with .Resources.GetMatch (string .Params.cover) -}}
+											{{ $thumb := .Fill "720x360 Center" }}
+											<img src="{{ ($thumb).RelPermalink }}" alt="">
+										{{- end -}}
 									</a>
 								</div>
 
-							<a href="{{ .RelPermalink }}" class="card-content">
-								<h1 class="is-size-4-mobile is-size-3-tablet">
-									{{ .Title }}
-								</h1>
+								<a href="{{ .RelPermalink }}" class="card-content">
+									<h1 class="is-size-4-mobile is-size-3-tablet">
+										{{ .Title }}
+									</h1>
 
-								{{- with .Params.excerpt -}}
-									<p>{{ . }}</p>
-								{{- else -}}
-									<p>{{ .Summary }}</p>
-								{{- end -}}
-							</a>
-
-							<div class="card-footer is-size-6">
-								<div class="page-meta card-footer-item">
-									{{- with .Params.Author -}}
-										<span class="page-author">
-											<span class="icon is-medium has-text-primary">
-												<i class="fas fa-fw fa-lg fa-user-circle" aria-hidden="true"></i>
-											</span>
-											<span>{{ . }}</span>
-										</span>
+									{{- with .Params.excerpt -}}
+										<p>{{ . }}</p>
+									{{- else -}}
+										<p>{{ .Summary }}</p>
 									{{- end -}}
+								</a>
 
-									<span class="page-time">
-										<span class="icon is-medium has-text-primary">
-											<i class="fas fa-fw fa-lg fa-calendar-alt" aria-hidden="true"></i>
+								<div class="card-footer is-size-6">
+									<div class="page-meta card-footer-item">
+										{{- with .Params.Author -}}
+											<span class="page-author">
+												<span class="icon is-medium has-text-primary">
+													<i class="fas fa-fw fa-lg fa-user-circle" aria-hidden="true"></i>
+												</span>
+												<span>{{ . }}</span>
+											</span>
+										{{- end -}}
+
+										<span class="page-time">
+											<span class="icon is-medium has-text-primary">
+												<i class="fas fa-fw fa-lg fa-calendar-alt" aria-hidden="true"></i>
+											</span>
+											<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+												{{- .PublishDate.Format "2 January 2006" -}}
+											</time>
 										</span>
-										<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-											{{- .PublishDate.Format "2 January 2006" -}}
-										</time>
-									</span>
+									</div>
 								</div>
 							</div>
-						</div>
-					</article>
-				{{- end -}}
+						</article>
+					{{- end -}}
+				</div>
 			</div>
 		</div>
 	</div>
