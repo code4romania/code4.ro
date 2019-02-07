@@ -133,3 +133,8 @@
 
 - id: readtime
   translation: "%d min read"
+
+- id: donate.title
+  translation: "Support us by redirecting 2% of your income taxes. Deadline: March 15th."
+- id: donate.form
+  translation: "Download the form"
