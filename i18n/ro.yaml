@@ -133,3 +133,8 @@
 
 - id: readtime
   translation: "%d min read"
+
+- id: donate.title
+  translation: "Susține-ne redirecționând 2% din impozit până pe 15 martie"
+- id: donate.form
+  translation: "Descarcă formularul"
