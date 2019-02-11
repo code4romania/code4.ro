@@ -1,5 +1,5 @@
 ---
 title: "Andrei Onel"
 position: "Technology Officer"
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/andreionel/"
 ---
