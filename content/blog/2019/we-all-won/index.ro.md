@@ -1,13 +1,11 @@
 ---
 title: "Cu toții am câștigat"
 excerpt: "Drumul până la HackDay trece prin Maroc."
-cover: hackday1-timisoara.jpg
+cover: 
 
 date: 2019-02-11
 author: Sabina-Alexandra Ștefănescu
 ---
-
-{{% figure src="hackday1-timisoara.jpg" %}}
 
 “**We are the ones we’ve been waiting for**” - un mesaj simplu, care a decorat patru spații din România, în zilele de 25 și 26 ianuarie: București, Cluj, Timișoara și Iași. Vineri, pe 25, în toate orașele cu excepția Bucureștiului s-au lansat primele comunități locale ale Code for Romania. A doua zi, voluntari și membri ai organizației s-au adunat în jurul laptop-urilor la primul HackDay al anului 2019. În fiecare oraș, o comunitate se încheagă din oameni noi și voluntari mai vechi, în jurul aplicațiilor din programul “[Tech for Social Good](http://tfsg.code4.ro)”.
 
