@@ -41,4 +41,4 @@ Nimic nu e perfect și dorința echipei noastre este să devină pe zi ce trece 
 
 Cristian a rămas activ în echipă și pe Slack și spune despre comunitate că “mi-a dat o zonă de siguranță în care să învăț chestii noi”. L-am întrebat ce ar recomanda oamenilor care sunt în dubiu dacă să participe sau nu la un [viitor HackDay Code for Romania](https://tfsg.code4.ro). “It feels good! Sunt multe chestii de învățat, este un mediu foarte captivant. A avea o constrângere, a spune _facem o chestie, da’ o facem azi_ este sănătoasă.”
 
-Pe Cristian îl găsiți pe [site-ul său](https://boldisteanu.ro), sau pe blogul de călătorie lansat în anul sabatic, [Apples and Gasoline](www.applesandgasoline.com). 
+Pe Cristian îl găsiți pe [site-ul său](https://boldisteanu.ro), sau pe blogul de călătorie lansat în anul sabatic, [Apples and Gasoline](http://www.applesandgasoline.com/en/). 
