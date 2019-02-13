@@ -4,7 +4,7 @@ link:
 color: "#FFF"
 
 status: development # incubation, development, done
-stage: 3 # 1-7
+stage: 4 # 1-7
 
 # work:
 #   hours: 1234
