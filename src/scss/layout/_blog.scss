@@ -64,6 +64,10 @@
 				max-width: 100%;
 			}
 		}
+		
+		.media + .media {
+			border: 0;
+		}
 	}
 }
 
