@@ -11,8 +11,8 @@
 		<div class="content">{{ .Content }}</div>
 
 		<ul class="program-links">
-			{{- with .Resources.GetMatch "*.pdf" -}}
-				<a href="{{ .RelPermalink }}" class="is-link" download>{{ i18n "programs.moreinfo" }}</a>
+			{{- with .Params.link -}}
+				<a href="{{ . }}" class="is-link" target="_blank" rel="noopener">{{ i18n "programs.moreinfo" }}</a>
 			{{- end -}}
 			{{- with .Site.GetPage "/donate" -}}
 				<a href="{{ .Permalink }}" class="is-link has-text-success">{{ i18n "programs.support" }}</a>
