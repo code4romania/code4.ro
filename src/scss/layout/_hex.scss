@@ -48,7 +48,7 @@
 	align-items: center;
 
 	.badge {
-		background-image: url('images/hex-white.png');
+		background-image: url('../svg/hex-white.svg');
 		background-size: 100%;
 		display: inline-block;
 		font-size: 1.125rem;
@@ -62,17 +62,9 @@
 			font-size: 1.5rem;
 		}
 
-		@include modernizr(svgasimg) {
-			background-image: url('images/hex-white.svg');
-		}
-
 		&.is-primary {
-			background-image: url('images/hex-primary.png');
+			background-image: url('../svg/hex-primary.svg');
 			color: $white;
-
-			@include modernizr(svgasimg) {
-				background-image: url('images/hex-primary.svg');
-			}
 		}
 
 		.fas {
@@ -97,12 +89,8 @@
 		color: $primary;
 
 		.badge {
-			background-image: url('images/hex-primary.png');
+			background-image: url('../svg/hex-primary.svg');
 			color: $primary-invert;
-
-			@include modernizr(svgasimg) {
-				background-image: url('images/hex-primary.svg');
-			}
 		}
 	}
 }

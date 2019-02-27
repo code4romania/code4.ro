@@ -1,21 +1,22 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 
-@import "utils/styles";
-@import "utils/mixins";
+@import 'utils/styles';
+@import 'utils/mixins';
 
 // Dependencies
-@import "node_modules/bulma/bulma";
-@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
-@import "node_modules/@fortawesome/fontawesome-free/scss/brands";
-@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import '~bulma/bulma';
 
-@import "layout/common";
-@import "layout/header";
-@import "layout/footer";
-@import "layout/front";
-@import "layout/programs";
-@import "layout/apps";
-@import "layout/labs";
-@import "layout/blog";
-@import "layout/pages";
-@import "layout/hex";
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+@import 'layout/common';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/front';
+@import 'layout/programs';
+@import 'layout/apps';
+@import 'layout/labs';
+@import 'layout/blog';
+@import 'layout/pages';
+@import 'layout/hex';
