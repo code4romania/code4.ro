@@ -1,0 +1,14 @@
+<div class="media">
+	<div class="columns is-vcentered {{- if .Get "reverse" }} row-reverse {{- end }}">
+		<div class="column is-2-tablet has-text-centered">
+			{{ with .Get "image" }}
+				<div class="image is-inline-block">
+					<img src="{{ . }}">
+				</div>
+			{{ end }}
+		</div>
+		<div class="column">
+			{{- .Inner -}}
+		</div>
+	</div>
+</div>
