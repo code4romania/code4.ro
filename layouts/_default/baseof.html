@@ -5,23 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>{{ if not .IsHome }}{{ .Title }} &mdash; {{ end }}{{ .Site.Title }}</title>
-	<meta property="og:title" content="{{ .Title }}">
-
-	{{- with .Site.Params.description -}}
-		<meta name="description" content="{{ . }}">
-		<meta property="og:description" content="{{ . }}">
-		<meta name="twitter:description" content="{{ . }}">
-	{{- end -}}
-
-	{{- with .Site.Params.keywords -}}
-		<meta name="keywords" content="{{ . }}">
-	{{- end -}}
-
-	<link rel="canonical" href="{{ .Permalink }}" />
-	<meta property="og:url" content="{{ .Permalink }}">
-
-	<meta property="og:image" content="{{ "images/fb.png" | absURL }}"/>
+	{{- partial "seo.html" . -}}
 
 	{{- with .OutputFormats.Get "rss" -}}
 		<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
