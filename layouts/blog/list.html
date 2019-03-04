@@ -16,8 +16,14 @@
 								<div class="card-image card-header">
 									<a href="{{ ($page).RelPermalink }}" class="image is-2by1">
 										{{- with .Resources.GetMatch (string .Params.cover) -}}
-											{{ $thumb := .Fill "720x360 Center" }}
-											<img src="{{ ($thumb).RelPermalink }}" alt="">
+											{{ $small := .Fill "360x180 Center" }}
+											{{ $medium := .Fill "720x360 Center" }}
+											{{ $large := .Fill "1440x720 Center" }}
+											<img src="{{ ($small).RelPermalink }}"
+												srcset="
+												{{- ($small).RelPermalink }} 360w,
+												{{- ($medium).RelPermalink }} 720w,
+												{{- ($large).RelPermalink }} 1200w" alt="">
 										{{- end -}}
 									</a>
 								</div>
