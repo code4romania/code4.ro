@@ -1,10 +1,14 @@
 ---
 title: "Uite, așa funcționează"
+slug: uite-asa-functioneaza
 excerpt: "Dezvăluim modelul Code for Romania, pas cu pas."
 cover: "Background.png"
 
 date: 2019-02-18
 author: Olivia Vereha
+
+aliases:
+  - /ro/blog/uite-așa-funcționează/
 ---
 
 Hai să zicem că ai un sistem și vrei să introduci un nou element în el. Sau poate vrei să faci o modificare, o schimbare a modului de funcționare. Nu implementarea e partea care o să-ți facă probleme. Partea grea e să convingi utilizatorii pe care îi ai deja că schimbarea asta le va aduce un beneficiu. Dacă reușești să treci peste această rezistență inițială la schimbare și utilizatorii tăi sunt convinși că schimbările pe care le faci sunt spre binele tuturor, adică dacă au încredere în tine, munca e pe jumătate gata.

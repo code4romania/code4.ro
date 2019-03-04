@@ -1,5 +1,6 @@
 ---
 title: "Hack Day #1 @ Code4Romania"
+slug: hack-day-1-code4romania
 excerpt: "2018 already means a premiere year for us. With many offline programs already in plan (we will definitely tell you all about them soon) we started meeting our community more often. And not just for beers, but also for coding. "
 cover: 6h.jpg
 
