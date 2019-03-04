@@ -6,9 +6,9 @@
 					<div class="lab-brand">
 						<div class="logo-container">
 							{{- if (fileExists (printf "theme/images/city-labs/%s.svg" .ContentBaseName )) -}}
-								<img src="{{ (printf "images/city-labs/%s.svg" .ContentBaseName ) | absURL }}" alt="{{ .Title }}" class="svg-fallback">
+								<img src="{{ (printf "images/city-labs/%s.svg" .ContentBaseName ) | absURL }}" alt="{{ .Title }}">
 							{{- else -}}
-								<img src="{{ "images/logo-gray.svg" | absURL }}" class="svg-fallback" alt="">
+								<img src="{{ "images/logo-gray.svg" | absURL }}" alt="">
 							{{- end -}}
 						</div>
 					</div>

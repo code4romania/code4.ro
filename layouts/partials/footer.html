@@ -24,7 +24,7 @@
 
 		<div class="copy">
 			<a href="{{ "/" | absLangURL }}" class="brand">
-				<img src="{{ "images/logo-full-gray.svg" | absURL }}" class="logo svg-fallback" alt="{{ .Site.Title }}">
+				<img src="{{ "images/logo-full-gray.svg" | absURL }}" class="logo" alt="{{ .Site.Title }}">
 			</a>
 			<p>
 				&copy; {{ now.Format "2006" }} {{ .Site.Title }}.<br>
@@ -35,7 +35,7 @@
 		<aside class="codeforall">
 			<span>{{ i18n "programs.codeforall" }}</span>
 			<a href="https://codeforall.org/" target="_blank" class="logo has-text-info">
-				<img src="{{ "images/codeforall.svg" | absURL }}" class="svg-fallback" alt="Code for All">
+				<img src="{{ "images/codeforall.svg" | absURL }}" alt="Code for All">
 			</a>
 		</aside>
 	</div>

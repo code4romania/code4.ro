@@ -132,17 +132,18 @@ module.exports = {
 			filename: '[name].css?v=[chunkhash]',
 			chunkFilename: '[id].js?v=[chunkhash]',
 		}),
-		// new PurgecssPlugin({
-		// 	paths: glob.sync([
-		// 		'layouts/**/*.html',
-		// 		'src/js/**/*.js',
-		// 	]),
-		// 	whitelistPatterns: [
-		// 		/^narrow$/,
-		// 		/^app-status-/,
-		// 		/^fa-/,
-		// 	],
-		// }),
+		new PurgecssPlugin({
+			paths: glob.sync([
+				'content/**/*.md',
+				'layouts/**/*.html',
+				'src/js/**/*.js',
+			]),
+			whitelistPatterns: [
+				/^narrow$/,
+				/^app-status-/,
+				/^fa-/,
+			],
+		}),
 		new CopyWebpackPlugin([{
 			from: 'src/svg',
 			to: 'images',
