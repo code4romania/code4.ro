@@ -1,0 +1,42 @@
+{{ $scratch := newScratch }}
+
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:url" content="{{ .Permalink }}">
+
+{{ if .IsHome }}
+	{{ $scratch.Set "Title" .Site.Title }}
+{{ else }}
+	{{ $scratch.Set "Title" (printf "%s &mdash; %s" .Title .Site.Title) }}
+	<meta property="og:site_name" content="{{ .Site.Title }}">
+{{ end }}
+
+<title>{{ $scratch.Get "Title" }}</title>
+<meta property="og:title" content="{{ .Title }}">
+
+{{ if .Params.excerpt }}
+	{{ $scratch.Set "Description" .Params.excerpt }}
+{{ else if .Summary }}
+	{{ $scratch.Set "Description" .Summary }}
+{{ else if .Site.Params.description }}
+	{{ $scratch.Set "Description" .Site.Params.description }}
+{{ end }}
+
+{{ with $scratch.Get "Description" }}
+	<meta name="description" content="{{ . }}">
+	<meta property="og:description" content="{{ . }}">
+	<meta name="twitter:description" content="{{ . }}">
+{{ end }}
+
+<meta property="og:locale" content="{{ .Site.LanguageCode }}">
+
+{{ with .Resources.GetMatch (string .Params.cover) }}
+	{{ $image := .Fill "1200x630 Center" }}
+	<meta property="og:image" content="{{ ($image).Permalink }}">
+{{ else }}
+	<meta property="og:image" content="{{ "images/fb.png" | absURL }}">
+{{ end }}
+
+{{ if eq .Type "blog" }}
+	<meta property="og:type" content="article">
+	<meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05Z0700" }}">
+{{ end }}
