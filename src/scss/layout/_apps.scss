@@ -24,27 +24,15 @@
 		}
 
 		&.app-status-incubation .badge {
-			background-image: url('images/hex-red.png');
-
-			@include modernizr(svgasimg) {
-				background-image: url('images/hex-red.svg');
-			}
+			background-image: url('../svg/hex-red.svg');
 		}
 
 		&.app-status-development .badge {
-			background-image: url('images/hex-green.png');
-
-			@include modernizr(svgasimg) {
-				background-image: url('images/hex-green.svg');
-			}
+			background-image: url('../svg/hex-green.svg');
 		}
 
 		&.app-status-done .badge {
-			background-image: url('images/hex-primary.png');
-
-			@include modernizr(svgasimg) {
-				background-image: url('images/hex-primary.svg');
-			}
+			background-image: url('../svg/hex-primary.svg');
 		}
 	}
 }

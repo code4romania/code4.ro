@@ -12,7 +12,7 @@ stage: 3 # 1-7
 
 credits:
   - name: Code for Romania
-    image: logo.png
+    image: logo.svg
 
 # code:
 #   - repo: code4romania/reponame

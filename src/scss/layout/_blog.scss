@@ -7,14 +7,10 @@
 
 		.card-image {
 			.image {
-				background-image: url('images/logo-gray.png');
+				background-image: url('../svg/logo-gray.svg');
 				background-position: 50% 50%;
 				background-repeat: no-repeat;
 				background-size: 25%;
-
-				@include modernizr(svgasimg) {
-					background-image: url('images/logo-gray.svg');
-				}
 			}
 		}
 
@@ -64,7 +60,7 @@
 				max-width: 100%;
 			}
 		}
-		
+
 		.media + .media {
 			border: 0;
 		}
