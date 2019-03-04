@@ -28,6 +28,12 @@ img {
 	}
 }
 
+.columns {
+	&.row-reverse {
+		flex-direction: row-reverse;
+	}
+}
+
 .uppercase {
 	text-transform: uppercase;
 	letter-spacing: .175em;
