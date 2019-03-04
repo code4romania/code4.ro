@@ -6,7 +6,7 @@
 {{ if .IsHome }}
 	{{ $scratch.Set "Title" .Site.Title }}
 {{ else }}
-	{{ $scratch.Set "Title" (printf "%s &mdash; %s" .Title .Site.Title) }}
+	{{ $scratch.Set "Title" (printf "%s — %s" .Title .Site.Title) }}
 	<meta property="og:site_name" content="{{ .Site.Title }}">
 {{ end }}
 
