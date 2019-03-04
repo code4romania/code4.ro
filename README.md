@@ -5,7 +5,7 @@
 
 
 ## Built With
-- [Hugo](https://gohugo.io/) >= v0.53
+- [Hugo](https://gohugo.io/) >= v0.54.0
 
 ## Contributing
 
