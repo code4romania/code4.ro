@@ -1,11 +1,13 @@
 ---
 title: "The Underlying Story"
 excerpt: "Andrei Ioniță, on learning how to learn and self-determination."
-cover: 
+cover: andrei.jpg
 
 date: 2019-03-05
 author: Sabina-Alexandra Ștefănescu
 ---
+
+{{% figure src="andrei.jpg" %}}
 
 Here’s a challenge. 
 
