@@ -66,7 +66,7 @@ I’m a simple person: I reach the end of my interview, I ask for a wise conclus
 
 “It’s got to be learning how to learn.”
 
-“If I have to estimate how long it will take me to work on a project with new technologies, stuff I’ve never touched before, I draw an analogy. I look at all the things I’ve done and try to find something similar. If I can match it, I know the ballpark estimated. If the project I’m looking at is significantly bigger than anything I’ve done, I break it down into stages. I take it one step at a time. The aim is to reduce both the risk I expose myself to, and the rick my client exposes themselves to."
+“If I have to estimate how long it will take me to work on a project with new technologies, stuff I’ve never touched before, I draw an analogy. I look at all the things I’ve done and try to find something similar. If I can match it, I know the ballpark estimated. If the project I’m looking at is significantly bigger than anything I’ve done, I break it down into stages. I take it one step at a time. The aim is to reduce both the risk I expose myself to, and the risk my client exposes themselves to."
 
 "I’m still scared of the unknown. But, at least, I know what I need to do to get started on something. I still enjoy what I do. I enjoy it in that honest way that says Mondays don’t feel like Mondays to me."
 
