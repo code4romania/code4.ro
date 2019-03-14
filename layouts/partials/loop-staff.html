@@ -6,7 +6,7 @@
 					{{- if (fileExists (printf "static/images/people/%s.jpg" .ContentBaseName)) -}}
 						<img src="{{ (printf "images/people/%s.jpg" .ContentBaseName ) | absURL }}" alt="">
 					{{- else -}}
-						<img src="{{ (printf "//ui-avatars.com/api/?name=%s" .ContentBaseName) | absURL }}" alt="">
+						<img src="//ui-avatars.com/api/?{{ (querify "name" .Title "size" 96) | safeURL }}" alt="">
 					{{- end -}}
 
 					{{- with .Params.linkedin -}}
