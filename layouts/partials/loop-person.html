@@ -6,7 +6,7 @@
 					{{- if (fileExists (printf "static/images/people/%s.jpg" .id )) -}}
 						<img src="{{ (printf "images/people/%s.jpg" .id ) | absURL }}" alt="">
 					{{- else -}}
-            <img src="{{ (printf "//ui-avatars.com/api/?name=%s" .name) | absURL }}" alt="">
+						<img src="//ui-avatars.com/api/?{{ (querify "name" .name "size" 96) | safeURL }}" alt="">
 					{{- end -}}
 				</figure>
 				<div class="media-content">
