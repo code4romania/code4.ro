@@ -12,6 +12,10 @@
 		"prod": "npm run production",
 		"production": "cross-env NODE_ENV=production webpack --no-progress --hide-modules"
 	},
+	"browserslist": [
+		"last 2 versions",
+		"> 2%"
+	],
 	"devDependencies": {
 		"@babel/core": "^7.3.4",
 		"@babel/preset-env": "^7.3.4",
