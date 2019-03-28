@@ -7,19 +7,19 @@
 			</header>
 		</div>
 		<div class="container">
-			{{- $types := (slice "Sponsors" "In Kind") -}}
+			{{- $types := (slice "Sponsors" "In Kind" "Partners" "Media Partners") -}}
 			{{- $supporters := getCSV "," "/csv/supporters.csv" -}}
 			{{- range $type := $types -}}
 				<div class="section">
 					<h2 class="title is-size-2 has-text-weight-bold has-text-black">{{ $type }}</h2>
 
-					<div class="columns is-mobile is-multiline">
+					<div class="columns is-mobile is-multiline is-centered">
 						{{- range $supporter := $supporters -}}
 							{{- if eq (index $supporter 0) $type -}}
 
-								{{- $.Scratch.SetInMap "partner" "id" (index $supporter 1) -}}
-								{{- $.Scratch.SetInMap "partner" "name" (index $supporter 2) -}}
-								{{- $.Scratch.SetInMap "partner" "url" (index $supporter 3) -}}
+								{{- $.Scratch.SetInMap "partner" "id" (urlize (index $supporter 1)) -}}
+								{{- $.Scratch.SetInMap "partner" "name" (index $supporter 1) -}}
+								{{- $.Scratch.SetInMap "partner" "url" (index $supporter 2) -}}
 
 								{{- partial "loop-supporter.html" ($.Scratch.Get "partner") -}}
 

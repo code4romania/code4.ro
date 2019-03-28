@@ -1,7 +1,7 @@
 <div class="column is-6-mobile is-4-tablet is-3-desktop">
 	{{- if (fileExists (printf "static/images/supporters/%s.png" .id )) -}}
 		{{- if .url -}}
-			<a href="{{ .url }}" target="_blank" class="partner is-link">
+			<a href="{{ .url }}" target="_blank" rel="noopener" class="partner is-link">
 				<div class="logo-container">
 					<img src="{{ (printf "images/supporters/%s.png" .id ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
 				</div>
