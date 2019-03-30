@@ -21,7 +21,7 @@ First, you must have [node.js](https://nodejs.org/en/) and [Hugo](https://gohugo
 3. `npm install` to install dependencies
 3. `npm run dev` to build the frontend (using [Webpack](https://webpack.js.org))
 4. `hugo serve` to start a local server
-    * This automatically runs `hugo` (with no arguments) behind the scenes, this command builds the website and puts all the files in a directory called _public_. This directory is then statically served.
+    * This automatically runs `hugo` (with no arguments) behind the scenes, wihch builds the website and puts all the files in a directory called _public_. This directory is then statically served.
     * If your URL is any other than _localhost_ (e.g. you're serving the website form a cloud machine), you must use the `--baseURL [your url here]`. This is because the website uses absolute paths in hyperlinks, and it must know the URL from which it is served.
 
 ## How It Works
