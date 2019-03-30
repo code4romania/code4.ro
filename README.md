@@ -2,6 +2,10 @@
 
 [![Build Status](https://img.shields.io/travis/com/code4romania/code4.ro/master.svg?style=for-the-badge)](https://travis-ci.com/code4romania/code4.ro) [![GitHub contributors](https://img.shields.io/github/contributors/code4romania/code4.ro.svg?style=for-the-badge)](https://github.com/code4romania/code4.ro/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/code4.ro.svg?style=for-the-badge)](https://github.com/code4romania/code4.ro/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
+## Prerequisite tools
+* [Hugo](https://gohugo.io) >= v0.54.0
+* [npm](https://nodejs.org/en/)
+
 ## Contributing
 
 If you would like to contribute to one of our repositories, first identify the scale of what you would like to contribute. If it is small (grammar/spelling or a bug fix) feel free to start working on a fix. If you are submitting a feature or substantial code contribution, please discuss it with the team and ensure it follows the product roadmap.
