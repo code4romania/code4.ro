@@ -17,14 +17,14 @@
 		"> 2%"
 	],
 	"devDependencies": {
-		"@babel/core": "^7.3.4",
-		"@babel/preset-env": "^7.3.4",
+		"@babel/core": "^7.4.3",
+		"@babel/preset-env": "^7.4.3",
 		"autoprefixer": "^9.5.0",
 		"babel-loader": "^8.0.5",
-		"copy-webpack-plugin": "^5.0.1",
+		"copy-webpack-plugin": "^5.0.2",
 		"cross-env": "^5.2.0",
 		"css-loader": "^2.1.1",
-		"eslint": "^5.15.2",
+		"eslint": "^5.16.0",
 		"file-loader": "^3.0.1",
 		"friendly-errors-webpack-plugin": "^1.7.0",
 		"glob-all": "^3.1.0",
@@ -41,7 +41,7 @@
 		"webpack-manifest-plugin": "^2.0.4"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5.7.2",
+		"@fortawesome/fontawesome-free": "^5.8.1",
 		"bulma": "^0.7.4",
 		"jquery": "^3.3.1"
 	}
