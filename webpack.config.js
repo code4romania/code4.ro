@@ -2,13 +2,48 @@ let CopyWebpackPlugin = require('copy-webpack-plugin'),
 	FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin'),
 	ManifestPlugin = require('webpack-manifest-plugin'),
 	MiniCssExtractPlugin = require('mini-css-extract-plugin'),
+	OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin'),
 	PurgecssPlugin = require('purgecss-webpack-plugin'),
+	TerserJSPlugin = require("terser-webpack-plugin"),
 
 	glob = require('glob-all'),
 	path = require('path');
 
 const mode = process.env.NODE_ENV == 'production' ? 'production' : 'development',
 	isProd = (mode == 'production');
+
+
+let plugins = [
+	new CopyWebpackPlugin([{
+		from: 'src/svg',
+		to: 'images',
+	}]),
+	new FriendlyErrorsWebpackPlugin({
+		clearConsole: true,
+	}),
+	new ManifestPlugin({
+		fileName: path.resolve(__dirname, 'data', 'manifest.json'),
+	}),
+	new MiniCssExtractPlugin({
+		filename: '[name].css?v=[hash]',
+		chunkFilename: '[name].js?v=[hash]',
+	}),
+];
+
+if (isProd) {
+	plugins.push(new PurgecssPlugin({
+		paths: glob.sync([
+			'content/**/*.md',
+			'layouts/**/*.html',
+			'src/js/**/*.js',
+		]),
+		whitelistPatterns: [
+			/^narrow$/,
+			/^app-status-/,
+			/^fa-/,
+		],
+	}));
+}
 
 module.exports = {
 	mode: mode,
@@ -28,8 +63,34 @@ module.exports = {
 		publicPath: false,
 		builtAt: false,
 	},
+	performance: {
+		maxEntrypointSize: 250000,
+		maxAssetSize: 512000,
+	},
 	optimization: {
 		minimize: isProd,
+		minimizer: [
+			new TerserJSPlugin({
+				terserOptions: {
+					output: {
+						comments: false,
+					},
+				},
+			}),
+			new OptimizeCssAssetsPlugin({
+				cssProcessor: require('cssnano'),
+				cssProcessorPluginOptions: {
+					preset: [
+						"default",
+						{
+							discardComments: {
+								removeAll: true,
+							},
+						},
+					],
+				}
+			}),
+		],
 		splitChunks: {
 			chunks: 'all',
 			cacheGroups: {
@@ -56,9 +117,65 @@ module.exports = {
 	module: {
 		rules: [
 			{
+				test: /\.modernizrrc$/,
+				loader: 'modernizr-loader!json-loader',
+			},
+			{
 				test: /\.js$/,
 				exclude: /node_modules/,
 				loader: 'babel-loader'
+			},
+			{
+				test: /\.(jpg|png)$/,
+				include: [
+					path.resolve(__dirname, 'src/images'),
+				],
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							name: '[name].[ext]?v=[hash]',
+							outputPath: 'images/'
+						}
+					}
+				]
+			},
+			{
+				test: /\.svg$/,
+				include: [
+					path.resolve(__dirname, 'src/svg'),
+				],
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							name: '[name].[ext]?v=[hash]',
+							outputPath: 'images/'
+						}
+					}
+				]
+			},
+			{
+				test: /\.svg$/,
+				include: [
+					path.resolve(__dirname, 'node_modules'),
+				],
+				loader: 'null-loader',
+			},
+			{
+				test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
+				exclude: [
+					path.resolve(__dirname, 'src/svg'),
+				],
+				use: [
+					{
+						loader: 'file-loader',
+						options: {
+							name: '[name].[ext]?v=[hash]',
+							outputPath: 'fonts/'
+						}
+					}
+				]
 			},
 			{
 				test: /\.scss$/,
@@ -87,71 +204,12 @@ module.exports = {
 					}
 				]
 			},
-			{
-				test: /\.svg$/,
-				include: [
-					path.resolve(__dirname, 'src/svg'),
-				],
-				use: [
-					{
-						loader: 'file-loader',
-						options: {
-							name: '[name].[ext]',
-							outputPath: 'images/'
-						}
-					}
-				]
-			},
-			{
-				test: /\.svg$/,
-				include: [
-					path.resolve(__dirname, 'node_modules'),
-				],
-				loader: 'null-loader',
-			},
-			{
-				test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
-				exclude: [
-					path.resolve(__dirname, 'src/svg'),
-				],
-				use: [
-					{
-						loader: 'file-loader',
-						options: {
-							name: '[name].[ext]',
-							outputPath: 'fonts/'
-						}
-					}
-				]
-			},
 		],
 	},
-	plugins: [
-		new FriendlyErrorsWebpackPlugin({
-			clearConsole: true,
-		}),
-		new ManifestPlugin({
-			fileName: path.resolve(__dirname, 'theme', 'manifest.json'),
-		}),
-		new MiniCssExtractPlugin({
-			filename: '[name].css?v=[chunkhash]',
-			chunkFilename: '[id].js?v=[chunkhash]',
-		}),
-		new PurgecssPlugin({
-			paths: glob.sync([
-				'content/**/*.md',
-				'layouts/**/*.html',
-				'src/js/**/*.js',
-			]),
-			whitelistPatterns: [
-				/^narrow$/,
-				/^app-status-/,
-				/^fa-/,
-			],
-		}),
-		new CopyWebpackPlugin([{
-			from: 'src/svg',
-			to: 'images',
-		}]),
-	],
+	resolve: {
+		alias: {
+			modernizr$: path.resolve(__dirname, '.modernizrrc'),
+		},
+	},
+	plugins: plugins
 };
