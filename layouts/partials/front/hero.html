@@ -13,13 +13,13 @@
 				<div class="call-to-action columns is-vcentered has-text-centered is-mobile is-size-5-tablet">
 					<div class="column">
 						{{- with .Site.GetPage "/get-involved" -}}
-							<a href="{{ .URL }}" class="is-link">{{ i18n "getinvolved" }}</a>
+							<a href="{{ .Permalink }}" class="is-link">{{ i18n "getinvolved" }}</a>
 						{{- end -}}
 					</div>
 					<div class="column">{{ i18n "or" }}</div>
 					<div class="column">
 						{{- with .Site.GetPage "/donate" -}}
-							<a href="{{ .URL }}" class="button is-success">{{ i18n "donate" }}</a>
+							<a href="{{ .Permalink }}" class="button is-success">{{ i18n "donate" }}</a>
 						{{- end -}}
 					</div>
 					<div class="column is-hidden-mobile"></div>

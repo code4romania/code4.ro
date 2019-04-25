@@ -23,7 +23,7 @@
 				<li class="navbar-item">
 					{{- range .Translations -}}
 						{{- if ne $.Site.Language .Language -}}
-							<a class="button is-text is-uppercase has-text-primary" href="{{ .URL }}" hreflang="{{ .Language }}">
+							<a class="button is-text is-uppercase has-text-primary" href="{{ .Permalink }}" hreflang="{{ .Language }}">
 								{{- .Language -}}
 							</a>
 						{{- end -}}

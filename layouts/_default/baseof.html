@@ -12,7 +12,7 @@
 	{{- end -}}
 
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Titillium+Web:400,600,700&subset=latin-ext">
-	<link rel="stylesheet" href="{{ "app.css" | absURL }}">
+	<link rel="stylesheet" href="{{ index $.Site.Data.manifest "app.css" | relURL }}">
 
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicon/apple-touch-icon.png" | absURL }}">
 	<link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon/favicon-32x32.png" | absURL }}">
@@ -21,7 +21,7 @@
 	<meta name="msapplication-TileColor" content="#2D89EF">
 	<meta name="theme-color" content="#FFFFFF">
 
-	{{- .Hugo.Generator -}}
+	{{ hugo.Generator }}
 </head>
 <body>
 
@@ -30,6 +30,6 @@
 	{{- partial "footer.html" . -}}
 
 	{{- template "_internal/google_analytics.html" . -}}
-	<script src="{{ "app.js" | absURL }}"></script>
+	<script src="{{ index $.Site.Data.manifest "app.js" | relURL }}"></script>
 </body>
 </html>
