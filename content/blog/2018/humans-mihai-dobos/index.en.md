@@ -9,13 +9,13 @@ author: Olivia Vereha
 
 For almost two years now, Code for Romania has been growing due to the immense work put in by our volunteers. Amazing minds coming together and delivering digital solutions meant to solve societal problems. Experts, specialists, academics, developers, Romanians living home or abroad have gathered around a single common goal: to make home a better place to live in. It is thanks to them that today we have a functioning 500+ volunteers organisation and we wish to celebrate their efforts by inviting you to meet them individually and see for yourself how great they are.
 
-{{% figure src="portrait.jpg" caption="Mihai has a diaspora badge as he recently moved to London." %}}
+{{< figure src="portrait.jpg" caption="Mihai has a diaspora badge as he recently moved to London." >}}
 
 Having Mihai around feels like having a bigger brother always taking care of you. He is probably the chillest person you could meet in your life and most definitely an excellent beer companion. But he is more than that. [Mihai][1] has over 10 years of experience working in enterprise IT, with a background focusing on network and information security. He has graduated with an InfoSec master’s degree from Military Technical Academy and holds a large variety of industry certifications. His eyes light up every time you bring in disruptive technologies and the impact they have on our daily life in the conversation. Today he lives in London and dedicates most of his evenings to teach us how to stay safe online and making sure our apps are always above standars from an IT security point of view.
 
 We take advantage of this blog post to also tell you that soon you will hear about Incognito, a project very dear to Mihai, that he coordinated head to heels. It’s obviously a security jewel and it will come in handy very soon for many people.
 
-{{% figure src="https://media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif" caption="Yey, project!" %}}
+{{< figure src="https://media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif" caption="Yey, project!" >}}
 
 We asked Mihai to give us a set of keywords describing his skills, and the list ranges from IT security, training, solution architecture up to enterprise IT governance and procrastination (indeed, it took a while to send us this list, Mihai).
 

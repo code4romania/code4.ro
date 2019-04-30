@@ -7,7 +7,7 @@ date: 2018-10-31
 author: Sabina-Alexandra Ștefănescu
 ---
 
-{{% figure src="github.png" %}}
+{{< figure src="github.png" >}}
 
 GitHub has become the single most trusted code repository on the Internet. People build software, they upload it to GitHub. Other people can inspect it, comment on it and, perhaps most important of all, can contribute to it. The contribution model that GitHub employs is meritocracy-based: anyone can suggest code changes, anyone can see what has been suggested, and the entire discussion around the work itself happens in the open. The same is true for reported issues, or bugs found in programs. The entire history of building and refining software projects is visible to everyone. 
 

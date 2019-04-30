@@ -24,7 +24,7 @@ Mission statement-ul nostru, în cea mai simplă formă, spune că ne ocupăm pr
 **A. Code for Romania face site-uri gratis pentru ONG-uri** - FALS   
 Răspunsul e nu. Nu facem website-uri gratis pentru nimeni, ONG sau nu. Scopul nostru e să identificăm probleme sociale sistemice și generalizate în România (și uneori la nivel regional sau global) și, împreună cu organizații partenere, construim soluții digitale open source funcționale și state-of-the-art pentru a rezolva acele probleme.
 
-{{% figure src="CodeforAll.PNG" %}}
+{{< figure src="CodeforAll.PNG" >}}
 
 **B. Code for Romania e franciză** - FALS   
 Răspunsul e iarăși nu. Code for Romania e membră a Code for All, o rețea internațională de organizații de civic tech care operează în mod diferit în țări diferite. Fiecare membru Code for All are propria conducere, propria structură, workflow-uri, politici de membership și sisteme de voluntariat diferite. Ne susținem reciproc, colaborăm în cadrul rețelei de parteneri, dar fiecare “Code for” e independent și autonom.
@@ -47,7 +47,7 @@ Toate cele de mai sus, dar și faptul că suntem o organizație de voluntari car
 
 Întreaga activitate Code for Romania e structurată în două etape mari: procesul Civic Lab și programul Tech for Social Good. Iată cum funcționează împreună:
 
-{{% figure src="programs.PNG" %}}
+{{< figure src="programs.PNG" >}}
 
 *Prima etapă: Civic Lab*
 

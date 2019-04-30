@@ -7,7 +7,7 @@ date: 2019-02-03
 author: Sabina-Alexandra Ștefănescu
 ---
 
-{{% figure src="hooked.jpg" %}}
+{{< figure src="hooked.jpg" >}}
 
 It’s august, 2015. It’s the 29th. Tomorrow, I get to have my namesake day - Saint Alexander. I’m in a room filled with strangers, I’m carrying my laptop in a backpack and I’m trying to find a cure to one of life’s most debilitating afflictions: the “what do I do now?” post-college flu. 
 

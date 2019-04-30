@@ -14,7 +14,7 @@ Our expectations were exceeded: we made new friends, met organisations that do a
 
 First, we met [Promolex][1], an NGO that has been working for years on monitoring the electoral processes in Moldova. Although their work is difficult and they face a challenging institutional environment, Promolex managed to grow organically into a powerful and sustainable structure that is a positive example to other organisations in the region. The future sounds great and we will start working together on two projects that we already launched in Romania: our vote-monitoring app ([Monitorizare Vot][2]) and our civic apps aggregator ([Centru Civic][3]).
 
-{{% figure src="1.jpg" %}}
+{{< figure src="1.jpg" >}}
 
 In order to adapt Monitorizare Vot (MV) to the Moldovan context, we need to figure out how to integrate their SMS system of reporting on electoral issues with our monitoring app. This will offer a smooth transition from their previous system to the enhanced version of MV. (which is currently work in progress). The integration will allow people who do not own smartphones to report their observations and be counted in the same reports, thus increasing the area covered by observers.
 
@@ -24,7 +24,7 @@ We will also start working as soon as possible on bringing the platform "Nu vă 
 
 On the second day, our friends from Generator Hub helped us organize an event where we met with representatives from 7 local NGOs and many other people interested in giving a helping hand and becoming contributors for #opendata. Generator Hub is wonderful place that takes care of all programmers, start-uppers and people with great ideas and initiatives (you can read more about them [here][5]).
 
-{{% figure src="2.jpg" %}}
+{{< figure src="2.jpg" >}}
 
 We began with a short presentation that soon turned into a relaxed conversation about how we can change the world for the better. Four hours later, a couple of great developers had already joined our community of volunteers and had started coding on projects! Also, we made many new friends and met organizations with which we will start working together very soon.
 
@@ -34,8 +34,8 @@ We can’t wait to go back.
 
 
 [1]: https://promolex.md/?lang=en
-[2]: {{% relref "/apps/monitorizare-vot" %}}
-[3]: {{% relref "/apps/centru-civic" %}}
+[2]: {{< relref "/apps/monitorizare-vot" >}}
+[3]: {{< relref "/apps/centru-civic" >}}
 [4]: https://www.lhr.md/
 [5]: https://hub.md/en/
 [6]: https://blog.okfn.org/2017/01/25/announcing-the-2017-international-open-data-day-mini-grants-scheme/

@@ -20,7 +20,7 @@ Our mission statement, in its simplest form, says that we build open source digi
 **A. Code for Romania creates websites for NGOs, for free** - FALSE   
 The answer is no. We do not create websites for free, for any organization. We identify social, systemic and general issues in Romania (and, sometimes, in a region, or the world) and, together with partner organisations, we build a functional, up to standards, open source digital solution for that issue.
 
-{{% figure src="CodeforAll.PNG" %}}
+{{< figure src="CodeforAll.PNG" >}}
 
 **B. Code for Romania is a franchise** - FALSE   
 The answer is no. Code for Romania is a member organization of Code for All, an international network of civic tech organisations who operate differently in various countries all over the world. Each member of Code for All has his own management, structure, workflow, membership policy, volunteering system etc. We support each other and we collaborate as a network, but every single "Code for" is independent and autonomous.
@@ -43,7 +43,7 @@ All of the above, corroborated with the fact that we work as a volunteer organiz
 
 The entire Code for Romania activity is structured in two major phases: the Civic Lab and the Tech for Social Good programs. Here is how they work together:
 
-{{% figure src="programs.PNG" %}}
+{{< figure src="programs.PNG" >}}
 
 *Phase one: The Civic Lab:*
 
