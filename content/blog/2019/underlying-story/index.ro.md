@@ -8,7 +8,7 @@ date: 2019-03-08
 author: Sabina-Alexandra Ștefănescu
 ---
 
-{{% figure src="andrei.jpg" %}}
+{{< figure src="andrei.jpg" >}}
 
 Iată o provocare:
 

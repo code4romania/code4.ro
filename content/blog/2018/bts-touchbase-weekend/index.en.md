@@ -13,7 +13,7 @@ This is why optimization and efficiency are keywords for project delivery. After
 
 Every month, for two days, our operations and tech staff sit down comfortably in their chairs and make sure their headphones are plugged in. We currently have 18 active project teams and we hold a 45-minute call with each of them, all in the form of an extended SCRUM meeting, trying to figure out what progress has been made, what are the plans for the following month and what are the blockages that make work difficult. We also take advantage of the meetings to constantly get feedback on the overall interaction with the NGO and their experience as volunteers here.
 
-{{% figure src="bts.jpg" caption="A still from our first TouchBase Weekend in 2017" %}}
+{{< figure src="bts.jpg" caption="A still from our first TouchBase Weekend in 2017" >}}
 
 ## What issues does this practice solve:
 

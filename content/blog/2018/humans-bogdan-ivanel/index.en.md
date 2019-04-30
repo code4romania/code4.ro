@@ -9,7 +9,7 @@ author: Olivia Vereha
 
 For almost two years now, Code for Romania has been growing due to the immense work put in by our volunteers. Amazing minds coming together and developing the best way to deliver digital solutions meant to solve societal problems. Experts, specialists, academics, developers, Romanians living home or abroad have gathered around a single common goal: to make home a better place to live in. It is thanks to them that today we have a functioning 500+ volunteers organisation and we wish to celebrate their efforts by inviting you to meet them individually and see for yourself how great they are.
 
-{{% figure src="portrait.jpg" %}}
+{{< figure src="portrait.jpg" >}}
 
 Bogdan Ivanel’s [LinkedIn profile][1] can be quite intimidating. His academic career took him through such institutions as the University of Oxford, Utrecht University, SciencesPo Paris and UC Berkeley. Today, his job states: Co-founder & Managing Director of Code for Romania.
 
@@ -19,7 +19,7 @@ He usually says that he is the only person at Code for Romania not working in hi
 
 >"I’ve had this obsession for a long time: currently, we have — by far — the best human resource in this country’s history. We have Romanian specialists at the highest level in any field we can imagine. The problem is that most of them no longer live in Romania, they are living abroad, and even the ones still located in the country are not connected to the decision making process. These specialists are a completely ignored resource", says Bogdan in an [interview][2], discussing how the idea for the organisation came up.
 
-{{% figure src="panel.jpg" %}}
+{{< figure src="panel.jpg" >}}
 
 _"So far so good on this new managing gig: we managed to build one of the strongest movements and NGOs in Romania and to effectively put Romania on the global civic tech map,"_ adds Bogdan.
 

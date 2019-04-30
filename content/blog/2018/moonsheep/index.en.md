@@ -11,7 +11,7 @@ There is no “information about the state of things”, lying around as a dusty
 
 There are two parts to information, the kind that can lead to someone making up their mind. There is raw data, and there are conclusions drawn from that data. It might be counter-intuitive, but gathering the raw data in the first place is hard. Data isn't guarded by watchdogs or sealed away, far from the hands of those who need it. It's simply hard to find, read, and distribute.
 
-{{% figure src="moonsheep.png" %}}
+{{< figure src="moonsheep.png" >}}
 
 Let's take a look at a shining example of this problem: every person is under obligation to declare their assets and revenue. The documents that contain this information are available to the public to scrutinize. However, at the time of writing this article, some of these document are scanned papers available as .pdf documents. Some of the papers were laid out crooked on the scanner. Some of them have been filled out in cursive handwriting, others have been filled out on the computer. These are just a handful of reasons why the declarations are not fit for being submitted to a civilized OCR (Optimal Character Recognition) process.
 
@@ -58,4 +58,4 @@ The Code for Romania team has its eyes on the Moonsheep framework as well. [The 
 [3]: https://github.com/themoonsheep/project-template
 [4]: https://github.com/themoonsheep?q=project-
 [5]: https://docs.google.com/document/d/1HdxOXWgfzClokilRHaRrX897iHI4hTOf5tZd4t930cs/view
-[6]: {{% relref "/apps/catalog-politic" %}}
+[6]: {{< relref "/apps/catalog-politic" >}}

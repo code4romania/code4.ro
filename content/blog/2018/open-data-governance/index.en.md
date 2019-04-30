@@ -11,7 +11,7 @@ Nowadays, the data required for modern governance is so broad and complex that t
 
 But the story of governance, at least in the past few hundred years, is also that of a move towards democratization and transparency. Data in general, but government produced data in particular is and should be on a path towards democratization. This means that data, simply put, should be open.
 
-{{% figure src="agenda.png" caption="Code for All Global Summit — Agenda excerpt for Day 1" %}}
+{{< figure src="agenda.png" caption="Code for All Global Summit — Agenda excerpt for Day 1" >}}
 
 But why should data be open? Clearly there are costs associated with the gathering and production of data so there should also be benefits. Research and knowledge are valuable in themselves so there should be direct benefits gained from them. One of the easiest examples is cadastral survey data. The government needs to know how many buildings are in an area but people need to be employed by the [land ordnance survey][1] office in order for this to happen.
 

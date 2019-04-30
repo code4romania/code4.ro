@@ -7,7 +7,7 @@ date: 2019-02-03
 author: Sabina-Alexandra Ștefănescu
 ---
 
-{{% figure src="hooked.jpg" %}}
+{{< figure src="hooked.jpg" >}}
 
 Este august, 2015. Suntem în 29. Mâine e ziua mea de nume - sfântul Alexandru. Mă aflu într-o cameră, înconjurată de străini, cu laptop-ul îndesat în ghiozdan și încerc să găsesc un leac pentru una dintre cele mai crunte maladii: gripa de tip "eu acum ce fac?", din sezonul post-facultate. 
 
