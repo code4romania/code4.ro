@@ -31,7 +31,7 @@ menu:
 {{< infobox title="Donate through another platform" >}}
   If you are more familiar with Patreon, we have also set up a special page here:
 
-  [![Patreon](/images/patreon.png)](https://www.patreon.com/bePatron?u=3907223&redirect_uri=https%3A%2F%2Fcode4.ro%2Fen%2Fthanks%2F)
+  [![Patreon](/images/patreon.svg)](https://www.patreon.com/bePatron?u=3907223&redirect_uri=https%3A%2F%2Fcode4.ro%2Fen%2Fthanks%2F)
 {{< /infobox >}}
 </div>
 

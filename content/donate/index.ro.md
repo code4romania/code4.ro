@@ -34,7 +34,8 @@ aliases:
 
 {{< infobox title="Doneză prin alte platforme" >}}
   Dacă ești mai familiar cu Patreon, am setat o pagină special pentru tine aici:
-  [![Patreon](/images/patreon.png)](https://www.patreon.com/bePatron?u=3907223&redirect_uri=https%3A%2F%2Fcode4.ro%2Fro%2Fmultumim%2F)
+
+  [![Patreon](/images/patreon.svg)](https://www.patreon.com/bePatron?u=3907223&redirect_uri=https%3A%2F%2Fcode4.ro%2Fro%2Fmultumim%2F)
 {{< /infobox >}}
 </div>
 
