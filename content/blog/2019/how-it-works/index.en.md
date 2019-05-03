@@ -41,13 +41,13 @@ All of the above, corroborated with the fact that we work as a volunteer organiz
 
 **How does it work then?**
 
-The entire Code for Romania activity is structured in two major phases: the Civic Lab and the Tech for Social Good programs. Here is how they work together:
+The entire Code for Romania activity is structured in two major phases: the Civic Labs and the Tech for Social Good programs. Here is how they work together:
 
 {{< figure src="programs.PNG" >}}
 
-*Phase one: The Civic Lab:*
+*Phase one: The Civic Labs:*
 
-The Civic Lab is the civic tech solutions generator. It is the place where issues are analyzed and civic apps are shaped to solve them. Not overnight, but through a very time and effort consuming process detailed below:
+The Civic Labs is the civic tech solutions generator. It is the place where issues are analyzed and civic apps are shaped to solve them. Not overnight, but through a very time and effort consuming process detailed below:
 
 <div class="media">
   <div class="media-left">
@@ -140,7 +140,7 @@ You know how, usually, people talk about what needs to be done in a very imperso
   </div>
   <div class="media-content">
       <p>
-        1. A part of the prototypes we build in the Civic Lab become real civic apps in our Tech for Social Good program.
+        1. A part of the prototypes we build in the Civic Labs become real civic apps in our Tech for Social Good program.
       </p>
   </div>
 </div>
@@ -221,7 +221,7 @@ I didn't want to end this very technical and full of information article just li
 * 150+ active at all times
 * 60.000+ pro-bono working hours
 * 8 civic apps launched 
-* 4 domains under focus in Civic Lab
+* 4 domains under focus in Civic Labs
 * 7 active civic apps in development in Tech for Social Good
 * 200+ national, local and international events 
 

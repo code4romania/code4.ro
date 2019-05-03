@@ -45,13 +45,13 @@ Toate cele de mai sus, dar și faptul că suntem o organizație de voluntari car
 
 **Cum funcționează toată treaba asta, atunci?**
 
-Întreaga activitate Code for Romania e structurată în două etape mari: procesul Civic Lab și programul Tech for Social Good. Iată cum funcționează împreună:
+Întreaga activitate Code for Romania e structurată în două etape mari: procesul Civic Labs și programul Tech for Social Good. Iată cum funcționează împreună:
 
 {{< figure src="programs.PNG" >}}
 
-*Prima etapă: Civic Lab*
+*Prima etapă: Civic Labs*
 
-Civic lab e un generator de soluții civic tech. Este locul unde analizăm probleme sociale și dăm formă unor soluții care pot rezolva aceste probleme. Acest lucru nu se întâmplă de pe o zi pe alta (România are, după cum știi multe probleme) dar se întâmplă ca urmare a unui proces extrem de laborios și riguros.
+Civic Labs e un generator de soluții civic tech. Este locul unde analizăm probleme sociale și dăm formă unor soluții care pot rezolva aceste probleme. Acest lucru nu se întâmplă de pe o zi pe alta (România are, după cum știi multe probleme) dar se întâmplă ca urmare a unui proces extrem de laborios și riguros.
 
 <div class="media">
   <div class="media-left">
@@ -144,7 +144,7 @@ Civic lab e un generator de soluții civic tech. Este locul unde analizăm probl
   </div>
   <div class="media-content">
       <p>
-        1. O parte dintre prototipurile construite în Civic lab devin aplicații civice reale ca parte a programului Tech for Social Good.
+        1. O parte dintre prototipurile construite în Civic Labs devin aplicații civice reale ca parte a programului Tech for Social Good.
       </p>
   </div>
 </div>
@@ -227,7 +227,7 @@ Code for Romania înseamnă:
 * 150+ voluntari activi 
 * 60.000+ ore de lucru pro-bono
 * 8 aplicații civice lansate
-* 4 domenii în lucru în Civic Lab
+* 4 domenii în lucru în Civic Labs
 * 7 aplicații în dezvoltare în programul Tech for Social Good
 * 200+ evenimente naționale, locale și internaționale
 
