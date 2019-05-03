@@ -15,7 +15,7 @@ Iată o provocare:
 Te-am angajat să recrutezi un om pentru postul de Chief Technology Officer (coordonatorul echipei tehnice), pentru Code for Romania. Această persoană urmează să:
 
 * coordoneze aplicațiile și proiectele, atât cele în derulare, cât și pe cele finalizate;
-* contureze tehnologiile și arhitectura care vor sta la baza dezvoltării prototipurilor abia ieșite din Civic Lab;
+* contureze tehnologiile și arhitectura care vor sta la baza dezvoltării prototipurilor abia ieșite din Civic Labs;
 * coopereze îndeaproape, atât cu echipa tehnică de voluntari, cât și cu echipa de comunicare;
 * fie disponibil tot timpul. Atât voluntarii, cât și oamenii din echipa tehnică de bază, îi vor adresa întrebări;
 * rezolve atât situații de urgență, cât și problemele cărora ceilalti nu le-au dat de cap;
