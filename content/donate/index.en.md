@@ -28,7 +28,8 @@ menu:
   Bank: Banca Transilvania Sucursala Unirii
   Swift: BTRLRO22
 {{< /infobox >}}
-{{< infobox title="Donate through another platform" >}}
+
+{{< infobox title="Donate through Patreon" >}}
   If you are more familiar with Patreon, we have also set up a special page here:
 
   [![Patreon](/images/patreon.svg)](https://www.patreon.com/bePatron?u=3907223&redirect_uri=https%3A%2F%2Fcode4.ro%2Fen%2Fthanks%2F)
@@ -36,6 +37,12 @@ menu:
 </div>
 
 <div class="columns">
+{{< infobox title="Donate through Mighty Cause" >}}
+  <div class="embed-responsive is-5by6" style="max-height:435px">
+    <iframe src= "https://www.mightycause.com/embed/Codeforromania?embed=widget" scrolling="no" marginHeight="0" marginWidth="0" frameBorder="0"></iframe> 
+  </div>
+{{< /infobox >}}
+
 {{< infobox title="Thanks" >}}
   You can also help by sharing our website and let people know we are here to upgrade Romania and we are here to stay. Every voice, every donation, every share matters. Thank you for being here and giving us a chance to keep on bringing change for the better.
 {{< /infobox >}}
