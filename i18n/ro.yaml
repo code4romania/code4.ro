@@ -138,3 +138,10 @@
   translation: "Susține-ne redirecționând 2% din impozit până pe 31 iulie"
 - id: donate.form
   translation: "Descarcă formularul"
+
+- id: hackday.title
+  translation: "Vino la HackDay în San Francisco pe 1 iunie"
+- id: hackday.button
+  translation: "RSVP"
+- id: hackday.url
+  translation: "https://tfsg.code4.ro/ro/hackday/?where=sanfrancisco"
