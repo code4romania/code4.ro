@@ -37,10 +37,10 @@ menu:
 </div>
 
 <div class="columns">
-{{< infobox title="Donate through Mighty Cause" >}}
-  <div class="embed-responsive is-5by6" style="max-height:435px">
-    <iframe src= "https://www.mightycause.com/embed/Codeforromania?embed=widget" scrolling="no" marginHeight="0" marginWidth="0" frameBorder="0"></iframe> 
-  </div>
+{{< infobox title="Living in the US? Donate through Mighty Cause" >}}
+  [![Mighty Cause](/images/mighty-cause.svg)](https://www.mightycause.com/story/Codeforromania)
+  <hr>
+  <small><sup>*</sup>the Mighty Cause platform works with Microsoft Edge, Safari, Firefox and Google Chrome without ad blocker extensions</small>
 {{< /infobox >}}
 
 {{< infobox title="Thanks" >}}

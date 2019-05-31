@@ -40,10 +40,10 @@ aliases:
 </div>
 
 <div class="columns">
-{{< infobox title="Donează prin Mighty Cause" >}}
-  <div class="embed-responsive is-5by6" style="max-height:435px">
-    <iframe src= "https://www.mightycause.com/embed/Codeforromania?embed=widget" scrolling="no" marginHeight="0" marginWidth="0" frameBorder="0"></iframe> 
-  </div>
+{{< infobox title="Locuiești în US? Donează prin Mighty Cause" >}}
+  [![Mighty Cause](/images/mighty-cause.svg)](https://www.mightycause.com/story/Codeforromania)
+  <hr>
+  <small><sup>*</sup>platforma MightyCause functionează în Microsoft Edge, Safari, Firefox și Google Chrome fără extensii de ad block.</small>
 {{< /infobox >}}
 
 {{< infobox title="Mulțumim" >}}
