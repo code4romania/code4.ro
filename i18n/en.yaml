@@ -138,10 +138,3 @@
   translation: "Support us by redirecting 2% of your income taxes. Deadline: July 31st."
 - id: donate.form
   translation: "Download the form"
-
-- id: hackday.title
-  translation: "Join us at our HackDay in San Francisco on June 1st"
-- id: hackday.button
-  translation: "RSVP"
-- id: hackday.url
-  translation: "https://tfsg.code4.ro/en/hackday/?where=sanfrancisco"
