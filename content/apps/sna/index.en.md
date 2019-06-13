@@ -13,7 +13,7 @@ stage: 7 # 1-7
 credits:
   - name: Ministry of Justice
     image: partners/just.png
-    
+
 code:
   - repo: code4romania/sna-api
     label: api
