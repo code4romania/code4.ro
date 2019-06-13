@@ -1,5 +1,5 @@
 ---
-title: "National Anticorruption Strategy: Data Visualization"
+title: "Strategia Națională Anticorupție: Vizualizare Date"
 link: https://sna.just.ro/vizualizare-date/
 color: "#FFF"
 
@@ -11,7 +11,7 @@ stage: 7 # 1-7
 #   value: 1234
 
 credits:
-  - name: Ministry of Justice
+  - name: Ministerul Justiției
     image: partners/just.png
 
 code:
