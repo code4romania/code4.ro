@@ -1,4 +1,5 @@
 language: generic
+dist: trusty
 env:
   HUGO_VERSION: "0.55.4"
 
