@@ -32,20 +32,14 @@ aliases:
   Swift: BTRLRO22
 {{< /infobox >}}
 
-{{< infobox title="Doneză prin Patreon" >}}
-  Dacă ești mai familiar cu Patreon, am setat o pagină special pentru tine aici:
-
-  [![Patreon](/images/patreon.svg)](https://www.patreon.com/bePatron?u=3907223&redirect_uri=https%3A%2F%2Fcode4.ro%2Fro%2Fmultumim%2F)
-{{< /infobox >}}
-</div>
-
-<div class="columns">
 {{< infobox title="Locuiești în US? Donează prin Mighty Cause" >}}
   [![Mighty Cause](/images/mighty-cause.svg)](https://www.mightycause.com/story/Codeforromania)
   <hr>
   <small><sup>*</sup>platforma MightyCause functionează în Microsoft Edge, Safari, Firefox și Google Chrome fără extensii de ad block.</small>
 {{< /infobox >}}
+</div>
 
+<div class="columns">
 {{< infobox title="Mulțumim" >}}
   Ne poți ajuta dacă dai un share site-ului nostru, pentru a le spune și celorlalți despre misiunea de a duce România un pas înainte este pe mâini bune și că nu vom irosi nicio zi până când nu vom vedea cu toții o schimbare reală în bine. Fiecare voce, donație, share contează. Îți mulțumim că ești aici și că ne dai o șansă să transformăm România în țara pe care o merităm cu toții.
 {{< /infobox >}}
