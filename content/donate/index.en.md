@@ -29,20 +29,14 @@ menu:
   Swift: BTRLRO22
 {{< /infobox >}}
 
-{{< infobox title="Donate through Patreon" >}}
-  If you are more familiar with Patreon, we have also set up a special page here:
-
-  [![Patreon](/images/patreon.svg)](https://www.patreon.com/bePatron?u=3907223&redirect_uri=https%3A%2F%2Fcode4.ro%2Fen%2Fthanks%2F)
-{{< /infobox >}}
-</div>
-
-<div class="columns">
 {{< infobox title="Living in the US? Donate through Mighty Cause" >}}
   [![Mighty Cause](/images/mighty-cause.svg)](https://www.mightycause.com/story/Codeforromania)
   <hr>
   <small><sup>*</sup>the Mighty Cause platform works with Microsoft Edge, Safari, Firefox and Google Chrome without ad blocker extensions</small>
 {{< /infobox >}}
+</div>
 
+<div class="columns">
 {{< infobox title="Thanks" >}}
   You can also help by sharing our website and let people know we are here to upgrade Romania and we are here to stay. Every voice, every donation, every share matters. Thank you for being here and giving us a chance to keep on bringing change for the better.
 {{< /infobox >}}
