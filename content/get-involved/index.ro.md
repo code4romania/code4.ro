@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Implică-te
 # slug: implica-te
 url: /ro/implica-te/
