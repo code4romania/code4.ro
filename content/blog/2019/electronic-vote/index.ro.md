@@ -6,9 +6,6 @@ cover: voting.png
 
 date: 2019-06-18
 author: Olivia Vereha
-
-aliases:
-  - /ro/blog/țara-votului-bine-făcut/
 ---
 
 {{% figure src="voting.png" %}}
