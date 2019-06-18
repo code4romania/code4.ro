@@ -2,13 +2,13 @@
 title: "Țara votului bine făcut"
 slug: tara-votului-bine-facut
 excerpt: "Votul, mai mult decât electronic"
-cover: voting.png
+cover: voting.jpg
 
 date: 2019-06-18
 author: Olivia Vereha
 ---
 
-{{% figure src="voting.png" %}}
+{{% figure src="voting.jpg" %}}
 
 Fără doar și poate, subiectul alegerilor este în continuare, chiar după o săptămână de respiro de la cele mai spectaculoase alegeri din ultimii 20 de ani, pe prima pagina a ziarelor, dar mai important, pe prima pagina a internetului - Facebook. Am citit sute de opinii despre ce s-a petrecut acasă și în special în diaspora și, cu riscul de a fi complet nepopulară, m-am întristat puțin chiar dacă sentimentul general rămâne unul de bine. 
 
