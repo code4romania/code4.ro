@@ -1,8 +1,7 @@
 ---
 draft: true
 title: Get involved
-# slug: get-involved
-url: /en/get-involved/
+slug: get-involved
 description: A couple of hours of your time per week, your know-how or a small donation – anything can help us in our joint mission of creating practical solutions for societal problems. You’ll get back the excitement of doing meaningful work with like-minded people.
 type: page
 menu: 

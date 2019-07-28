@@ -1,7 +1,6 @@
 ---
 title: Credem în sustenabilitate
-# slug: doneaza
-url: /ro/doneaza/
+slug: doneaza
 description: "În fiecare zi, sute dintre prietenii și colegii tăi lucrează pentru a construi instrumente digitale utile pentru a ne face viața mai ușoară și pentru a aduce România mai aproape de progresul tehnologic. Ajută-i să își continue munca."
 layout: donate
 menu:

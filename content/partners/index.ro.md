@@ -1,7 +1,6 @@
 ---
 title: Parteneri
-# slug: parteneri
-url: /ro/parteneri/
+slug: parteneri
 layout: partners
 menu: 
   footer:

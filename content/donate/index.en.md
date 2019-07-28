@@ -1,7 +1,6 @@
 ---
 title: We believe in sustainability
-# slug: donate
-url: /en/donate/
+slug: donate
 description: "Every day, hundreds of your friends and colleagues are actively working to build useful digital tools to make your life easier and to upgrade Romania to a better place to live in. Help them stay on track and continue this work."
 layout: donate
 menu:

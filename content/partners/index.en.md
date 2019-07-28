@@ -1,7 +1,6 @@
 ---
 title: Partners
-# slug: partners
-url: /en/partners/
+slug: partners
 layout: partners
 menu: 
   footer:

@@ -1,7 +1,6 @@
 ---
 title: Comunitate
-# slug: comunitate
-url: /ro/comunitate/
+slug: comunitate
 layout: community
 menu:
   header:

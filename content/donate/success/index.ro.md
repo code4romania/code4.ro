@@ -1,7 +1,6 @@
 ---
 title: Mulțumim!
-# slug: doneaza/multumim
-url: /ro/doneaza/multumim/
+slug: doneaza/multumim
 layout: narrow
 private: true
 ---

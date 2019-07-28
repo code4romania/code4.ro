@@ -1,7 +1,6 @@
 ---
 title: Who we are
-# slug: who-we-are
-url: /en/who-we-are/
+slug: who-we-are
 layout: staff
 type: page
 
