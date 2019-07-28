@@ -1,7 +1,6 @@
 ---
 title: Transaction failed
-# slug: donate/error
-url: /en/donate/error/
+slug: donate/error
 layout: narrow
 private: true
 ---

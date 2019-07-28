@@ -1,7 +1,6 @@
 ---
 title: Community
-# slug: community
-url: /en/community/
+slug: community
 layout: community
 menu:
   header:

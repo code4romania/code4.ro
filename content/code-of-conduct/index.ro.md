@@ -1,7 +1,6 @@
 ---
 title: Codul de Conduită
-# slug: codul-de-conduita
-url: /ro/codul-de-conduita/
+slug: codul-de-conduita
 layout: narrow
 menu: 
   footer:

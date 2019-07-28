@@ -1,7 +1,6 @@
 ---
 title: Cine suntem
-# slug: cine-suntem
-url: /ro/cine-suntem/
+slug: cine-suntem
 layout: staff
 type: page
 

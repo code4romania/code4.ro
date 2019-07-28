@@ -1,7 +1,6 @@
 ---
 title: Code of Conduct
-# slug: code-of-conduct
-url: /en/code-of-conduct/
+slug: code-of-conduct
 layout: narrow
 menu: 
   footer:

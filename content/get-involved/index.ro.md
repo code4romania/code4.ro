@@ -1,8 +1,7 @@
 ---
 draft: true
 title: Implică-te
-# slug: implica-te
-url: /ro/implica-te/
+slug: implica-te
 description: Comunitățile active creează o societate mai puternică, care se poate dezvolta mai repede și mai eficient. Pe termen lung, ele pot duce la o Românie mai bună, în care am vrea cu toții să trăim. Dacă vrei să contribui și tu, vino alături de noi. Câteva ore din timpul tău, know-how sau o donație oricât de mică, toate ne pot ajuta.
 type: page
 menu: 

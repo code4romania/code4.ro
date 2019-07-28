@@ -1,7 +1,6 @@
 ---
 title: Supporters
-# slug: supporters
-url: /en/supporters/
+slug: supporters
 layout: supporters
 menu: 
   footer:

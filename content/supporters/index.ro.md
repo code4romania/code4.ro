@@ -1,7 +1,6 @@
 ---
 title: Susținători
-# slug: sustinatori
-url: /ro/sustinatori/
+slug: sustinatori
 layout: supporters
 menu: 
   footer:

@@ -1,7 +1,6 @@
 ---
 title: Tranzacție eșuată
-# slug: doneaza/eroare
-url: /ro/doneaza/eroare/
+slug: doneaza/eroare
 layout: narrow
 private: true
 ---

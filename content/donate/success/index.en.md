@@ -1,7 +1,6 @@
 ---
 title: Thank you!
-# slug: donate/thanks
-url: /en/donate/thanks/
+slug: donate/thanks
 layout: narrow
 private: true
 ---
