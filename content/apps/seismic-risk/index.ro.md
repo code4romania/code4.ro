@@ -1,5 +1,5 @@
 ---
-title: Seismic Alert
+title: Seismic Risk
 link: http://seismic-alert.ro/
 color: "#FFF"
 
@@ -30,6 +30,9 @@ team:
 
 partners:
   - mkbt
+
+aliases:
+  - /content/apps/seismic-alert/
 
 weight: 1
 ---
