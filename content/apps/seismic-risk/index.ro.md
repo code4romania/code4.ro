@@ -32,7 +32,7 @@ partners:
   - mkbt
 
 aliases:
-  - /ro/content/apps/seismic-alert/
+  - /ro/apps/seismic-alert/
 
 weight: 1
 ---
