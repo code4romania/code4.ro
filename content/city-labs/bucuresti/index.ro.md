@@ -1,0 +1,139 @@
+---
+title: București
+
+volunteers:
+  - adrianadam
+  - adrianapopescu
+  - alexandradaraban
+  - alexandraenea
+  - alexandrualintudor
+  - alexandruiftimie
+  - alexandrupokharel
+  - alexandrustan
+  - alexgrigoroiu
+  - alexonel
+  - anamariabesleaga
+  - anadragan
+  - anamariaafanasov
+  - ancastirbacu
+  - andravasilache
+  - andreeamihailescu
+  - andreeatrupcea
+  - andreibouariu
+  - andreiciuculescu
+  - andreidumitrescu
+  - andreimares
+  - andreimitrea
+  - andreirotariu
+  - andreistanila
+  - baditaflorin
+  - beraruelenamonica
+  - biancanecula
+  - bogdanconstantinescu
+  - bogdanneacsu
+  - bogdanrotar
+  - bogdanspoitu
+  - bogdanteslarasu
+  - paulbricman
+  - calciicosmin
+  - catalinapopescu
+  - cezarsirbu
+  - cheraioan
+  - childescomihai
+  - ciprianchirita
+  - constantinaldea
+  - constantinlungu
+  - corbusamuel
+  - cornelfilip
+  - corneliaradu
+  - craciunmihail
+  - cristachecristina
+  - cristearares
+  - cristianbalas
+  - cristianpreda
+  - cristiansfetcu
+  - cristinamotanga
+  - danieltimofte
+  - danstativa
+  - dragomiralexandru
+  - dragosandreimihai
+  - dragoshorodnic
+  - edwardcristibutoiu
+  - enealexandru
+  - erimiacatalin
+  - eugeniucernei
+  - florinandreirusu
+  - florinpop
+  - franciscczobor
+  - gabrielrotaru
+  - germancornelia
+  - grecusorin
+  - grozeabogdan
+  - inadumitriu
+  - ioanbotez
+  - ionriza
+  - irinaborozan
+  - irinasercaianu
+  - liviacujba
+  - lolevcristian
+  - lupascugabrielcristian
+  - madalinconstantinzaharia
+  - mariantarlungeanu
+  - mariusilie
+  - mariusmanescu
+  - marusicdiana
+  - mateilarisa
+  - mateisilviu
+  - mihaitudorpopescu
+  - mihaiasandulesei
+  - mihaighidoveanu
+  - mihailescuioan carol
+  - mihaipopescu
+  - mihaisercaianu
+  - mihaisturza
+  - mihaizaharie
+  - mihneabeldescu
+  - mihneanichifor
+  - mihneaserbanescu
+  - muscaalexandru
+  - oanaluminitabrezae
+  - octavianrusu
+  - olgacioran
+  - oliviavereha
+  - orinsion
+  - orleanuradu
+  - otiliadomnea
+  - ovidiucucos
+  - pantelimonkarla
+  - paulraetchi
+  - petredamoc
+  - radudiaconescu
+  - radudragan
+  - radustefanescu
+  - robertandreidamian
+  - ruxandramihaelastaicu
+  - serbanpopescu
+  - serbuflorin
+  - silviabatorii
+  - simionmihaela
+  - sulimananca
+  - teodorstefu
+  - teodorghilescu
+  - tucaalexandru
+  - tudorachecatalin
+  - valentinagalea
+  - valentincerneanu
+  - victorgrigoriu
+  - victorstanescu
+  - vladmodoran
+  - vladnedelcu
+
+aliases:
+  - /bucuresti/
+---
+
+Bine ai venit în Code for București, City Lab-ul Code for Romania în care developeri, oameni de comunicare, designeri și data scientists pun la cale aplicații civice și programe menite să ajute comunitățile locale.
+
+Lucrăm open-source și open-heart. Fie că ești senior sau junior, dacă vrei să te implici și să donezi câteva ore pe săptămână unui proiect cu impact pe termen lung atunci ne bucurăm să te avem în comunitate. Nu uita, înainte să te înregistrezi folosind linkul de mai jos, să citești [Codul nostru de conduită](https://code4.ro/ro/codul-de-conduita/), să te înscrii în [grupul nostru local de Facebook](https://www.facebook.com/groups/198832947536238/) și să participi la un MeetUp local.
+
+Dacă vrei să afli mai multe despre metodologiile noastre atunci citește aici detalii despre [cum identificam problemele comunității](https://civiclabs.ro/ro/despre), cum concepem și prototipăm soluții în [Civic Labs](https://civiclabs.ro/ro/solutions) și cum devin ele realitate prin programul [Tech for Social Good](https://tfsg.code4.ro/ro/).
