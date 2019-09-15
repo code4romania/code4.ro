@@ -19,6 +19,7 @@
 
 		.hex {
 			fill: $blue;
+			opacity: .35;
 
 			&.hex-blank {
 				fill: none;
@@ -26,6 +27,8 @@
 		}
 
 		.hex-link {
+			opacity: 1;
+
 			image {
 				transition: opacity $speed;
 

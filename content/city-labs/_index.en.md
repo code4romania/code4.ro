@@ -6,7 +6,7 @@ type: page
 
 form: https://docs.google.com/forms/d/e/1FAIpQLScIswVt_b-xTjYtr1WX4GhE5HTa_v5znJJAlOi3Y8JmJ7NqJA/viewform
 
-menu: 
+menu:
   header:
     weight: 40
 
@@ -17,12 +17,15 @@ grid:
     - image: images/city-labs/bacau.svg
     - image: images/city-labs/brasov.svg
     - image: images/city-labs/bucuresti.svg
+      url: /city-labs/bucuresti/
     - type: blank
     - image: images/city-labs/chisinau.svg
     - image: images/city-labs/cluj.svg
+      url: /city-labs/cluj/
     - image: images/city-labs/constanta.svg
     - image: images/city-labs/craiova.svg
     - image: images/city-labs/diaspora.svg
+      url: /city-labs/diaspora/
     - image: images/city-labs/iasi.svg
       url: /city-labs/iasi/
     - image: images/city-labs/oradea.svg
@@ -31,4 +34,5 @@ grid:
     - image: images/city-labs/suceava.svg
     - image: images/city-labs/tgmures.svg
     - image: images/city-labs/timisoara.svg
+      url: /city-labs/timisoara/
 ---
