@@ -8,7 +8,7 @@ date: 2019-09-18
 author: Dragoș Costache
 ---
 
-{{< figure src="link_dump.jpg" >}}
+{{< figure src="link_dump_1.jpg" >}}
 
 Salutare și bine ai venit la <span class="has-background-warning">primul Link Dump săptămânal Code for Romania</span>. În fiecare săptămână vom aduna câteva subiecte interesante alese cu grijă din toate colțurile internetului. Săptămâna asta două subiecte arzătoare intră la rece – <span class="has-background-warning">Genetica și Trolii de pe internet</span>.
  

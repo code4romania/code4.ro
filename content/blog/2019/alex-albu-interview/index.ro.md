@@ -15,7 +15,7 @@ Mai jos povestea completă spusă chiar de el(i).
 
 **Cum ai ajuns în Code for România?**
 
-{{% columns class="is-multiline"%}}
+{{% columns %}}
 
 {{% column %}}
 AA1: Auzisem de Code for România și inițiativele lor din civic tech dinainte să ajung să colaborăm, iar când au organizat un “scrapeathon” pentru Ce Zice Legea and I loved it. A fost combinația perfectă de fun, pasiune și oameni mișto. După acel weekend am rămas în comunitatea Code4Ro să ajut.
@@ -30,7 +30,7 @@ M-a atras la Code for România faptul că pot ajuta România făcând ceea ce po
 
 **De ce ai ales să lucrezi la proiectul ANABI?**
 
-{{% columns class="is-multiline"%}}
+{{% columns %}}
 
 {{% column %}}
 AA1: Cred că România este țara cu potențialul cel mai mare pentru infrastructură și digitalizare și sistemul public suferă cel mai mult de lipsa lui. Fiecare din noi la un moment dat s-a lovit de această problemă și fie că a fost vorba de un lucru mic dar îngropat în munți de hârtie sau că procesul este deloc transparent, suferim toți. ANABI cred că e unul din acele sisteme care suferă de lipsa de transparență către public și foarte puțini oameni ajung să descopere ce reprezintă și care e rolul lui și ce impact are. Personal cred că ne putem face viața mult mai ușoară având informațiile potrivite la îndemână și ANABI fiind o instituție despre care personal nu știam foarte multe, m-a atras să aflu cum pot să ajut, so I joined the cause.
@@ -44,7 +44,7 @@ AA2: Pentru că în România corupția este o problemă și am sperat că prin a
 
 **Cum a fost când ai aflat că sunteți amândoi nu numai în Code for România, dar și în același proiect? Ce reacție ai avut?**
 
-{{% columns class="is-multiline"%}}
+{{% columns %}}
 
 {{% column %}}
 AA1: A fost amuzant pentru că inițial nu observasem ca suntem doi și mai ales că ne setasem același nume pe Slack, primeam mesaje care erau pentru Alex și lumea era confuză. La scurt timp am ajuns pe ANABI și l-am cunoscut și eu pe Alex și ne-am amuzat puțin pe treaba asta. Îți dai seama cât de mică e lumea când dai de 2 x Albu pe același metru pătrat.
