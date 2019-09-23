@@ -1,5 +1,4 @@
 ---
-draft: true
 title: Get involved
 slug: get-involved
 description: A couple of hours of your time per week, your know-how or a small donation – anything can help us in our joint mission of creating practical solutions for societal problems. You’ll get back the excitement of doing meaningful work with like-minded people.
@@ -22,6 +21,18 @@ menu:
   **[Join our community](https://docs.google.com/forms/d/e/1FAIpQLScIswVt_b-xTjYtr1WX4GhE5HTa_v5znJJAlOi3Y8JmJ7NqJA/viewform)**
 {{< /infobox >}}
 
+{{< infobox icon="briefcase" title="Companies" >}}
+  Redirect 20% of your income tax towards Code for Romania!
+
+  It is your legal right to choose to redirect a part the tax that gets collected each year. 
+
+  Registration number 67/06.07.2016.  
+
+  **[Get in touch](mailto:parteneriate@code4.ro)**
+{{< /infobox >}}
+</div>
+
+<div class="columns">
 {{< infobox icon="coins" title="Financial support" >}}
   Yes, Code for Romania is created and maintained by a volunteering team. And being part of this is totally worth it!
 
@@ -31,37 +42,7 @@ menu:
 
   **[Support civic innovation!]({{< ref "donate" >}})**
 {{< /infobox >}}
-</div>
 
-<div class="columns">
-{{< infobox icon="briefcase" title="Companies" >}}
-  A stronger society contributes to a healthier business environment. If you want to support apps that will improve Romania step by step, let’s have a talk. Here are some ideas of how you can contribute to civic innovation:
-
-  - “Donating” lines of code (for software development companies)
-  - Organisational support (e.g. host the volunteers’ meetings)
-  - (Partially) Covering the costs of an app
-  - Award our volunteers
-  - Donating products (e.g. software or hardware)
-  - Meet & Greet your employees (great for employer branding!)
-  - Other sponsorship initiatives.
-
-  **[Get in touch](mailto:parteneriate@code4.ro)**
-{{< /infobox >}}
-
-{{< infobox icon="landmark" title="Public Institutions" >}}
-  Together we can develop digital instruments that:
-
-  - Solve specific issues in serving citizens, based on creating a coherent set of policies for the use of digital technologies in all areas and at all levels of the administration
-  - Integrating digital technologies for improving the public sector services, workflows, operations, methodologies and  frameworks
-  - Using technology to actively shape public governance  outcomes, not simply for supporting government processes.
-  
-  In the long run, showing what’s possible changes the conversation, lowers the risk of experimentation, and also creates will for innovation in the public sector. 
-
-  **[Got a project idea?](https://cetetine.ro/)**
-{{< /infobox >}}
-</div>
-
-<div class="columns">
 {{< infobox icon="globe" title="NGOs" >}}
   You are facing lots challenges on a daily basis, from managing the volunteers’ activities to finding the best data-driven solution for the communities you serve. If you have a great idea but lack the resources, we are here to help.
 
@@ -70,11 +51,4 @@ menu:
   **[Report a problem](https://cetetine.ro/)**
 {{< /infobox >}}
 
-{{< infobox icon="graduation-cap" title="Universities" >}}
-  A partnership between Code For Romania and the academic environment is a very attractive way of involving students in extracurricular activities.
-
-  We can jointly develop student practice projects or collaborate on research projects.
-
-  **[Get in touch](mailto:parteneriate@code4.ro)**
-{{< /infobox >}}
 </div>
