@@ -42,9 +42,9 @@ aliases:
   **[Ajută-ne să continuăm!]({{< relref "donate" >}})**
 {{< /infobox >}}
 
-{{< infobox icon="globe" title="ONG-uri" >}}
-  Știm că vă confruntați zi de zi cu o mulțime de provocări, de la gestionarea activităților cu voluntarii până la găsirea celei mai bune soluții pentru beneficiarii proiectelor voastre. Mai știm și că aveți o grămadă de idei bune, care rămân doar pe hârtie, din lipsă de resurse.
+{{< infobox icon="globe" title="Hai să fim parteneri!" >}}
+  Devino una dintre companiile care încurajează voluntariatul în IT și alătură-te ca partener local sau național programului [Tech for Social Good](https://tfsg.code4.ro/ro/). Află astăzi ce înseamnă pentru tine și angajații tăi să pornești la drum alături de Code for Romania.
 
-  **[Propune un proiect](https://cetetine.ro/)**
+  **[Hai să stăm de vorbă](mailto:contact@code4.ro)**
 {{< /infobox >}}
 </div>

@@ -43,12 +43,10 @@ menu:
   **[Support civic innovation!]({{< ref "donate" >}})**
 {{< /infobox >}}
 
-{{< infobox icon="globe" title="NGOs" >}}
-  You are facing lots challenges on a daily basis, from managing the volunteers’ activities to finding the best data-driven solution for the communities you serve. If you have a great idea but lack the resources, we are here to help.
+{{< infobox icon="globe" title="Let's work together" >}}
+  Support IT volunteer work by becoming a local or national partner for [Tech for Social Good](https://tfsg.code4.ro/en/) - be one of the companies heralding the change. Join Code for Romania in this endeavour today, and set the tone for your employees to follow suite. 
 
-  A very common misconception is that digital tools are unaffordable. For changing that, we support our civil society partners identify the solutions they need & help them implement.
-
-  **[Report a problem](https://cetetine.ro/)**
+  **[Let's talk](mailto:contact@code4.ro)**
 {{< /infobox >}}
 
 </div>
