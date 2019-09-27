@@ -10,7 +10,7 @@
 		</div>
 
 		<div class="apps-container columns is-multiline is-mobile">
-			{{- range first 4 (where .Pages "Section" "apps") -}}
+			{{- range first 4 (where .Site.RegularPages "Section" "apps") -}}
 				{{- .Render "loop" -}}
 			{{- end -}}
 		</div>
