@@ -7,7 +7,7 @@
 		</div>
 
 		<div class="programs-container">
-			{{- range first 2 (where .Pages "Section" "programs") -}}
+			{{- range first 2 (where .Site.RegularPages "Section" "programs") -}}
 				{{- partial "loop-programs.html" . -}}
 			{{- end -}}
 		</div>
