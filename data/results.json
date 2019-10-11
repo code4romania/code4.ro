@@ -1,7 +1,7 @@
 [
 	{
 		"label": "results.contributors",
-		"value": 635
+		"value": 954
 	},
 	{
 		"label": "results.projects.complete",
@@ -9,7 +9,7 @@
 	},
 	{
 		"label": "results.hours",
-		"value": 60176
+		"value": 240704
 	},
 	{
 		"label": "results.timezones",
@@ -17,10 +17,10 @@
 	},
 	{
 		"label": "results.projects.pending",
-		"value": 7
+		"value": 11
 	},
 	{
 		"label": "results.commits",
-		"value": 5600
+		"value": 21537
 	}
 ]
