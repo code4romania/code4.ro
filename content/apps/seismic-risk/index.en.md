@@ -1,6 +1,6 @@
 ---
 title: Seismic Risk
-link: http://seismic-alert.ro/
+link:
 color: "#FFF"
 
 status: development # incubation, development, done
