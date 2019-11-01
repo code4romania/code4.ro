@@ -20,7 +20,8 @@ aliases:
 <div class="columns">
 {{< infobox title="Donează prin transfer bancar" >}}
   Nume: ASOCIAȚIA CODE FOR ROMANIA  
-  Sediu: Piața Alba Iulia nr. 7, bloc I6, etaj 1, ap. 6, sect. 3, București  
+  Sediu: Piața Alba Iulia nr. 7, bloc I6, etaj 1, ap. 6, sect. 3, București
+  CIF: RO41574841  
   CUI: 36317167  
 
   Cont RON: **RO38BTRLRONCRT0348260401**  

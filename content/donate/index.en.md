@@ -18,6 +18,7 @@ menu:
 {{< infobox title="Donate through wire transfer" >}}
   Name: ASOCIAȚIA CODE FOR ROMANIA  
   Headquarters: Piața Alba Iulia nr. 7, bloc I6, etaj 1, ap. 6, sect. 3, București  
+  CIF: RO41574841
   Fiscal Identification Code: 36317167  
 
   Bank account RON: **RO38BTRLRONCRT0348260401**  
