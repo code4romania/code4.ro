@@ -67,6 +67,7 @@ Bine ai venit în Code for Timișoara, locul în care developeri, designeri și 
 Lucrăm open-source și open-heart. Fie că ești senior sau junior, dacă vrei să te implici și să donezi câteva ore pe lună sau pe săptămână unui proiect cu impact pe termen lung atunci ne bucurăm să te avem în comunitate. Lună de lună ne întâlnim și față în față pentru a lucra mai aplicat, cu mai mult spor și pentru a ne pune creierele la contribuție pentru soluții funcționale în spațiul public. 
 
 Iată cum funcționează: 
+
 * te înscrii folosind formularul de mai jos pentru a participa la HackDay-ul nostru lunar, 
 * te așteptăm în ziua stabilită la Nod Makerspace unde
 * te vei întâlni cu un tech lead al Code for Romania și veți discuta despre proiectul aflat în focus la acea ediție. De la arhitectură, tehnologii, provocări și super idei de development, până la taskuri și multe alte detalii. 
