@@ -138,3 +138,9 @@
   translation: "Support us by redirecting 2% of your income taxes. Deadline: July 31st."
 - id: donate.form
   translation: "Download the form"
+
+- id: sponsors
+  translation: "National sponsors"
+
+- id: partners
+  translation: "Our partners"
