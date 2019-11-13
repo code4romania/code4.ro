@@ -71,7 +71,7 @@ Lucrăm open-source și open-heart. Fie că ești senior sau junior, dacă vrei 
 Iată cum funcționează: 
 
 * te înscrii folosind formularul de mai jos pentru a participa la HackDay-ul nostru lunar, 
-* te așteptăm în ziua stabilită la Nod Makerspace unde
+* te așteptăm în ziua stabilită la FabLab unde
 * te vei întâlni cu un tech lead al Code for Romania și veți discuta despre proiectul aflat în focus la acea ediție. De la arhitectură, tehnologii, provocări și super idei de development, până la taskuri și multe alte detalii. 
 * lucrați împreună de zor atât la proiectul principal cât și la alte proiecte aflate în dezvoltare până la ceas de seară când 
 * ne oprim să ne tragem sufletul la o sticlă de bere și o sesiune de ideație pe domeniul mare din care face proiectul. 
