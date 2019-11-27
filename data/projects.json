@@ -1,8 +1,8 @@
 [
     {
         "id": "seismicrisk",
-        "city": "Iași",
-        "tfsg_city": "iasi",
+        "city": "București",
+        "tfsg_city": "bucuresti ",
         "name": "Seismic Risk",
         "call_to_action": "Vino la HackDay să dăm gata riscul seismic",
         "description": [
@@ -28,8 +28,8 @@
     },
     {
         "id": "dataportal",
-        "city": "București",
-        "tfsg_city": "bucuresti",
+        "city": "Timișoara",
+        "tfsg_city": "timisoara",
         "name": "Data Portal",
         "call_to_action": "Vrem date curate pentru orașe curate!",
         "description": [
@@ -58,8 +58,8 @@
     },
     {
         "id": "expertconsultation",
-        "city": "Cluj-Napoca",
-        "tfsg_city": "cluj",
+        "city": "Iași",
+        "tfsg_city": "iasi",
         "name": "Expert Consultation",
         "call_to_action": "Instrumente de secol XXI pentru guvernare deschisă!",
         "description": [
@@ -93,8 +93,8 @@
     },
     {
         "id": "declaratiideavere",
-        "city": "Timișoara",
-        "tfsg_city": "timisoara",
+        "city": "Cluj-Napoca",
+        "tfsg_city": "cluj",
         "name": "Declarații de Avere",
         "call_to_action": "Documente scanate != digitalizare",
         "description": [
