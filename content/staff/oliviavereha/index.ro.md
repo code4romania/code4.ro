@@ -1,5 +1,5 @@
 ---
 title: "Olivia Vereha"
-position: "Chief Communication and Operation Officer"
+position: "Chief Operations Officer & UX Architect"
 linkedin: "https://www.linkedin.com/in/oliviavereha/"
 ---

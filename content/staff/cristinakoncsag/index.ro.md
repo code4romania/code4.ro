@@ -1,5 +1,5 @@
 ---
 title: "Cristina Koncsag"
-position: "Onboarding Officer"
+position: "Community Organizer"
 linkedin: "https://www.linkedin.com/in/cristinakoncsag/"
 ---
