@@ -10,39 +10,23 @@
 		"name": "Operations",
 		"icon": "cogs",
 		"titles": [
-			"Chief Communication and Operation Officer",
+			"Chief Operations Officer & UX Architect",
 			"Operations Officer",
 			"Open Data Officer",
 			"Budgets and Operation Officer",
 			"Incubation and Project Support Officer",
-			"Events Manager",
 			"Tech Research & Analysis Officer",
-			"Grants Officer"
-		]
-	},
-	{
-		"name": "Community Management",
-		"icon": "users",
-		"titles": [
-			"Chief Community Manager",
-			"Community Manager",
-			"Onboarding Officer",
-			"Internal Communication Officer",
-			"Regional Manager – Bucharest",
-			"Regional Manager – Cluj",
-			"Regional Manager – Disapora",
-			"Regional Manager – Iași",
-			"Regional Manager – Timișoara",
-			"Regional Manager – Brașov",
-			"Regional Manager – Chișinău",
-			"Regional Manager – Oradea"
+			"UX Researcher",
+			"UX Designer",
+			"Researcher",
+			"Events Manager"
 		]
 	},
 	{
 		"name": "Communication",
 		"icon": "comment-dots",
 		"titles": [
-			"Chief Communication Manager",
+			"Chief Communication Officer",
 			"Content Officer",
 			"Social Media Officer",
 			"Graphic Design Officer",
@@ -55,7 +39,8 @@
 		"titles": [
 			"Chief Fundraising Officer",
 			"Fundraising Officer",
-			"Accountant"
+			"Accountant",
+			"Grants Officer"
 		]
 	},
 	{
@@ -63,10 +48,12 @@
 		"icon": "terminal",
 		"titles": [
 			"Chief Technology Officer",
+			"Chief Community Officer",
 			"Technology Officer",
 			"Infrastructure Officer",
 			"IT Security & Infrastructure Officer",
-			"BA Officer"
+			"BA Officer",
+			"Community Organizer"
 		]
 	},
 	{
