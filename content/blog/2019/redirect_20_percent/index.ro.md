@@ -1,5 +1,5 @@
 ---
-title: "Direcțioenază 20% către noi"
+title: "Direcționează 20% către noi"
 excerpt: "Direcționează până la 20% din impozitul pe profit al companiei tale către Code for Romania"
 cover: redirect_20_percent.jpg
 slug: redirect-20-percent
