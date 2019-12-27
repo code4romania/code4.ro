@@ -12,13 +12,12 @@ menu:
 
 <div class="columns">
 {{< infobox icon="clock" title="Hands-on" >}}
-  Up for some civic hacking?
+  We need your programming skills and knowledge. If you want to get involved as a Code for Romania volunteer, sit down with us and talk during the next HackDay event, and go on to build the apps that will make Romania the country we wish it was.
 
-  We need volunteers for product management, software development, data analysis, communication, design, HR, yoga, event organising, social research, law and others that we haven’t even figured out yet! With such a way variety of challenges we can work on, your skills are much needed. 
+  **[Join the HackDay!](https://tfsg.code4.ro/ro/)**
 
-  You’ll be part of an ecosystem, as we operate as a global community, leveraging each other’s knowledge and resources. Fill in the form (in RO), and we’ll reach out to you for next steps. 
+  If your skills are more suited towards communication, design, event organizing, human resources, research, data analysis or other areas that we haven't even thought of, tell us a bit about yourself as well as the amount of time you are willing to dedicate to helping out, at contact@civiclabs.ro. Leave us a phone number, as well, and we will get in tocuh with you.
 
-  **[Join our community](https://docs.google.com/forms/d/e/1FAIpQLScIswVt_b-xTjYtr1WX4GhE5HTa_v5znJJAlOi3Y8JmJ7NqJA/viewform)**
 {{< /infobox >}}
 
 {{< infobox icon="briefcase" title="Companies" >}}
