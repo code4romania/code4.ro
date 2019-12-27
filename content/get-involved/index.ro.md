@@ -15,11 +15,13 @@ aliases:
 
 <div class="columns">
 {{< infobox icon="clock" title="Timp" >}}
-  Poate vrei să te implici cât iți permite timpul pentru o cauză socială. Avem nevoie de skillurile tale: programare, comunicare, design, organizare evenimente, resurse umane, cercetare, analiză de date și altele la care poate nici nu ne-am gândit. 
+  Avem nevoie de cunoștințele și altitudinile tale de programator. Dacă vrei să te implici ca voluntar Code for Romania, haide să ne cunoaștem mai bine la următorul HackDay și să lucrăm apoi împreună la aplicații care vor face din Romania țara pe care ne-o dorim!
 
-  Completează formularul din link ca să știm mai multe despre tine. Te vom contacta noi apoi pentru pașii următori.
+  **[Vino la HackDay!](https://tfsg.code4.ro/ro/)**
 
-  **[Vino in comunitate](https://docs.google.com/forms/d/e/1FAIpQLScIswVt_b-xTjYtr1WX4GhE5HTa_v5znJJAlOi3Y8JmJ7NqJA/viewform)**
+  Dacă skill-urile tale sunt din zona comunicare, design, organizare evenimente, resurse umane, cercetare, analiză de date și altele la care poate nici nu ne-am gândit, atunci trimite-ne pe contact@civiclabs.ro câteva rânduri despre tine și ce disponibilitate de timp ai cât și un număr de telefon pentru contact rapid. Te vom contacta noi apoi pentru pașii următori.
+
+  
 {{< /infobox >}}
 
 {{< infobox icon="briefcase" title="Companii" >}}
