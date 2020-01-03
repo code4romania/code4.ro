@@ -144,3 +144,6 @@
 
 - id: partners
   translation: "Our partners"
+
+- id: local.sponsors
+  translation: "Sponsors in"

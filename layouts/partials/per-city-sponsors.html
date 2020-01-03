@@ -1,0 +1,66 @@
+<!-- Sponsors -->
+<aside class="partners section has-background-light">
+	<div class="container">
+		<h1 class="subtitle has-text-centered has-text-weight-bold">{{ i18n "sponsors" }}</h1>
+		<div class="columns is-mobile is-multiline is-centered">
+			{{ range $.Site.Data.sponsors }}
+			<div class="column is-three-quarters-touch is-2-desktop">
+				<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
+					<div class="logo-container">
+						<img src="{{ (printf "images/supporters/%s.png" .id) | absURL }}" alt="{{ .name }}">
+					</div>
+				</a>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</aside>
+
+<!-- Local sponsors -->
+<aside class="partners section has-background-light is-paddingless">
+	<div class="container">
+		{{ range $elem_key, $elem_val := $.Site.Data.local_sponsors }}
+		{{ if $elem_val.sponsors }}
+		<h1 class="subtitle has-text-centered has-text-weight-bold">
+			{{ printf "%s %s" (i18n "local.sponsors") $elem_key }}</h1>
+		{{ range $elem_val.sponsors }}
+		<div class="columns is-mobile is-multiline is-centered" id="{{ printf "sponsors_%s" $elem_val.id }}">
+			<div class="column is-three-quarters-touch is-2-desktop">
+				<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
+					<div class="logo-container">
+						<img src="{{ (printf "images/supporters/%s.png" .id) | absURL }}" alt="{{ .name }}">
+					</div>
+				</a>
+			</div>
+		</div>
+		{{ end }}
+		{{ end }}
+		{{ end }}
+	</div>
+</aside>
+
+<!-- Local partners -->
+{{ $cities := (slice "București" "Iași" "Timișoara" "Cluj-Napoca") }}
+{{ range $city := $cities }}
+{{ range $elem_key, $elem_val := $.Site.Data.local_partners }}
+{{ if eq $elem_key $city }}
+<aside class="partners section has-background-light" id="{{ printf "partners_%s" $elem_val.id }}">
+	<div class="container">
+		<h1 class="subtitle has-text-centered has-text-weight-bold">{{ i18n "partners" }}</h1>
+		<div class="columns is-mobile is-multiline is-centered">
+			{{ range $elem_val.partners }}
+			<div class="column is-three-quarters-touch is-2-desktop">
+				<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
+					<div class="logo-container">
+						<img src="{{ (printf "images/supporters/%s.png" .id) | absURL }}" alt="{{ .name }}">
+					</div>
+				</a>
+			</div>
+			{{ end }}
+		</div>
+
+	</div>
+</aside>
+{{ end }}
+{{ end }}
+{{ end }}

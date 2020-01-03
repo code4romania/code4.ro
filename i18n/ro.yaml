@@ -140,7 +140,10 @@
   translation: "Descarcă formularul"
 
 - id: sponsors
-  translation: "Sponsor național"
+  translation: "Sponsori național"
 
 - id: partners
   translation: "Partnerii noștri"
+
+- id: local.sponsors
+  translation: "Sponsori"

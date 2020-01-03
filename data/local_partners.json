@@ -1,0 +1,77 @@
+{
+    "București": {
+        "id": "bucuresti",
+        "partners": [
+            {
+                "id": "heineken",
+                "name": "Heineken",
+                "url": "https://www.heineken.com/ro/"
+            },
+            {
+                "id": "materlibrary",
+                "name": "Mater",
+                "url": "https://materlibrary.ro/"
+            },
+            {
+                "id": "eisberg",
+                "name": "Eisberg",
+                "url": "https://www.eisberg-romania.ro/ro"
+            }
+        ]
+    },
+    "Iași": {
+        "id": "iasi",
+        "partners": [
+            {
+                "id": "heineken",
+                "name": "heineken",
+                "url": "https://www.heineken.com/ro/"
+            },
+            {
+                "id": "fablabiasi",
+                "name": "FabLab Iași",
+                "url": "http://www.fablabiasi.ro/"
+            },
+            {
+                "id": "pinmagazine",
+                "name": "PIN magazine",
+                "url": "https://www.pinmagazine.ro/"
+            }
+        ]
+    },
+    "Timișoara": {
+        "id": "timisoara",
+        "partners": [
+            {
+                "id": "heineken",
+                "name": "heineken",
+                "url": "https://www.heineken.com/ro/"
+            },
+            {
+                "id": "devplant",
+                "name": "DevPlant",
+                "url": "https://devplant.ro/"
+            }
+        ]
+    },
+    "Cluj-Napoca": {
+        "id": "cluj",
+        "partners": [
+            {
+                "id": "heineken",
+                "name": "heineken",
+                "url": "https://www.heineken.com/ro/"
+            },
+            {
+                "id": "acrobatica",
+                "name": "Pizza Acrobatica",
+                "url": "https://acrobatica.ro"
+            },
+			{
+				"id": "clujcowork",
+				"name": "Cluj Cowork",
+				"url": "http://clujcowork.ro/"
+			}
+        ]
+    }
+}

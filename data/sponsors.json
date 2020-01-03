@@ -1,34 +1,12 @@
 [
-    {
-        "city": "Iași",
-        "sponsors": [
-            {
-                "id": "catalysts",
-                "name": "Catalysts",
-                "link": "https://www.catalysts.cc/en/cluj/"
-            },
-            {
-                "id": "3pillar-global",
-                "name": "3Pillar Global",
-                "link": "https://www.3pillarglobal.com"
-            }
-        ],
-        "partners": [
-            {
-                "id": "heineken",
-                "name": "Heineken",
-                "link": "https://www.heineken.com/ro"
-            },
-            {
-                "id": "fab-lab-iasi",
-                "name": "Fab Lab Iasi",
-                "link": "http://www.fablabiasi.ro/"
-            },
-            {
-                "id": "pin-magazine",
-                "name": "Pin Magazine",
-                "link": "https://www.pinmagazine.ro"
-            }
-        ]
-    }
+	{
+		"id": "catalysts",
+		"name": "Catalysts",
+		"url": "https://www.catalysts.cc/en/cluj/"
+	},
+	{
+		"id": "3pillar-global",
+		"name": "3Pillar Global",
+		"url": "https://www.3pillarglobal.com"
+	}
 ]

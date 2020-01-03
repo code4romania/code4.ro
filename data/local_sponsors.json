@@ -1,0 +1,24 @@
+{
+    "București": {
+        "id": "bucuresti",
+        "sponsors": []
+    },
+    "Iași": {
+        "id": "iasi",
+        "sponsors": []
+    },
+    "Timișoara": {
+        "id": "timisoara",
+        "sponsors": []
+    },
+    "Cluj-Napoca": {
+        "id": "cluj",
+        "sponsors": [
+            {
+                "id": "evozon",
+                "name": "Evozon",
+                "url": "https://www.evozon.com"
+            }
+        ]
+    }
+}

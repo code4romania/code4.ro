@@ -75,7 +75,18 @@
 .app-brand {
 	position: relative;
 	padding: 0 0 100%;
+	display: block;
 	height: 0;
+
+	&.link {
+		transition: filter 3 * $speed linear;
+		filter: grayscale(0);
+
+		&:hover,
+		&:focus {
+			filter: grayscale(1);
+		}
+	}
 
 	.logo-container {
 		@extend %logo-container;
@@ -164,5 +175,15 @@
 			}
 		}
 		*/
+	}
+}
+
+.partners {
+	.app-brand {
+		.logo-container {
+			img {
+				width: 100%;
+			}
+		}
 	}
 }
