@@ -1,11 +1,23 @@
 {
     "București": {
         "id": "bucuresti",
-        "sponsors": []
+        "sponsors": [
+            {
+                "id": "cegeka",
+                "name": "Cegeka",
+                "url": "https://www.cegeka.com/en/ro/"
+            }
+        ]
     },
     "Iași": {
         "id": "iasi",
-        "sponsors": []
+        "sponsors": [
+            {
+                "id": "cegeka",
+                "name": "Cegeka",
+                "url": "https://www.cegeka.com/en/ro/"
+            }
+        ]
     },
     "Timișoara": {
         "id": "timisoara",

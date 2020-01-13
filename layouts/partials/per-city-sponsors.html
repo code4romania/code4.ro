@@ -21,7 +21,7 @@
 	<div class="container">
 		{{ range $elem_key, $elem_val := $.Site.Data.local_sponsors }}
 		{{ if $elem_val.sponsors }}
-		<h1 class="subtitle has-text-centered has-text-weight-bold">
+		<h1 class="subtitle has-text-centered has-text-weight-bold" id="{{ printf "title_sponsors_%s" $elem_val.id }}">
 			{{ printf "%s %s" (i18n "local.sponsors") $elem_key }}</h1>
 		{{ range $elem_val.sponsors }}
 		<div class="columns is-mobile is-multiline is-centered" id="{{ printf "sponsors_%s" $elem_val.id }}">
