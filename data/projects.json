@@ -28,8 +28,8 @@
     },
     {
         "id": "dataportal",
-        "city": "Cluj-Napoca",
-        "tfsg_city": "cluj",
+        "city": "Iași",
+        "tfsg_city": "iasi",
         "name": "Data Portal",
         "call_to_action": "Vrem date curate pentru orașe curate!",
         "description": [
@@ -58,8 +58,8 @@
     },
     {
         "id": "expertconsultation",
-        "city": "București",
-        "tfsg_city": "bucuresti",
+        "city": "Cluj-Napoca",
+        "tfsg_city": "cluj",
         "name": "Expert Consultation",
         "call_to_action": "Instrumente de secol XXI pentru guvernare deschisă!",
         "description": [
@@ -93,8 +93,8 @@
     },
     {
         "id": "declaratiideavere",
-        "city": "Iași",
-        "tfsg_city": "iasi",
+        "city": "București",
+        "tfsg_city": "bucuresti",
         "name": "Declarații de Avere",
         "call_to_action": "Documente scanate != digitalizare",
         "description": [
