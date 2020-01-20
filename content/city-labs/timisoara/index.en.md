@@ -62,7 +62,7 @@ volunteers:
   - vasilemario
 ---
 
-Bine ai venit în Code for București, locul în care developeri, designeri și alți specialiști pun la cale aplicații civice și programe menite să ajute comunitățile locale și întreaga țară.
+Bine ai venit în Code for Timișoara, locul în care developeri, designeri și alți specialiști pun la cale aplicații civice și programe menite să ajute comunitățile locale și întreaga țară.
 
 Lucrăm open-source și open-heart. Fie că ești senior sau junior, dacă vrei să te implici și să donezi câteva ore pe lună sau pe săptămână unui proiect cu impact pe termen lung atunci ne bucurăm să te avem în comunitate. Lună de lună ne întâlnim și față în față pentru a lucra mai aplicat, cu mai mult spor și pentru a ne pune creierele la contribuție pentru soluții funcționale în spațiul public. 
 
