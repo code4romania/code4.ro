@@ -45,7 +45,6 @@ volunteers:
   - mihaipopescu
   - muresanvalentin
   - nicusurdu
-  - nicusurdu
   - poienarremus
   - radujakab
   - robertmariusmercioiu
