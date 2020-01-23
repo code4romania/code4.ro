@@ -1,8 +1,8 @@
 [
     {
         "id": "seismicrisk",
-        "city": "Timișoara",
-        "tfsg_city": "timisoara ",
+        "city": "Cluj-Napoca",
+        "tfsg_city": "cluj",
         "name": "Seismic Risk",
         "call_to_action": "Vino la HackDay să dăm gata riscul seismic",
         "description": [
@@ -58,8 +58,8 @@
     },
     {
         "id": "expertconsultation",
-        "city": "Cluj-Napoca",
-        "tfsg_city": "cluj",
+        "city": "Timișoara",
+        "tfsg_city": "timisoara",
         "name": "Expert Consultation",
         "call_to_action": "Instrumente de secol XXI pentru guvernare deschisă!",
         "description": [
