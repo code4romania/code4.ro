@@ -1,8 +1,8 @@
 [
     {
         "id": "seismicrisk",
-        "city": "Cluj-Napoca",
-        "tfsg_city": "cluj",
+        "city": "Iași",
+        "tfsg_city": "iasi",
         "name": "Seismic Risk",
         "call_to_action": "Vino la HackDay să dăm gata riscul seismic",
         "description": [
@@ -28,8 +28,8 @@
     },
     {
         "id": "dataportal",
-        "city": "Iași",
-        "tfsg_city": "iasi",
+        "city": "",
+        "tfsg_city": "",
         "name": "Data Portal",
         "call_to_action": "Vrem date curate pentru orașe curate!",
         "description": [
@@ -58,8 +58,8 @@
     },
     {
         "id": "expertconsultation",
-        "city": "Timișoara",
-        "tfsg_city": "timisoara",
+        "city": "București",
+        "tfsg_city": "bucuresti",
         "name": "Expert Consultation",
         "call_to_action": "Instrumente de secol XXI pentru guvernare deschisă!",
         "description": [
@@ -93,8 +93,8 @@
     },
     {
         "id": "declaratiideavere",
-        "city": "București",
-        "tfsg_city": "bucuresti",
+        "city": "Timișoara",
+        "tfsg_city": "timisoara",
         "name": "Declarații de Avere",
         "call_to_action": "Documente scanate != digitalizare",
         "description": [
@@ -117,5 +117,36 @@
                 "title": "Task-uri de făcut"
             }
         ]
+    },
+    {
+        "id": "rezultatevot",
+        "city": "Cluj-Napoca",
+        "tfsg_city": "cluj",
+        "name": "Rezultate Vot",
+        "call_to_action": "Votează în cunoștință de cauză!",
+        "description": [
+            {
+                "paragraph": "#RezultateVot este o aplicație care a apărut din nevoia de a vedea, în timp real, rezultatele numărărilor voturilor, din seara alegerilor europarlamentare din 2019. A trecut prin îmbunătățiri succesive, iar acum este vremea să-și depășească utilitatea inițială."
+            },
+            {
+                "paragraph": "Avem nevoie să construim o platformă de date deschise care să cuprindă toate rezultatele istorice ale votului, din România. "
+            },
+            {
+                "paragraph": "Noua versiune a rezultatevot.ro va pune la dispoziție un API și un set de vizualizări a datelor colectate de data scrapers. În ziua alegerilor, pagina principală va furniza date în timp real despre prezența alegătorilor la vot și, odată cu numărătoarea parțială, va afișa rezultatele fiecărui candidat sau partid. Nu în ultimul rând, versiunea nouă a site-ului va avea o secțiune de news feed, cu articole despre procesul de votare și analize făcute de experții cu care colaborăm."
+            }
+        ],
+        "github_links": [
+            {
+                "link": "https://github.com/code4romania/rezultate-vot",
+                "title": "GitHub repository"
+            }
+        ],
+        "issues_links": [
+            {
+                "link": "https://github.com/orgs/code4romania/projects/18",
+                "title": "Task-uri de făcut"
+            }
+        ]
     }
+      
 ]
