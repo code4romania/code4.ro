@@ -25,7 +25,7 @@ Think about our proposal. It’s an offer you can’t refuse! Your design on all
 
 2. After that, we will take our time until the 18th of March to check all your proposals and see if they are up to the requested standards;
 
-3. A shortlist will be presented to all of you, the Code for Romania volunteers on our #General Slack channel. You will have between the 2nd and 24th of March to cast your vote - stage 1;
+3. A shortlist will be presented to all of you, the Code for Romania volunteers on our #General Slack channel. You will have between the 19th and 24th of March to cast your vote - stage 1;
 
 4. The big reveal will be done on the 28th of March during Code for Romania’s 4 year anniversary celebration - stage 2.
 
