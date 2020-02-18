@@ -88,5 +88,5 @@ Contest participants can choose the background color of the T-shirt [as long as 
 * Please scan all illustrations, paintings and other non-digital submissions so they can be viewed in digital format;
 * Participants may be required to resubmit their designs if they pass the first stage of judging in case of dispute, so please save all of your design files until the contest ends;
 * Please save your designs with file extensions such as PNG. Entries should be at least 150dpi and 1280x1280 pixels;
-* The file should be saved as .ai, .svg, .eps, .cdr.
+* The file should be saved as .ai, .svg, .eps or .cdr.
 * By submitting your proposal you acknowledge that you forfeit the pecuniary request after the process is completed, for the design to be used in both commercial and non-commercial activity. All trademark rights will be automatically transferred to Code for Romania which will solely decide how and where it will use the design.
