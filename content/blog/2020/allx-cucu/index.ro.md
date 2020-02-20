@@ -8,7 +8,7 @@ date: 2020-02-20
 author: Dragoș Costache
 ---
 
-{{< figure src="allx_cucu_1.jpeg" >}}
+{{< figure src="allx_cucu_1.jpeg" alt="allx cucu portrait">}}
 
 Un erou al accesibilizării despre tehnologie, administrație și viața sa ca programator nevăzător în România.
 
@@ -20,7 +20,7 @@ Dar accesibilizarea înseamnă mai mult decât [text alternativ](https://webaim.
 
 Ca de obicei locul în care ne-am văzut a fost la latitudinea oaspetelui și cu ocazia acestui interviu am pătruns, într-o zi rece de decembrie, pentru prima dată după aproape un an în Centrul Vechi. M-am întâlnit cu Allx în față la Universitate și am mers împreună prin labirintul de borduri, gropi și mașini parcate pe trotuar spre Oktoberfest pentru cârnați și bere. Mi-a fost un pic greu mie să mă acomodez cu ușurința cu care Allx navighează hârtoapele din oraș. Cu o mână pe umărul meu părea super obișnuit cu situația, situație care mă stresa pe mine, mai ales că era să-mi rup de câteva ori gâtul prin gropile capitalei. Îl întreb despre această superputere care mă lasă perplex.
 
-{{< figure src="allx_cucu_2.jpeg" >}}
+{{< figure src="allx_cucu_2.jpeg" alt="Oktoberfest interior">}}
 
 Allx îmi spune zâmbind, „Vine din backgroundul meu, din copilărie, când trebuia să țin minte gropi sau denivelări de la țară.”
 
@@ -51,7 +51,6 @@ După școală Allx a dat examenele naționale (cu ajutorul unui interpret) și 
 Ne sosește mâncarea și începem să intrăm în cârnații noștri respectivi. Pentru un bar de bere cu mâncare ieftină Oktoberfest are niște cârnăciori surprinzător de buni. Îl întreb pe Allx despre decizia de a da la facultate la informatică. Îmi zâmbește.
 
 „În liceu am avut o dilemă mare. Știam că vreau să merg la facultate dar nu știam la ce. Eu eram pasionat de Informatică dar și de drept. Citeam mult Mihail Drumeș – Cazul Magheru, Elevul Dima dintr-a șaptea și mă gândeam la avocatură pentru că doream să ajut oamenii. Dar am decis că informatica e un mod mai bun de a îmi asigura venitul pe viitor și, în plus, puteam să ajut și așa. Uite de exemplu în liceu le-am stricat combinația unor băieți mai șmecheri care cereau bani de la colegi ca să le instaleze Windows și programe de screen reading. M-am enervat când mi-a povestit un coleg că-i ceruseră 50 de lei ca să îi instaleze programul și apoi încă zece lei suprataxă ca să îi pună vocea preferată. Așa că am învățat să fac asta eu și apoi i-am învățat pe alții pe gratis. Și cam tot atunci am decis că vreau să fac ceva pe tehnologie asistivă.”
-
 
 Ne oprim un pic, cât mai luăm ceva de băut și ieșim afară un pic. E joi dar afară e atmosferă de vineri deja, în perioadă de sărbători. Allx își ascultă mesajele pe telefon și îl întreb câte ceva despre tehnologia asistivă. Produsele Apple au fost pioniere ale sintezei vocale, încă de la primul iPod Nano, în 2002 acestea erau complet accesibile pentru nevăzători. Astăzi iPhone e unul dintre cele mai accesibile device-uri, motiv pentru care au și vândut, aparent, peste un milion de unități nevăzătorilor. Androidul  are și el funcționalități de accesibilitate dar nu sunt la fel de dezvoltate sau intuitive ca pe iPhone. Îi spun lui Allx că mi se pare amuzant cât de mult seamănă situația cu cea pentru tipici unde iPhone-ul este de asemenea telefonul mai simplu și intuitiv. Revenim înăuntru unde Allx îmi arată și laptop-ul lui „de teren” folosit mai mult ca un fel de terminal la distanță pentru screen-readerul de acasă. „E foarte slab dar îl folosesc practic ca un fel de tastatură portabilă.” Zâmbește. „L-am luat de la resigilate, cu banii câștigați din fotbal”. Eu știam că programatorii nu-s buni la sport dar iată că Allx încearcă din toate puterile să-mi distrugă toate preconcepțiile.
 
