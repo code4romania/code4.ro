@@ -21,7 +21,7 @@ Who’s up for this?
 
 Think about our proposal. It’s an offer you can’t refuse! Your design on all of Code for Romania’s volunteers, partners, friends, and aficionados for one year and a place in our hall of fame.
 
-1. Send your T-shirt design starting with 14th of February and no later than the 9th of March to tshirt2020@code4.ro;
+1. Send your T-shirt design starting with 14th of February and no later than the 9th of March to contact@code4.ro;
 
 2. After that, we will take our time until the 18th of March to check all your proposals and see if they are up to the requested standards;
 
