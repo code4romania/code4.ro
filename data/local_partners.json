@@ -3,11 +3,6 @@
         "id": "bucuresti",
         "partners": [
             {
-                "id": "heineken",
-                "name": "Heineken",
-                "url": "https://www.heineken.com/ro/"
-            },
-            {
                 "id": "materlibrary",
                 "name": "Mater",
                 "url": "https://materlibrary.ro/"
@@ -22,11 +17,6 @@
     "Iași": {
         "id": "iasi",
         "partners": [
-            {
-                "id": "heineken",
-                "name": "heineken",
-                "url": "https://www.heineken.com/ro/"
-            },
             {
                 "id": "fablabiasi",
                 "name": "FabLab Iași",
@@ -43,11 +33,6 @@
         "id": "timisoara",
         "partners": [
             {
-                "id": "heineken",
-                "name": "heineken",
-                "url": "https://www.heineken.com/ro/"
-            },
-            {
                 "id": "devplant",
                 "name": "DevPlant",
                 "url": "https://devplant.ro/"
@@ -57,11 +42,6 @@
     "Cluj-Napoca": {
         "id": "cluj",
         "partners": [
-            {
-                "id": "heineken",
-                "name": "heineken",
-                "url": "https://www.heineken.com/ro/"
-            },
             {
                 "id": "acrobatica",
                 "name": "Pizza Acrobatica",
