@@ -17,8 +17,8 @@ function partners() {
             });
         } else {
             cities.forEach(function (city_name) {
-                    if (city_in_url != city_name) {
-                        if (document.getElementById('sponsors_'+city_name)) {
+                if (city_in_url != city_name) {
+                    if (document.getElementById('sponsors_'+city_name)) {
                         document.getElementById('sponsors_'+city_name).style.display = 'none';
                     }
                     if (document.getElementById('title_sponsors_'+city_name)) {
