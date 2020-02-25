@@ -6,6 +6,11 @@
                 "id": "cegeka",
                 "name": "Cegeka",
                 "url": "https://www.cegeka.com/en/ro/"
+            },
+            {
+                "id": "sustainalytics",
+                "name": "Sustainalytics",
+                "url": "https://www.sustainalytics.com"
             }
         ]
     },
@@ -21,7 +26,13 @@
     },
     "Timișoara": {
         "id": "timisoara",
-        "sponsors": []
+        "sponsors": [
+            {
+                "id": "sustainalytics",
+                "name": "Sustainalytics",
+                "url": "https://www.sustainalytics.com"
+            }
+        ]
     },
     "Cluj-Napoca": {
         "id": "cluj",
@@ -30,6 +41,11 @@
                 "id": "evozon",
                 "name": "Evozon",
                 "url": "https://www.evozon.com"
+            },
+            {
+                "id": "bosch",
+                "name": "Bosch",
+                "url": "https://www.bosch.ro"
             }
         ]
     }
