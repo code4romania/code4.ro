@@ -12,7 +12,7 @@ author: Cătălin Bindea
 
 **What is our annual Code for Romania T-shirt competition all about?**
 
-Each year we come up with a special design for our Code for Romania community T-shirts. For our previous editions, we were blessed to have the support of Dan Perjovschi and Liviu Vasilescu. Since our community keeps growing at a breakneck pace and we are already over 1.100 hearts, minds and souls we want the 2020 anniversary T-shirt to come from within Code for Romania. We want the design to be something so intimate that it represents all of us and also be something we will be very proud to wear on any occasion. We want the T-shit to scream **Heroes of Technology** (which is what you all are)! Preferably without actually writing that on the T-shirt.
+Each year we come up with a special design for our Code for Romania community T-shirts. For our previous editions, we were blessed to have the support of Dan Perjovschi and Liviu Vasilescu. Since our community keeps growing at a breakneck pace and we are already over 1.100 hearts, minds and souls we want the 2020 anniversary T-shirt to come from within Code for Romania. We want the design to be something so intimate that it represents all of us and also be something we will be very proud to wear on any occasion. We want the T-shirt to scream **Heroes of Technology** (which is what you all are)! Preferably without actually writing that on the T-shirt.
 
 Who’s up for this?
 
