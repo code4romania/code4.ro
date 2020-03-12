@@ -1,5 +1,5 @@
 ---
-title: "Code for Romania Task Foce unites online!"
+title: "Code for Romania Task Force unites online!"
 excerpt: ""
 cover: task_force_logo.png
 slug: task-force
