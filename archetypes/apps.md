@@ -3,7 +3,7 @@ title: {{ replace .Name "-" " " | title }}
 link: https://example.org/
 color: "#FFF"
 
-status: incubation # incubation, developing, done
+status: incubation # incubation, developing, done, covid
 stage: 0 # 0-6
 
 work:

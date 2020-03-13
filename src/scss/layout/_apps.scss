@@ -27,6 +27,10 @@
 			background-image: url('../svg/hex-red.svg');
 		}
 
+		&.app-status-covid .badge {
+			background-image: url('../svg/hex-red.svg');
+		}
+
 		&.app-status-development .badge {
 			background-image: url('../svg/hex-green.svg');
 		}

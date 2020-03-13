@@ -80,6 +80,10 @@
   translation:
     one: Proiect finalizat
     other: Proiecte finalizate
+- id: apps.status.covid
+  translation:
+    one: Proiect COVID-19
+    other: Proiecte COVID-19
 
 - id: apps.work.hours
   translation: ore de lucru
