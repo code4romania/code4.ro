@@ -9,7 +9,7 @@
 			{{- if gt (len (where $.Pages ".Params.status" $status.id)) 0 -}}
 				<section class="section app-list">
 					<header>
-						<div class="app-status-{{ $status.id }} hexbadge is-primary columns is-mobile">
+						<div class="app-status-{{ $status.id }} hex-badge is-primary columns is-mobile">
 							<div class="column is-narrow">
 								<div class="badge">
 									<i class="fas fa-fw fa-{{ $status.icon }}"></i>
