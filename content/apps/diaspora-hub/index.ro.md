@@ -14,7 +14,7 @@ credits:
   - name: Code for Romania
     image: logo.svg
 
-weight: 1
+weight: 5
 
 aliases:
   - /en/project/diaspora-hub/
