@@ -46,13 +46,15 @@ params:
     - programs
 
   appStatus:
+    - id: covid
+      icon: exclamation-triangle
     - id: done
       icon: check
     - id: development
       icon: wrench
     - id: incubation
       icon: exclamation-triangle
-
+  
   # Must match exact button config on paypal
   paypal:
     buttonID:
