@@ -40,7 +40,7 @@
 						<div class="app-numbers columns is-multiline is-mobile">
 							{{- range $id, $number := . -}}
 								<div class="column is-6-desktop">
-									<div class="hexbadge is-primary columns is-mobile">
+									<div class="hex-badge is-primary columns is-mobile">
 										<div class="column is-narrow">
 											<div class="badge">
 												{{- if (eq $id "hours") -}}
@@ -127,7 +127,7 @@
 	{{- with .Params.team -}}
 		<section class="section app-team">
 			<div class="container">
-				<header class="hexbadge columns is-mobile">
+				<header class="hex-badge columns is-mobile">
 					<div class="column is-narrow">
 						<div class="badge is-primary">
 							<i class="fas fa-users" aria-hidden="true"></i>
@@ -161,7 +161,7 @@
 	{{- with .Params.partners -}}
 		<section class="section app-partners">
 			<div class="container">
-				<header class="hexbadge columns is-mobile">
+				<header class="hex-badge columns is-mobile">
 					<div class="column is-narrow">
 						<div class="badge is-primary">
 							<i class="fas fa-handshake" aria-hidden="true"></i>
