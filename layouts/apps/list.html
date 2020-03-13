@@ -22,9 +22,9 @@
 					</header>
 
 					<div class="apps-container columns is-multiline is-mobile">
-						{{- range where $.Pages ".Params.status" $status.id -}}
-							{{- .Render "loop" -}}
-						{{- end -}}
+					{{- range where $.Pages ".Params.status" $status.id -}}
+						{{- .Render "loop" -}}
+					{{- end -}}					
 					</div>
 				</section>
 			{{- end -}}
