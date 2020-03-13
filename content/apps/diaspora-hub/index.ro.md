@@ -20,6 +20,6 @@ aliases:
   - /en/project/diaspora-hub/
 ---
 
-**Obiectiv**: Colectarea de date despre starea cetățenilor români care locuiesc în străinătate, evaluarea zilnică a stăriilor, informarea și oferirea de sprijin pentru aceștia.
+**Obiectiv**: Colectarea de date despre starea cetățenilor români care locuiesc în străinătate, evaluarea zilnică a stării lor, informarea și oferirea de sprijin pentru aceștia.
 
-**Cum**: Centralizarea și monitorizarea stării persoanelor aflate în carantină, auto-izolare sau care au nevoie de ajutor, cu chestionare standard completate zilnic direct în aplicația web pentru utilizatori, pentru familiile lor.
+**Cum**: Orice cetățean care locuiește în străinătate își poate creaun cont în platformă unde, cu ajutorul unui chestionar simplu în care configurează ce nevoi are, este îndrumat spre ajutor specific. Aceste date sunt centralizate și transmise către autoritățile consulare. Utilizatorii pot să-și monitorizeze starea de sănătate cu ajutorul unor formulare completate recurent, pentru ei și pentru alți membri ai familiilor lor.
