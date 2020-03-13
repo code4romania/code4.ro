@@ -1,6 +1,6 @@
 ---
 title: Date la zi
-link: 
+link:
 color: "#FFF"
 
 status: covid # incubation, development, done, covid
@@ -17,7 +17,7 @@ credits:
 weight: 1
 
 aliases:
-  - /en/project/ce-ma-fac/
+  - /en/project/date-la-zi/
 ---
 
 **Obiectiv**: Informare clară a publicului, creșterea transparenței, diminuarea panicii.
