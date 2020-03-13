@@ -4,7 +4,7 @@ link:
 color: "#FFF"
 
 status: covid # incubation, development, done, covid
-stage: 1 # 1-7
+stage: 4 # 1-7
 
 # work:
 #   hours: 1234
