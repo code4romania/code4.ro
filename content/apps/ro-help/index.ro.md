@@ -22,6 +22,6 @@ aliases:
 
 **Obiectiv**: Colectarea coerentă și în siguranță a ajutoarelor.
 
-**Cum**: Aplicația listează ONG-uri verificate șiv alidate pentru a colecta și distribui resurse. 
+**Cum**: Aplicația listează ONG-uri verificate și validate pentru a colecta și distribui resurse. 
 
 *Concept dezvoltat ca parte din programul Civic Labs al Code for Romania.*
