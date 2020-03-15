@@ -22,7 +22,7 @@ aliases:
 
 **Objective**: Combating disinformation.
 
-**Cum**:
+**How**:
 
 1. Platform which centralizes all the official press releases, press conferences and decisions of the Committee for Special Emergency Situations.
 2. Browser add-on which identifies in any web page key phrases and adds over them an info box which redirects towards official information sources.
