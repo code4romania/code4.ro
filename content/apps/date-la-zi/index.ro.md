@@ -1,6 +1,6 @@
 ---
 title: Date la zi
-link:
+link: "https://datelazi.ro/"
 color: "#FFF"
 
 status: covid # incubation, development, done, covid

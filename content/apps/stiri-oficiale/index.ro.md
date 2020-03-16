@@ -1,6 +1,6 @@
 ---
 title: Știri Oficiale
-link: 
+link: "https://stirioficiale.ro"
 color: "#FFF"
 
 status: covid # incubation, development, done, covid

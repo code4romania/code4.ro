@@ -1,10 +1,10 @@
 ---
 title: Știri Oficiale
-link:
+link: "https://stirioficiale.ro"
 color: "#FFF"
 
 status: covid # incubation, development, done, covid
-stage: 4 # 1-7
+stage: 7 # 1-7
 
 # work:
 #   hours: 1234
