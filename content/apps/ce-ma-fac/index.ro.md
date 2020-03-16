@@ -1,6 +1,6 @@
 ---
 title: Ce mă fac
-link: 
+link: "https://cemafac.ro/"
 color: "#FFF"
 
 status: covid # incubation, development, done, covid

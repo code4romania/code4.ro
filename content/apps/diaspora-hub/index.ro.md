@@ -1,6 +1,6 @@
 ---
 title: Diaspora Hub
-link: 
+link: "https://diasporahub.ro/"
 color: "#FFF"
 
 status: covid # incubation, development, done, covid

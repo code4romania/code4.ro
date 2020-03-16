@@ -1,6 +1,6 @@
 ---
 title: Stăm acasă
-link: 
+link: "https://stamacasa.ro/"
 color: "#FFF"
 
 status: covid # incubation, development, done, covid

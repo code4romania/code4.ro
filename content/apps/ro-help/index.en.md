@@ -1,6 +1,6 @@
 ---
 title: RO help
-link:
+link: "https://rohelp.ro/"
 color: "#FFF"
 
 status: covid # incubation, development, done, covid
