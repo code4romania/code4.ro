@@ -16,6 +16,9 @@ credits:
 
 weight: 5
 
+partners:
+  - gov
+
 aliases:
   - /en/project/diaspora-hub/
 ---
