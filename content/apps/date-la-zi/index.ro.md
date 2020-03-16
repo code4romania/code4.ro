@@ -16,6 +16,9 @@ credits:
 
 weight: 1
 
+partners:
+  - gov
+
 aliases:
   - /en/project/date-la-zi/
 ---

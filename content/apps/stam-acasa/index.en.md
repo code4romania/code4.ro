@@ -16,6 +16,9 @@ credits:
 
 weight: 4
 
+partners:
+  - gov
+
 aliases:
   - /en/project/stam-acasa/
 ---

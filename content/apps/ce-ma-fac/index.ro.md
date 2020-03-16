@@ -16,6 +16,9 @@ credits:
 
 weight: 3
 
+partners:
+  - gov
+
 aliases:
   - /en/project/ce-ma-fac/
 ---

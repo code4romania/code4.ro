@@ -16,6 +16,9 @@ credits:
 
 weight: 2
 
+partners:
+  - gov
+
 aliases:
   - /en/project/stiri-oficiale/
 ---
