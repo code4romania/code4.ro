@@ -19,6 +19,11 @@ weight: 6
 partners:
   - gov
 
+endorsers:
+  - ing
+  - vodafone
+  - raf
+
 aliases:
   - /en/project/ro-help/
 ---
