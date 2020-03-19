@@ -21,8 +21,9 @@ partners:
 
 endorsers:
   - ing
-  - vodafone
   - raf
+  - vodafone
+  
 
 aliases:
   - /en/project/ce-ma-fac/
