@@ -19,6 +19,11 @@ weight: 1
 partners:
   - gov
 
+endorsers:
+  - ing
+  - vodafone
+  - raf
+
 aliases:
   - /en/project/date-la-zi/
 ---

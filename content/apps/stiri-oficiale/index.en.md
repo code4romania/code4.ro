@@ -19,6 +19,11 @@ weight: 2
 partners:
   - gov
 
+endorsers:
+  - ing
+  - vodafone
+  - raf
+
 aliases:
   - /en/project/stiri-oficiale/
 ---

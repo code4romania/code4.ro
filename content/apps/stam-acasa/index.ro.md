@@ -19,6 +19,11 @@ weight: 4
 partners:
   - gov
 
+endorsers:
+  - ing
+  - vodafone
+  - raf
+
 aliases:
   - /en/project/stam-acasa/
 ---

@@ -194,4 +194,41 @@
 			</div>
 		</section>
 	{{- end -}}
+
+	{{- with .Params.endorsers -}}
+		<section class="section app-partners">
+			<div class="container">
+				<header class="hex-badge columns is-mobile">
+					<div class="column is-narrow">
+						<div class="badge is-primary">
+							<i class="fas fa-certificate" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="column is-narrow-tablet">
+						<h1 class="is-size-3 has-text-weight-bold">{{ i18n "endorsers" }}</h1>
+					</div>
+				</header>
+				<div class="columns is-mobile is-multiline">
+					{{- $allpartners := getCSV "," "/csv/endorsers.csv" -}}
+					{{- $partners := . -}}
+
+					{{- range $partner := $partners -}}
+						{{- range $allpartners -}}
+							{{- if eq $partner (index . 0) -}}
+								{{- $.Scratch.SetInMap "partner" "id" (index . 0) -}}
+								{{- $.Scratch.SetInMap "partner" "name" (index . 1) -}}
+								{{- $.Scratch.SetInMap "partner" "url" (index . 2) -}}
+
+								{{- $.Scratch.SetInMap "partner" "compact" true -}}
+
+								{{- partial "loop-endorser.html" ($.Scratch.Get "partner") -}}
+
+								{{- $.Scratch.Delete "partner" -}}
+							{{- end -}}
+						{{- end -}}
+					{{- end -}}
+				</div>
+			</div>
+		</section>
+	{{- end -}}
 {{- end -}}

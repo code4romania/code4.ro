@@ -149,5 +149,8 @@
 - id: partners
   translation: "Our partners"
 
+- id: endorsers
+  translation: "Code for Romania Task Force is endorsed by"
+
 - id: local.sponsors
   translation: "Sponsors in"
