@@ -21,8 +21,8 @@ partners:
 
 endorsers:
   - ing
-  - vodafone
   - raf
+  - vodafone
 
 aliases:
   - /en/project/date-la-zi/
