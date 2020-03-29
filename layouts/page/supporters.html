@@ -7,7 +7,7 @@
 			</header>
 		</div>
 		<div class="container">
-			{{- $types := (slice "Sponsors" "In Kind" "Partners" "Media Partners") -}}
+			{{- $types := (slice "Powered By" "Sponsors" "In Kind" "Partners" "Media Partners") -}}
 			{{- $supporters := getCSV "," "/csv/supporters.csv" -}}
 			{{- range $type := $types -}}
 				<div class="section">

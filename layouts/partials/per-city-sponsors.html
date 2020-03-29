@@ -1,3 +1,21 @@
+<!-- Powered By -->
+<aside class="partners section has-background-light">
+	<div class="container">
+		<h1 class="subtitle has-text-centered has-text-weight-bold">{{ i18n "poweredby" }}</h1>
+		<div class="columns is-mobile is-multiline is-centered">
+			{{ range $.Site.Data.poweredby }}
+			<div class="column is-three-quarters-touch is-2-desktop">
+				<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
+					<div class="logo-container">
+						<img src="{{ (printf "images/poweredby/%s.png" .id) | absURL }}" alt="{{ .name }}">
+					</div>
+				</a>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</aside>
+
 <!-- Sponsors -->
 <aside class="partners section has-background-light">
 	<div class="container">
