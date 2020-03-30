@@ -14,6 +14,10 @@ credits:
   - name: Code for Romania
     image: logo.svg
 
+code:
+  - repo: code4romania/ro-help
+    label: ro-help
+
 weight: 6
 
 partners:

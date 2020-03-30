@@ -14,6 +14,10 @@ credits:
   - name: Code for Romania
     image: logo.svg
 
+code:
+  - repo: code4romania/stam-acasa
+    label: stam-acasa
+
 weight: 4
 
 partners:

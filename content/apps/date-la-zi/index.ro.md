@@ -14,6 +14,10 @@ credits:
   - name: Code for Romania
     image: logo.svg
 
+code:
+  - repo: code4romania/date-la-zi
+    label: date-la-zi
+
 weight: 1
 
 partners:
