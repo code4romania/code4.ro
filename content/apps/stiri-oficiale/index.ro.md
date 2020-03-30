@@ -14,6 +14,10 @@ credits:
   - name: Code for Romania
     image: logo.svg
 
+code:
+  - repo: code4romania/stiri-oficiale
+    label: stiri-oficiale
+
 weight: 2
 
 partners:

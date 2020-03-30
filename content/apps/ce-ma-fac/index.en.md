@@ -1,6 +1,6 @@
 ---
-title: Ce mă fac
-link: "https://cemafac.ro/"
+title: Ce trebuie să fac
+link: "https://cetrebuiesafac.ro"
 color: "#FFF"
 
 status: covid # incubation, development, done, covid
@@ -13,6 +13,10 @@ stage: 4 # 1-7
 credits:
   - name: Code for Romania
     image: logo.svg
+
+code:
+  - repo: code4romania/ce-ma-fac
+    label: ce-ma-fac
 
 weight: 3
 

@@ -14,6 +14,10 @@ credits:
   - name: Code for Romania
     image: logo.svg
 
+code:
+  - repo: code4romania/diaspora-hub
+    label: diaspora-hub
+
 weight: 5
 
 partners:
