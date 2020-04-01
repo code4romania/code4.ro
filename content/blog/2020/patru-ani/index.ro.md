@@ -2,7 +2,7 @@
 title: "Patru ani cât un mandat"
 excerpt: ""
 cover: patru_ani.png
-slug: 
+slug: patru-ani-cat-un-mandat
 
 date: 2020-04-01
 author: Bogdan Ivănel
