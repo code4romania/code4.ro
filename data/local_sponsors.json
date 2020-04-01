@@ -46,6 +46,11 @@
                 "id": "bosch",
                 "name": "Bosch",
                 "url": "https://www.bosch.ro"
+            },
+            {
+                "id": "macadamian",
+                "name": "Macadamian",
+                "url": "https://www.macadamian.com"
             }
         ]
     }
