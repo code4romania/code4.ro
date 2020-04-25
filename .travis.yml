@@ -16,7 +16,7 @@ script:
   - npm install
   - npm run lint:css
   - npm run lint:js
-  - npm run production
+  - npm run build
   - hugo --minify --baseURL $BASE_URL
 
 before_deploy:
