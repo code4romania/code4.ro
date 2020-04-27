@@ -2,41 +2,47 @@
 
 [![Build Status](https://img.shields.io/travis/com/code4romania/code4.ro/master.svg?style=for-the-badge)](https://travis-ci.com/code4romania/code4.ro) [![GitHub contributors](https://img.shields.io/github/contributors/code4romania/code4.ro.svg?style=for-the-badge)](https://github.com/code4romania/code4.ro/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/code4.ro.svg?style=for-the-badge)](https://github.com/code4romania/code4.ro/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
+[See the project live](https://code4.ro/) and [the preview environment](https://code4-ro.now.sh/) with the work in progress.
+
 ## Prerequisite tools
-* [Hugo](https://gohugo.io) >= v0.58.3
-* [npm](https://nodejs.org/en/)
+
+- [Hugo](https://gohugo.io) >= v0.58.3
+- [npm](https://nodejs.org/en/)
 
 ## Contributing
 
 If you would like to contribute to one of our repositories, first identify the scale of what you would like to contribute. If it is small (grammar/spelling or a bug fix) feel free to start working on a fix. If you are submitting a feature or substantial code contribution, please discuss it with the team and ensure it follows the product roadmap.
 
-* Fork it (https://github.com/code4romania/code4.ro/fork)
-* Create your feature branch (git checkout -b feature/fooBar)
-* Commit your changes (git commit -am 'Add some fooBar')
-* Push to the branch (git push origin feature/fooBar)
-* Create a new Pull Request
+- Fork it (https://github.com/code4romania/code4.ro/fork)
+- Create your feature branch (git checkout -b feature/fooBar)
+- Commit your changes (git commit -am 'Add some fooBar')
+- Push to the branch (git push origin feature/fooBar)
+- Create a new Pull Request
 
 [Pending issues](https://github.com/code4romania/code4.ro/issues)
 
 ## Getting Started
+
 First, you must have [node.js](https://nodejs.org/en/) and [Hugo](https://gohugo.io) installed on your system.
+
 1. `git clone https://github.com/code4romania/code4.ro` to clone this repository
 2. `cd code4.ro`
 3. `npm install` to install dependencies
-3. `npm run dev` to build the frontend (using [Webpack](https://webpack.js.org))
-4. `hugo serve` to start a local server
-    * This automatically runs `hugo` (with no arguments) behind the scenes, wihch builds the website and puts all the files in a directory called _public_. This directory is then statically served.
-    * If your URL is any other than _localhost_ (e.g. you're serving the website form a cloud machine), you must use the `--baseURL [your url here]`. This is because the website uses absolute paths in hyperlinks, and it must know the URL from which it is served.
+4. `npm run dev` to build the frontend (using [Webpack](https://webpack.js.org))
+5. `hugo serve` to start a local server
+   - This automatically runs `hugo` (with no arguments) behind the scenes, wihch builds the website and puts all the files in a directory called _public_. This directory is then statically served.
+   - If your URL is any other than _localhost_ (e.g. you're serving the website form a cloud machine), you must use the `--baseURL [your url here]`. This is because the website uses absolute paths in hyperlinks, and it must know the URL from which it is served.
 
 ## How It Works
+
 [Hugo](https://gohugo.io) is a static website engine. This means we write source files, which are used to generate HTML, JavaScript, and CSS, which we then serve statically. There is no backend involved whatsoever.
 
 ## Feedback
 
-* Request a new feature on GitHub.
-* Vote for popular feature requests.
-* File a bug in GitHub Issues.
-* Email us with other feedback contact@code4.ro
+- Request a new feature on GitHub.
+- Vote for popular feature requests.
+- File a bug in GitHub Issues.
+- Email us with other feedback contact@code4.ro
 
 ## License
 
