@@ -23,7 +23,7 @@ Ai o problemă la care cauți o rezolvare? Haide să vedem împreuna dacă tehno
 
 Te gândești la un proiect de tehnologie care să te ajute în misiunea ta? Fie că este vorba de un simplu website sau de o soluție complexă, te putem ajuta să o gândești corect de la început pentru a ne asigura că își atinge obiectivele și nu devine o povară pentru organizația ta.
 
-# Cum poți obține ajutor prin programul Civic Tech 911
+## Cum poți obține ajutor prin programul Civic Tech 911
 
 <span class="has-background-warning">**Formulează nevoia pe care o ai în detalii concrete**.</span> 
 
