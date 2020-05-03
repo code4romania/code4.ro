@@ -39,4 +39,4 @@ O sesiune de consultare durează 120 de minute, iar zilele în care noi derulăm
 
 Pentru început ne vom intalni fizic sau într-o sesiune online de 2 ore în care sa înțelegem mai bine impreuna problema la care căutăm un răspuns. În funcție de evaluarea din prima sesiune, vom continua sa lucram impreuna pentru a te ajuta în atingerea obiectivelor tale.
 
-# Programul Civic Tech 911, colaborări trecute
+## Programul Civic Tech 911, colaborări trecute
