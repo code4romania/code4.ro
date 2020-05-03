@@ -15,7 +15,7 @@ menu:
     weight: 10
 ---
 
-# Ești un ONG sau un grup de inițiativă?
+## Ești un ONG sau un grup de inițiativă?
 
 Simți că nu reușești să te împrietenești cu tehnologia pe cât de repede ți-ai dori? Haide să te ajutăm.
 
