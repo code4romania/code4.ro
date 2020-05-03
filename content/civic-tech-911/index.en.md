@@ -1,7 +1,7 @@
 ---
 title: Civic Tech 911
 slug: civic-tech-911
-description: We've got the expertise and patience to talk you though all your civic tech pain points. 
+description: We've got the expertise and patience to talk you through all your civic tech pain points. 
 type: page
 layout: civic-tech-911
 

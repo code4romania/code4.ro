@@ -15,11 +15,11 @@ menu:
     weight: 10
 ---
 
-# Esti un ONG sau un grup de initiativa?
+# Ești un ONG sau un grup de inițiativă?
 
-Simti ca nu reusesti sa te împrietenești cu tehnologia pe cât de repede ți-ai dori? Haide sa te ajutam.
+Simți că nu reușești să te împrietenești cu tehnologia pe cât de repede ți-ai dori? Haide să te ajutăm.
 
-Ai o problemă la care cauti o rezolvare? Haide sa vedem împreuna dacă tehnologia poate să te ajute. 
+Ai o problemă la care cauți o rezolvare? Haide să vedem împreuna dacă tehnologia poate să te ajute. 
 
 Te gândești la un proiect de tehnologie care să te ajute în misiunea ta? Fie că este vorba de un simplu website sau de o soluție complexă, te putem ajuta să o gândești corect de la început pentru a ne asigura ca își atinge obiectivele și nu devine o povară pentru organizația ta.
 
@@ -40,5 +40,4 @@ O sesiune de consultare durează 120 de minute, iar zilele în care noi derulăm
 Pentru început ne vom intalni fizic sau într-o sesiune online de 2 ore în care sa înțelegem mai bine impreuna problema la care căutăm un răspuns. În funcție de evaluarea din prima sesiune, vom continua sa lucram impreuna pentru a te ajuta în atingerea obiectivelor tale.
 
 # Programul Civic Tech 911, colaborări trecute
-
 
