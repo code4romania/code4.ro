@@ -21,7 +21,7 @@ Simți că nu reușești să te împrietenești cu tehnologia pe cât de repede 
 
 Ai o problemă la care cauți o rezolvare? Haide să vedem împreuna dacă tehnologia poate să te ajute. 
 
-Te gândești la un proiect de tehnologie care să te ajute în misiunea ta? Fie că este vorba de un simplu website sau de o soluție complexă, te putem ajuta să o gândești corect de la început pentru a ne asigura ca își atinge obiectivele și nu devine o povară pentru organizația ta.
+Te gândești la un proiect de tehnologie care să te ajute în misiunea ta? Fie că este vorba de un simplu website sau de o soluție complexă, te putem ajuta să o gândești corect de la început pentru a ne asigura că își atinge obiectivele și nu devine o povară pentru organizația ta.
 
 # Cum poți obține ajutor prin programul Civic Tech 911
 
@@ -40,4 +40,3 @@ O sesiune de consultare durează 120 de minute, iar zilele în care noi derulăm
 Pentru început ne vom intalni fizic sau într-o sesiune online de 2 ore în care sa înțelegem mai bine impreuna problema la care căutăm un răspuns. În funcție de evaluarea din prima sesiune, vom continua sa lucram impreuna pentru a te ajuta în atingerea obiectivelor tale.
 
 # Programul Civic Tech 911, colaborări trecute
-
