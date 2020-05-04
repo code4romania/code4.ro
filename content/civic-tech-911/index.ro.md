@@ -1,14 +1,16 @@
 ---
 title: Civic Tech 911
 slug: civic-tech-911
-description: 
+summary: description meta tag text here
 layout: civic-tech-911
 type: page
 
-hero: Departamentul de tech al României
-paragraph1: ONG-urile lucrează zi de zi pentru ca societatea în care trăim sa fie mai funcțională. Orice problemă a lor, devine și o problemă a noastră.
-paragraph2: Nu ar fi grozav dacă fiecare organizație neguvernamentală ar avea propriul departament tech care să o ajute să devină mai eficientă, să automatizeze procese complicate și consumatoare de timp, să transmită mesaje unor audiențe cât mai mari și să își îndeplinească misiunea mai bine?
-paragraph3: Până când fiecare ONG poate avea propria echipă IT, Civic Tech 911 este departamentul de tech gata să intervină la orice solicitare de ajutor.
+intro:
+  title: Departamentul de tech al României
+  content:
+    - ONG-urile lucrează zi de zi pentru ca societatea în care trăim sa fie mai funcțională. Orice problemă a lor, devine și o problemă a noastră.
+    - Nu ar fi grozav dacă fiecare organizație neguvernamentală ar avea propriul departament tech care să o ajute să devină mai eficientă, să automatizeze procese complicate și consumatoare de timp, să transmită mesaje unor audiențe cât mai mari și să își îndeplinească misiunea mai bine?
+    - Până când fiecare ONG poate avea propria echipă IT, Civic Tech 911 este departamentul de tech gata să intervină la orice solicitare de ajutor.
 
 menu:
   header:
@@ -19,15 +21,15 @@ menu:
 
 Simți că nu reușești să te împrietenești cu tehnologia pe cât de repede ți-ai dori? Haide să te ajutăm.
 
-Ai o problemă la care cauți o rezolvare? Haide să vedem împreuna dacă tehnologia poate să te ajute. 
+Ai o problemă la care cauți o rezolvare? Haide să vedem împreuna dacă tehnologia poate să te ajute.
 
 Te gândești la un proiect de tehnologie care să te ajute în misiunea ta? Fie că este vorba de un simplu website sau de o soluție complexă, te putem ajuta să o gândești corect de la început pentru a ne asigura că își atinge obiectivele și nu devine o povară pentru organizația ta.
 
 ## Cum poți obține ajutor prin programul Civic Tech 911
 
-<span class="has-background-warning">**Formulează nevoia pe care o ai în detalii concrete**.</span> 
+<span class="has-background-warning">**Formulează nevoia pe care o ai în detalii concrete**.</span>
 
-Pentru a putea să configurăm echipa potrivită pentru problema ta, este important să ne transmiți cât mai multe detalii despre nevoile cu care te confrunți. Dă-ne informații despre context, cum se manifestă problema, cine sunt cei care sunt afectați direct sau indirect de ea și, acolo unde este cazul, ne poți ghida către informații suplimentare (ex: contextul legal în care se manifestă) sau alte exemple similare de situații. 
+Pentru a putea să configurăm echipa potrivită pentru problema ta, este important să ne transmiți cât mai multe detalii despre nevoile cu care te confrunți. Dă-ne informații despre context, cum se manifestă problema, cine sunt cei care sunt afectați direct sau indirect de ea și, acolo unde este cazul, ne poți ghida către informații suplimentare (ex: contextul legal în care se manifestă) sau alte exemple similare de situații.
 
 <span class="has-background-warning">**Alege un interval orar în care putem să discutăm împreună**.</span>
 

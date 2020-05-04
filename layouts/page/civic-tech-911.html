@@ -1,37 +1,32 @@
 {{- define "main" -}}
-
-<!-- Hero -->
-<section class="hero front-intro">
-	<div class="hero-body container">
-		<div class="columns is-vcentered">
-			<div class="column is-6">
+	<!-- Hero -->
+	{{- with .Params.intro -}}
+		<section class="section">
+			<div class="container">
 				<h1 class="title">
-					{{- .Params.hero -}}
+					{{- .title -}}
 				</h1>
-				<p>
-					{{- .Params.paragraph1 -}}
-				</p>
-				<p>
-					{{- .Params.paragraph2 -}}
-				</p>
-				<p>
-					{{- .Params.paragraph3 -}}
-				</p>
-			</div>
-			<div class="column is-6">
-				<img src="{{ "images/911.svg" | absURL }}" class="logo" alt="Logo programul Civic Tech 911">
-			</div>
-		</div>
-	</div>
-</section>
 
-<!-- Content -->
-<div class="page-staff">
-	<section>
+				<div class="columns is-vcentered">
+					<div class="column is-6">
+						<div class="content">
+							{{- range .content -}}
+								<p>{{ . | safeHTML }}</p>
+							{{- end -}}
+						</div>
+					</div>
+					<div class="column is-6">
+						<img src="{{ "images/911.svg" | absURL }}" alt="Logo Civic Tech 911">
+					</div>
+				</div>
+			</div>
+		</section>
+	{{- end -}}
+
+	<!-- Content -->
+	<section class="section page narrow">
 		<div class="container content">
 			{{- .Content -}}
 		</div>
 	</section>
-</div>
-
 {{- end -}}
