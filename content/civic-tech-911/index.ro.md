@@ -43,14 +43,25 @@ Pentru început ne vom întâlni fizic sau într-o sesiune online de 2 ore în c
 
 ## Am dat o mână de ajutor
 
-<div class="columns is-mobile is-multiline">
-  <div class="column is-6-mobile is-4-tablet is-3-desktop {{- if .compact }} is-2-fullhd {{- end }} logo-container">
-      <img src="doliu.png" alt="Există viață după doliu" title="Există viață după doliu">
+<div class="columns">
+
+<div class="column">
+  <div class="columns is-mobile is-multiline">
+    <div class="column logo-container">
+          <img src="terredeshommes.png" alt="Terre Des Hommes România" title="Terre Des Hommes România">
+    </div>
   </div>
-  <div class="column is-6-mobile is-4-tablet is-3-desktop {{- if .compact }} is-2-fullhd {{- end }} logo-container">
-      <img src="terredeshommes.png" alt="Există viață după doliu" title="Există viață după doliu">
+</div>
+
+<div class="column">
+  <div class="columns is-mobile is-multiline">
+    <div class="column is-6-mobile is-4-tablet is-3-desktop logo-container">
+          <img src="doliu.png" alt="Există viață după doliu" title="Există viață după doliu">
+      </div>
+      <div class="column is-6-mobile is-4-tablet is-3-desktop logo-container">
+          <img src="worldvision.png" alt="World Vision" title="World Vision">
+      </div>
+    </div>
   </div>
-  <div class="column is-6-mobile is-4-tablet is-3-desktop {{- if .compact }} is-2-fullhd {{- end }} logo-container">
-      <img src="worldvision.png" alt="Există viață după doliu" title="Există viață după doliu">
-  </div>
+
 </div>
