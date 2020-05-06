@@ -36,13 +36,19 @@
 			<div class="columns is-mobile is-multiline">
 				{{- range $.Site.Data.orgs911 -}}
 					<div class="column is-6-mobile is-4-tablet is-3-desktop is-2-fullhd">
-						<div class="partner">
-							<div class="logo-container padded">
-								<a href="{{ .url }}" rel="noreferrer noopener" target="_blank">
+						{{- if .url -}}
+							<a href="{{ .url }}" target="_blank" rel="noreferrer noopener" class="partner is-link">
+								<div class="logo-container padded">
 									<img src="{{ (printf "images/911/%s" .logo ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
-								</a>
+								</div>
+							</a>
+						{{- else -}}
+							<div class="partner">
+								<div class="logo-container padded">
+									<img src="{{ (printf "images/911/%s" .logo ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
+								</div>
 							</div>
-						</div>
+						{{- end -}}
 					</div>
 				{{- end -}}
 			</div>
