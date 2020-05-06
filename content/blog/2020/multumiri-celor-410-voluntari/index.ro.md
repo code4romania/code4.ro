@@ -4,7 +4,7 @@ excerpt:
 cover: multumim.png
 slug: multumiri-celor-410-voluntari
 
-date: 2020-04-01
+date: 2020-04-23
 author: Bogdan Ivănel
 ---
 
