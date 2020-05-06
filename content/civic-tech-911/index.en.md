@@ -26,8 +26,6 @@ Are you considering empowering your mission through technology? Be it a simple w
 
 ## How you can obtain the aid you need, through Civic Tech 911
 
-<span class="has-background-warning">****.</span>
-
 <span class="has-background-warning">**Formulate your need in very minute details**.</span>
 
 In order for us to assemble the right team to work on your problem, we require you to convey as many details as you can, about your needs. Tell us about the context, how the problem manifests, who are the people directly or indirectly impacted by this problem, and, if this is the case, guide us towards any additional information (such as the legal context, for example) or similar situations.
