@@ -8,7 +8,7 @@ type: page
 intro:
   title: Departamentul de tech al României
   content:
-    - ONG-urile lucrează zi de zi pentru ca societatea în care trăim sa fie mai funcțională. Orice problemă a lor, devine și o problemă a noastră.
+    - ONG-urile lucrează zi de zi pentru ca societatea în care trăim să fie mai funcțională. Orice problemă a lor devine și o problemă a noastră.
     - Nu ar fi grozav dacă fiecare organizație neguvernamentală ar avea propriul departament tech care să o ajute să devină mai eficientă, să automatizeze procese complicate și consumatoare de timp, să transmită mesaje unor audiențe cât mai mari și să își îndeplinească misiunea mai bine?
     - Până când fiecare ONG poate avea propria echipă IT, Civic Tech 911 este departamentul de tech gata să intervină la orice solicitare de ajutor.
 
@@ -21,7 +21,7 @@ menu:
 
 Simți că nu reușești să te împrietenești cu tehnologia pe cât de repede ți-ai dori? Haide să te ajutăm.
 
-Ai o problemă la care cauți o rezolvare? Haide să vedem împreuna dacă tehnologia poate să te ajute.
+Ai o problemă la care cauți o rezolvare? Haide să vedem împreună dacă tehnologia poate să te ajute.
 
 Te gândești la un proiect de tehnologie care să te ajute în misiunea ta? Fie că este vorba de un simplu website sau de o soluție complexă, te putem ajuta să o gândești corect de la început pentru a ne asigura că își atinge obiectivele și nu devine o povară pentru organizația ta.
 
