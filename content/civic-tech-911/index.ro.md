@@ -29,7 +29,7 @@ Te gândești la un proiect de tehnologie care să te ajute în misiunea ta? Fie
 
 <span class="has-background-warning">**Formulează nevoia pe care o ai în detalii concrete**.</span>
 
-Pentru a putea să configurăm echipa potrivită pentru problema ta, este important să ne transmiți cât mai multe detalii despre nevoile cu care te confrunți. Dă-ne informații despre context, cum se manifestă problema, cine sunt cei care sunt afectați direct sau indirect de ea și, acolo unde este cazul, ne poți ghida către informații suplimentare (ex: contextul legal în care se manifestă) sau alte exemple similare de situații.
+Pentru a putea să configurăm echipa potrivită pentru problema ta, este important să ne transmiți cât mai multe detalii despre nevoile cu care te confrunți. În programarea pe care o faci, dă-ne informații despre context, cum se manifestă problema, cine sunt cei care sunt afectați direct sau indirect de ea și, acolo unde este cazul, ne poți ghida către informații suplimentare (ex: contextul legal în care se manifestă) sau alte exemple similare de situații.
 
 <span class="has-background-warning">**Alege un interval orar în care putem să discutăm împreună**.</span>
 

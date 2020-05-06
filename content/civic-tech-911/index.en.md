@@ -8,8 +8,8 @@ type: page
 intro:
   title: The tech department of Romania
   content:
-    - NGOs are the backbone of public service. Whether they are dealing with issues of understaffing, underfinancing and overstretching their struggles impacts us all. 
-    - Wouldn't it be great if every NGOs could have it's own tech department helping it become more efficient, automate time consuming processes and reach out to a wider audience so they can attain their mission better? 
+    - NGOs are the backbone of public service. Whether they are dealing with issues of understaffing, underfinancing and overstretching, their struggles impacts us all.
+    - Wouldn't it be great if every NGO could have its own tech department helping it become more efficient, automate time consuming processes and reach out to a wider audience so it can attain its mission better?
     - Until every NGO can afford its own full time tech departement, CivicTech 911 is the on call tech department that every NGO in Romania can access.
 
 menu:
@@ -24,11 +24,11 @@ Are you seeking solutions for the shortcomings you're facing? Let's talk and see
 
 Are you considering empowering your mission through technology? Be it a simple website or a complex application, we can help plan it out properly from the very beginning, so that it meets your objectives and doesn't become a burden for your organization. 
 
-## How you can obtain the aid you need, through Civic Tech 911
+## How you can get the aid you need, through Civic Tech 911
 
 <span class="has-background-warning">**Formulate your need in very minute details**.</span>
 
-In order for us to assemble the right team to work on your problem, we require you to convey as many details as you can, about your needs. Tell us about the context, how the problem manifests, who are the people directly or indirectly impacted by this problem, and, if this is the case, guide us towards any additional information (such as the legal context, for example) or similar situations.
+In order for us to assemble the right team to work on your problem, we require you to convey as many details as you can, about your needs. In the appointment, tell us about the context, how the problem manifests, who are the people directly or indirectly impacted by this problem, and, if this is the case, guide us towards any additional information (such as the legal context, for example) or similar situations.
 
 <span class="has-background-warning">**Choose an interval when we can talk**.</span>
 

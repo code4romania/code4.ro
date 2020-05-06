@@ -4,11 +4,19 @@
 		"name": "Terre Des Hommes România"
 	},
 	{
-		"logo": "doliu.png",
+		"logo": "existaviatadupadoliu.png",
 		"name": "Există viață după doliu"
 	},
 	{
 		"logo": "worldvision.png",
 		"name": "World Vision"
+	},
+	{
+		"logo": "amais.png",
+		"name": "Asociația Metodelor Alternative de Integrare Socială"
+	},
+	{
+		"logo": "make4romania.png",
+		"name": "Make for Romania"
 	}
 ]
