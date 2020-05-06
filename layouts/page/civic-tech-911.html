@@ -38,7 +38,9 @@
 					<div class="column is-6-mobile is-4-tablet is-3-desktop is-2-fullhd">
 						<div class="partner">
 							<div class="logo-container padded">
-								<img src="{{ (printf "images/911/%s" .logo ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
+								<a href="{{ .url }}" rel="noreferrer noopener" target="_blank">
+									<img src="{{ (printf "images/911/%s" .logo ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
+								</a>
 							</div>
 						</div>
 					</div>

@@ -1,22 +1,27 @@
 [
 	{
 		"logo": "terredeshommes.png",
-		"name": "Terre Des Hommes România"
+		"name": "Terre Des Hommes România",
+		"url": "https://www.tdh.ro"
 	},
 	{
 		"logo": "existaviatadupadoliu.png",
-		"name": "Există viață după doliu"
+		"name": "Există viață după doliu",
+		"url": "https://www.facebook.com/planurideviitor.ro/"
 	},
 	{
 		"logo": "worldvision.png",
-		"name": "World Vision"
+		"name": "World Vision",
+		"url": "https://worldvision.ro"
 	},
 	{
 		"logo": "amais.png",
-		"name": "Asociația Metodelor Alternative de Integrare Socială"
+		"name": "Asociația Metodelor Alternative de Integrare Socială",
+		"url": "https://amais.ro"
 	},
 	{
 		"logo": "make4romania.png",
-		"name": "Make for Romania"
+		"name": "Make for Romania",
+		"url": "https://make4.ro"
 	}
 ]
