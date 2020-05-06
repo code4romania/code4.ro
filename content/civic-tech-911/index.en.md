@@ -39,29 +39,3 @@ A consulting session is 120 minutes long, and Civic Tech 911 is a program that r
 <span class="has-background-warning">**Together, we can find the best solutions**.</span>
 
 At first, we will have an in-person meeting or an online session, lasting 2 hours, in order to understand the problem that we're facing. The evaluation at the end of this first session dictates how we will continue to work together in order to help you reach your objectives. 
-
-## We offered guidance 
-
-<div class="columns">
-
-<div class="column">
-  <div class="columns is-mobile is-multiline">
-    <div class="column logo-container">
-          <img src="terredeshommes.png" alt="Terre Des Hommes România" title="Terre Des Hommes România">
-    </div>
-  </div>
-</div>
-
-<div class="column">
-  <div class="columns is-mobile is-multiline">
-    <div class="column is-6-mobile is-4-tablet is-3-desktop logo-container">
-          <img src="doliu.png" alt="Există viață după doliu" title="Există viață după doliu">
-      </div>
-      <div class="column is-6-mobile is-4-tablet is-3-desktop logo-container">
-          <img src="worldvision.png" alt="World Vision" title="World Vision">
-      </div>
-    </div>
-  </div>
-
-</div>
-

@@ -219,6 +219,10 @@ a {
 
 	.logo-container {
 		@extend %logo-container;
+
+		&.padded img {
+			width: 65%;
+		}
 	}
 
 	&.is-link:hover {

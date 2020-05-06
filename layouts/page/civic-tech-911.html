@@ -29,4 +29,21 @@
 			{{- .Content -}}
 		</div>
 	</section>
+
+	<div class="section">
+		<div class="container content">
+			<h2 class="subtitle">{{ i18n "orgs911.title" }}</h2>
+			<div class="columns is-mobile is-multiline">
+				{{- range $.Site.Data.orgs911 -}}
+					<div class="column is-6-mobile is-4-tablet is-3-desktop is-2-fullhd">
+						<div class="partner">
+							<div class="logo-container padded">
+								<img src="{{ (printf "images/911/%s" .logo ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
+							</div>
+						</div>
+					</div>
+				{{- end -}}
+			</div>
+		</div>
+	</div>
 {{- end -}}

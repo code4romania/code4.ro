@@ -40,28 +40,3 @@ O sesiune de consultare durează 120 de minute, iar zilele în care noi derulăm
 <span class="has-background-warning">**Împreună găsim cele mai bune soluții**.</span>
 
 Pentru început ne vom întâlni fizic sau într-o sesiune online de 2 ore în care să înțelegem mai bine împreună problema la care căutăm un răspuns. În funcție de evaluarea din prima sesiune, vom continua să lucrăm împreună pentru a te ajuta în atingerea obiectivelor tale.
-
-## Am dat o mână de ajutor
-
-<div class="columns">
-
-<div class="column">
-  <div class="columns is-mobile is-multiline">
-    <div class="column logo-container">
-          <img src="terredeshommes.png" alt="Terre Des Hommes România" title="Terre Des Hommes România">
-    </div>
-  </div>
-</div>
-
-<div class="column">
-  <div class="columns is-mobile is-multiline">
-    <div class="column is-6-mobile is-4-tablet is-3-desktop logo-container">
-          <img src="doliu.png" alt="Există viață după doliu" title="Există viață după doliu">
-      </div>
-      <div class="column is-6-mobile is-4-tablet is-3-desktop logo-container">
-          <img src="worldvision.png" alt="World Vision" title="World Vision">
-      </div>
-    </div>
-  </div>
-
-</div>
