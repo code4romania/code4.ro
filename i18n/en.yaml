@@ -157,3 +157,6 @@
 
 - id: local.sponsors
   translation: "Sponsors in"
+
+- id: orgs911.title
+  translation: "We offered guidance to"

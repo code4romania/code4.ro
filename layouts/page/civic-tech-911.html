@@ -1,0 +1,57 @@
+{{- define "main" -}}
+	<!-- Hero -->
+	{{- with .Params.intro -}}
+		<section class="section">
+			<div class="container">
+				<h1 class="title">
+					{{- .title -}}
+				</h1>
+
+				<div class="columns is-vcentered">
+					<div class="column is-6">
+						<div class="content">
+							{{- range .content -}}
+								<p>{{ . | safeHTML }}</p>
+							{{- end -}}
+						</div>
+					</div>
+					<div class="column is-6">
+						<img src="{{ "images/911.svg" | absURL }}" alt="Logo Civic Tech 911">
+					</div>
+				</div>
+			</div>
+		</section>
+	{{- end -}}
+
+	<!-- Content -->
+	<section class="section page narrow">
+		<div class="container content">
+			{{- .Content -}}
+		</div>
+	</section>
+
+	<div class="section">
+		<div class="container content">
+			<h2 class="subtitle">{{ i18n "orgs911.title" }}</h2>
+			<div class="columns is-mobile is-multiline">
+				{{- range $.Site.Data.orgs911 -}}
+					<div class="column is-6-mobile is-4-tablet is-3-desktop is-2-fullhd">
+						{{- if .url -}}
+							<a href="{{ .url }}" target="_blank" rel="noreferrer noopener" class="partner is-link">
+								<div class="logo-container padded">
+									<img src="{{ (printf "images/911/%s" .logo ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
+								</div>
+							</a>
+						{{- else -}}
+							<div class="partner">
+								<div class="logo-container padded">
+									<img src="{{ (printf "images/911/%s" .logo ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
+								</div>
+							</div>
+						{{- end -}}
+					</div>
+				{{- end -}}
+			</div>
+		</div>
+	</div>
+{{- end -}}
