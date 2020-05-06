@@ -1,6 +1,6 @@
 ---
 title: "Civic Tech 911"
-link: 
+link: https://code4.ro/ro/civic-tech-911/
 weight: 1
 ---
 Does it feel like you can't get a grip on technology as fast as you'd like to? Let us help you.
