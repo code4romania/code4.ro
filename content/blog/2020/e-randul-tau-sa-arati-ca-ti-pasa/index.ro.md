@@ -27,7 +27,7 @@ Cu “autograful” tău dat pe [formularul 230](https://redirectioneaza.ro/code
 *Cum?*
 
 1. *Completează online [aici](https://redirectioneaza.ro/code-for-romania/doilasuta) formularul 230 pentru Code for Romania, tipărește-l, semnează-l, apoi*
-2. *trimite-l scanat la redirectioneaza@code4.ro . De aici încolo, ne ocupăm noi să ajungă mai departe la ANAF-ul de care aparții. *
+2. *trimite-l scanat la redirectioneaza@code4.ro . De aici încolo, ne ocupăm noi să ajungă mai departe la ANAF-ul de care aparții.*
 
 **Solicită prietenilor și familiei să redirecționeze pentru Code for Romania.**
 **Pentru fiecare set de 7 formulare completate și trimise nouă pe mail, în semn de recunoștință, răsplătim la rândul nostru în oglindă cu un set de stickere “we care code4”, ediție limitată.**
