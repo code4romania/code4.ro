@@ -69,25 +69,51 @@ Alisa și echipa Cegeka
 
 Flori de la Gala Societății Civile
 
-<iframe src="https://drive.google.com/file/d/19AzSzKKjDdEIuD_ooXBZoogaOlyM5krk/preview" width="640" height="480"></iframe> 
+---
+
+<div class="embed-responsive is-16by9">
+  <iframe src="https://drive.google.com/file/d/19AzSzKKjDdEIuD_ooXBZoogaOlyM5krk/preview"></iframe>
+</div>
 
 Will Tyner
 
-<iframe src="https://drive.google.com/file/d/1LLDW4T1mpp_0VMtNlsnM1nKGxPLX0Rqa/preview" width="640" height="480"></iframe>
+---
 
-<iframe src="https://drive.google.com/file/d/139cUcfN5ahJuYreMj0_aspx9f1MBRolr/preview" width="640" height="480"></iframe>
+<div class="embed-responsive is-16by9">
+  <iframe src="https://drive.google.com/file/d/1LLDW4T1mpp_0VMtNlsnM1nKGxPLX0Rqa/preview"></iframe>
+</div>
 
-<iframe src="https://drive.google.com/file/d/1waIgrFUJvJEBR_uu7SKHtbw4L1xzTqFh/preview" width="640" height="480"></iframe>
+---
+
+<div class="embed-responsive is-16by9">
+  <iframe src="https://drive.google.com/file/d/139cUcfN5ahJuYreMj0_aspx9f1MBRolr/preview"></iframe>
+</div>
+
+---
+
+<div class="embed-responsive is-16by9">
+  <iframe src="https://drive.google.com/file/d/1waIgrFUJvJEBR_uu7SKHtbw4L1xzTqFh/preview"></iframe>
+</div>
 
 Evozon
 
-<iframe src="https://drive.google.com/file/d/1BNNFnXPX4ik9uDnSFvr1W90ZNPvKTN1n/preview" width="640" height="480"></iframe>
+---
+
+<div class="embed-responsive is-16by9">
+  <iframe src="https://drive.google.com/file/d/1BNNFnXPX4ik9uDnSFvr1W90ZNPvKTN1n/preview"></iframe>
+</div>
 
 Ryan Cozier
 
-<iframe src="https://drive.google.com/file/d/1aiq2raRcyh2ATjnDnRY3kCZHXi9ppBx3/preview" width="640" height="480"></iframe>
+---
+
+<div class="embed-responsive is-16by9">
+  <iframe src="https://drive.google.com/file/d/1aiq2raRcyh2ATjnDnRY3kCZHXi9ppBx3/preview"></iframe>
+</div>
 
 Codru Vrabie
+
+---
 
 Dar mulțumirile astea nu ne aparțin doar nouă, ci și vouă. Nu doar cei din echipa centrală au avut parte de nopți nedormite și call-uri interminabile ci și cei din comunitățile locale, cei peste 1500 de voluntari din toate domeniile, de la programatori și designeri la business analysts și produceri. Mulțumirile aparțin și susținătorilor și donatorilor, sponsorilor noștri precum Romanian-American Foundation, Lidl, Fundația Vodafone Romania, ING Bank, Patria Bank și tuturor celor care ne-au dat vreodată un like pe Facebook, Instagram, LinkedIn sau Twitter. Suntem aici mulțumită vouă, motiv pentru care vrem să adăugăm un mare MULȚUMIM la cele de mai sus pentru voi, toți. Vă mulțumim tuturor, voi sunteți eroii tehnologiei civice de care avem cu toții nevoie. La anul, când o să fim cu toții mai liberi, dăm petrecere!
 
