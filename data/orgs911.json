@@ -23,5 +23,45 @@
 		"logo": "make4romania.png",
 		"name": "Make for Romania",
 		"url": "https://make4.ro"
+	},
+	{
+		"logo": "cutia_cu_medicamente.png",
+		"name": "Cutia cu medicamente",
+		"url": "https://www.facebook.com/cutiacumedicamente/"
+	},
+	{
+		"logo": "dor.png",
+		"name": "DOR",
+		"url": "https://www.dor.ro/"
+	},
+	{
+		"logo": "sense.png",
+		"name": "Sense International",
+		"url": "https://surdocecitate.ro/"
+	},
+	{
+		"logo": "tabere_cu_suflet.png",
+		"name": "Tabere cu Suflet",
+		"url": "http://taberecusuflet.ro/"
+	},
+	{
+		"logo": "zi_de_bine.png",
+		"name": "Zi de Bine",
+		"url": "https://zidebine.ro/acasa.html"
+	},
+	{
+		"logo": "sexul_vs_barza.png",
+		"name": "Sexul vs Barza",
+		"url": "http://www.sexulvsbarza.ro/"
+	},
+	{
+		"logo": "the_social_incubator.png",
+		"name": "The Social Incubator",
+		"url": "https://asociatiasocialincubator.org/en/home/"
+	},
+	{
+		"logo": "tac_social.png",
+		"name": "TAC Social",
+		"url": "https://www.facebook.com/socialTAC/"
 	}
 ]
