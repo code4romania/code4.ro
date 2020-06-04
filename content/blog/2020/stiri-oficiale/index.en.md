@@ -2,7 +2,6 @@
 title: "Știri Oficiale is live"
 excerpt: ""
 cover: logo.png
-slug: stiri-oficiale
 
 date: 2020-03-17
 author: Bogdan Ivănel

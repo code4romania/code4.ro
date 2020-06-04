@@ -2,7 +2,6 @@
 title: "Open Data Day"
 excerpt: ""
 cover: open_data_day.png
-slug: open-data-day
 
 date: 2020-03-06
 author: Cătălin Bindea

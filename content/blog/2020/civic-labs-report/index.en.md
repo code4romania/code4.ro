@@ -2,7 +2,6 @@
 title: "Civic Labs Report - 1 year of study"
 excerpt:
 cover: civic-labs-1-an.jpg
-slug: civic-labs-an-1
 
 date: 2020-02-19
 author: Cătălin Bindea

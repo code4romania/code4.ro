@@ -2,7 +2,6 @@
 title: "I’m restless"
 excerpt: "An overachiever Code for Romania tells us what keeps him on his toes"
 cover: andreionel-cover.jpg
-slug: heroes-of-tech-andrei-onel
 
 date: 2019-11-04
 author: Dragoș Costache

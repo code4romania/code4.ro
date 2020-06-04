@@ -1,6 +1,5 @@
 ---
 title: "The country of the well made vote"
-slug: tara-votului-bine-facut
 excerpt: "Voting, more than electronic"
 cover: voting.jpg
 

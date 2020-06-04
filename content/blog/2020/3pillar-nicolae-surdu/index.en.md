@@ -2,7 +2,6 @@
 title: "Open data and the desire to help"
 excerpt:
 cover: nicolae_surdu.jpg
-slug: 3pillar-nicolae-surdu
 
 date: 2020-02-20
 author: Dragoș Costache
