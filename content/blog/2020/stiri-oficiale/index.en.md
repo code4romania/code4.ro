@@ -1,5 +1,5 @@
 ---
-title: "S-a lansat Știri Oficiale"
+title: "Știri Oficiale is live"
 excerpt: ""
 cover: logo.png
 slug: stiri-oficiale
