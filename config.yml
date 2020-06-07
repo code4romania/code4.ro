@@ -54,17 +54,23 @@ params:
       icon: wrench
     - id: incubation
       icon: exclamation-triangle
-  
+
   # Must match exact button config on paypal
   paypal:
     buttonID:
       recurring: YED2GFGKUFXBJ
       onetime: C39VZYTTZGF82
-    amounts: [ 5, 10, 20, 50, 100 ]
+    amounts: [5, 10, 20, 50, 100]
 
 blackfriday:
   hrefTargetBlank: true
   fractions: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
 
 sitemap:
   changefreq: weekly
