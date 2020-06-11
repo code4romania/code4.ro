@@ -32,8 +32,7 @@ Cronologic vorbind evenimentele astronomice sunt de obicei cele mai ușor verifi
 
 ---
 
-[Picnic at Hanging Rock](<https://en.wikipedia.org/wiki/Picnic_at_Hanging_Rock_(film)>) (1973, Peter Weir) - Ați văzut vreodată Călăuza lui Tarkovski sau ați citit ceva horror cosmic a la Stephen King sau H.P. Lovecraft, și singurul lucru care v-a venit în minte a fost “îmi place dar are nevoie de mai multe fete de pension și eventual ceva muzică de Gheoghe Zamfir”? Peter Weir are filmul pentru voi. Picnic at Hanging Rock e povestea unor domnișoare de la internat care se duc într-o excursie în hățișul australian și CEVA CIUDAT se întâmplă. Filmul este superb nu pentru cine știe ce artificii vizuale ci în principal pentru atmosferă. Naiul duios al compatriotului nostru plus construcția opresivă a scenelor crează o atmosferă ușor înfricoșătoare fără să poți spune exact ce e în neregulă acolo. E ca și cum ai distila Lovecraft și frații Strugatki și ai trage totul într-un corset. Rezultatul e un film fascinant, pe care vi-l recomand
-https://www.youtube.com/watch?v=UWqCHKtKPKI
+[Picnic at Hanging Rock](<https://en.wikipedia.org/wiki/Picnic_at_Hanging_Rock_(film)>) (1973, Peter Weir) - Ați văzut vreodată Călăuza lui Tarkovski sau ați citit ceva horror cosmic a la Stephen King sau H.P. Lovecraft, și singurul lucru care v-a venit în minte a fost “îmi place dar are nevoie de mai multe fete de pension și eventual ceva muzică de Gheoghe Zamfir”? Peter Weir are filmul pentru voi. Picnic at Hanging Rock e povestea unor domnișoare de la internat care se duc într-o excursie în hățișul australian și CEVA CIUDAT se întâmplă. Filmul este superb nu pentru cine știe ce artificii vizuale ci în principal pentru atmosferă. Naiul duios al compatriotului nostru plus construcția opresivă a scenelor crează o atmosferă ușor înfricoșătoare fără să poți spune exact ce e în neregulă acolo. E ca și cum ai distila Lovecraft și frații Strugatki și ai trage totul într-un corset. Rezultatul e un film fascinant, pe care vi-l recomand.
 
 ## Cartea Săptămânii
 
@@ -41,8 +40,13 @@ https://www.youtube.com/watch?v=UWqCHKtKPKI
 
 ## Serialul Săptămânii
 
+<div class="embed-responsive is-16by9">
+  <iframe src="https://www.youtube-nocookie.com/embed/Gz3ngq8Vp4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
 [The Great](<https://en.wikipedia.org/wiki/The_Great_(miniseries)>) (2020) - Un serial interesant care încearcă să păstreze un echilibru între comedie și dramă, The Great e o repovestire amuzantă a vieții Ecaterinei cea Mare, a planurilor ei de a prelua puterea și aduce reforma în Rusia dar mai ales o satiră a vieții de curte. O bună parte din șarmul serialului stă în interpretări, toate fiind fantastice cu posibila excepție a lui Elle Fanning ca Ecaterina care mie personal nu mi-a plăcut. Dar cu personaje ca patriarhul Rusiei care e jumătate Daniel, jumătate Dragonu AK-47 pe ecran cui îi mai pasă, sincer.
-https://www.youtube.com/watch?v=Gz3ngq8Vp4w
 
 ## Jocul Săptămânii
 
@@ -50,8 +54,13 @@ https://www.youtube.com/watch?v=Gz3ngq8Vp4w
 
 ## Internetul Săptămânii
 
+<div class="embed-responsive is-16by9">
+  <iframe src="https://www.youtube-nocookie.com/embed/3YFeE1eDlD0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
 [How to be a pirate](https://www.youtube.com/watch?v=3YFeE1eDlD0) de CGP Grey câștigă săptămâna asta internetul. Unul dintre cele mai bune canale de youtube ne explică în termeni de branding și economie cum merge treaba cu pirateria, și nu mă refer la aia de pe filelist.
-https://www.youtube.com/watch?v=3YFeE1eDlD0
 
 ## Random-ul Săptămânii
 
@@ -61,8 +70,8 @@ https://www.youtube.com/watch?v=3YFeE1eDlD0
 
 Code for Romania este acum și pe Spotify. Da, pentru că atât de mult ne-a inspirat colegul [Rezilient / Chris:matic!](https://www.facebook.com/ChrismaticGuy/) Primul playlist cu alegeri bizar de diverse este cu câte o melodie de la fiecare și pentru că tot ne-a fost muz, selecția de săptămâna viitorare o să fie curatoriată chiar de el, Cristian Habliuc, fix din inima Iașiului!
 
-<div class="embed-responsive is-3by2">
-  <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<div class="embed-responsive is-16by9">
+  <iframe src="https://open.spotify.com/embed/playlist/0272FowWzzHu7Hfls5nZN2" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 ---
