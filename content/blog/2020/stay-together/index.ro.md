@@ -49,9 +49,9 @@ Aplicația te va ajuta în acest fel atât în alcătuirea planului de urgență
 
 **Status: Neadoptat**
 
-<span class="has-background-warning">**Reprezinți un ONG și vrei să adopți acestă soluție?**</span>
+<a href="mailto:contact@code4.ro"><span class="has-background-warning">**Reprezinți un ONG și vrei să adopți acestă soluție?**</span></a>
 
-<span class="has-background-warning">**Reprezinți o companie și vrei să finanțezi acest proiect?**</span>
+<a href="mailto:contact@code4.ro"><span class="has-background-warning">**Reprezinți o companie și vrei să finanțezi acest proiect?**</span></a>
 
 **Citește Raportul > [Mediu / An 1 de studiu, 2019-2020 / Vol 2: Pregătire și Răspuns în caz de Seism](https://www.scribd.com/document/449720311/Mediu-Preg%C4%83tire-%C8%99i-r%C4%83spuns-in-caz-de-seism-Raport-Civic-Labs-An-1-Volum-1-2019#from_embed)**
 
