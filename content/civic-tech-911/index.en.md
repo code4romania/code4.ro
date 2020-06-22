@@ -1,7 +1,8 @@
 ---
 title: Civic Tech 911
 slug: civic-tech-911
-summary: description meta tag text here
+summary: Civic Tech 911 is a tech department always ready to honor any request for help
+cover: poster.png
 layout: civic-tech-911
 type: page
 

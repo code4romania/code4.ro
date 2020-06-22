@@ -1,7 +1,8 @@
 ---
 title: Civic Tech 911
 slug: civic-tech-911
-summary: description meta tag text here
+summary: Civic Tech 911 este departamentul de tech gata să intervină la orice solicitare de ajutor.
+cover: poster.png
 layout: civic-tech-911
 type: page
 
