@@ -1,7 +1,8 @@
 ---
 title: Civic Tech 911
 slug: civic-tech-911
-summary: description meta tag text here
+summary: Civic Tech 911 is a tech department always ready to honor any request for help
+cover: poster.png
 layout: civic-tech-911
 type: page
 
@@ -22,9 +23,9 @@ Does it feel like you can't get a grip on technology as fast as you'd like to? L
 
 Are you seeking solutions for the shortcomings you're facing? Let's talk and see whether technology can help out.
 
-Are you considering empowering your mission through technology? Be it a simple website or a complex application, we can help plan it out properly from the very beginning, so that it meets your objectives and doesn't become a burden for your organization. 
+Are you considering empowering your mission through technology? Be it a simple website or a complex application, we can help plan it out properly from the very beginning, so that it meets your objectives and doesn't become a burden for your organization.
 
-## How you can get the aid you need, through Civic Tech 911
+## How you can get the aid you need through Civic Tech 911
 
 <span class="has-background-warning">**Formulate your need in very minute details**.</span>
 
@@ -32,10 +33,10 @@ In order for us to assemble the right team to work on your problem, we require y
 
 <span class="has-background-warning">**Choose an interval when we can talk**.</span>
 
-A consulting session is 120 minutes long, and Civic Tech 911 is a program that runs on Mondays, Thursdays and Fridays. You can not set an appointment with less than 48 hours left before it starts - this allows us to prepare as best we can for our talk. 
+A consulting session is 120 minutes long, and Civic Tech 911 is a program that runs on Mondays, Thursdays and Fridays. You can not set an appointment with less than 48 hours left before it starts - this allows us to prepare as best we can for our talk.
 
 <a class="button is-success" href="https://calendly.com/civictech911" target="_blank" rel="noopener noreferrer">Set an appointment!</a>
 
 <span class="has-background-warning">**Together, we can find the best solutions**.</span>
 
-At first, we will have an in-person meeting or an online session, lasting 2 hours, in order to understand the problem that we're facing. The evaluation at the end of this first session dictates how we will continue to work together in order to help you reach your objectives. 
+At first, we will have an in-person meeting or an online session, lasting 2 hours, in order to understand the problem that we're facing. The evaluation at the end of this first session dictates how we will continue to work together in order to help you reach your objectives.
