@@ -33,7 +33,7 @@
 	{{ $image := .Fill "1200x630 Center" }}
 	<meta property="og:image" content="{{ ($image).Permalink }}">
 {{ else }}
-	<meta property="og:image" content="{{ "images/fb.png" | absURL }}">
+	<meta property="og:image" content="{{ "images/ogimage.png" | absURL }}">
 {{ end }}
 
 {{ if eq .Type "blog" }}
