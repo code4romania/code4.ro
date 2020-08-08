@@ -11,6 +11,11 @@
                 "id": "sustainalytics",
                 "name": "Sustainalytics",
                 "url": "https://www.sustainalytics.com"
+            },
+            {
+                "id": "amazon",
+                "name": "Amazon",
+                "url": "http://amazon.com"
             }
         ]
     },
