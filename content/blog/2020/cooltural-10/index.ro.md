@@ -62,7 +62,7 @@ Nu te speria de Python, .NET sau Django. Dacă ești grafician, UX/UI sau char �
 
 {{% /columns %}}
 
-<a href="http://tfsg.code4.ro/">{{< figure src="banner_hackday_20.gif" alt="Banner Tech for Social Good Hackday ediția 20" >}}</a>
+<a href="http://tfsg.code4.ro/">{{< figure src="banner_hackday_20.gif" alt="Banner Tech for Social Good Hackday ediția 20" width="50%" height="50%" >}}</a>
 
 **Jocul Săptămânii**
 
