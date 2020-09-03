@@ -1,9 +1,14 @@
 .page-donate {
 	.hero-donate {
 		padding: 2rem 1.5rem;
+		margin: 1rem;
 
 		@include tablet {
 			padding: 3.75rem 4.75rem;
+		}
+
+		.header {
+			margin-bottom: 2rem;
 		}
 	}
 

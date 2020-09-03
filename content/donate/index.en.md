@@ -1,7 +1,9 @@
 ---
-title: We believe in sustainability
+title: Let's digitize Romania together
+subtitle: Just in the last year, millions of Romanians used apps developed pro bono by Code for Romania
 slug: donate
-description: "Every day, hundreds of your friends and colleagues are actively working to build useful digital tools to make your life easier and to upgrade Romania to a better place to live in. Help them stay on track and continue this work."
+description: "Every day,  hundreds of your friends and colleagues work together to build useful digital tools that improve our lives easier and ultimately make Romania a better place. Help us help even more."
+projects_list_title: "Contribuția ta a ajutat la dezvoltarea și administrarea:"
 layout: donate
 menu:
   header:

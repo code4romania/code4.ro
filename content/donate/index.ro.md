@@ -1,7 +1,9 @@
 ---
-title: Credem în sustenabilitate
+title: Digitalizăm România împreună
+subtitle: În ultimul an, milioane de români au folosit aplicații dezvoltate pro bono de Code for Romania
 slug: doneaza
-description: "În fiecare zi, sute dintre prietenii și colegii tăi lucrează pentru a construi instrumente digitale utile pentru a ne face viața mai ușoară și pentru a aduce România mai aproape de progresul tehnologic. Ajută-i să își continue munca."
+description: "În fiecare zi, sute dintre prietenii și colegii tăi lucrează pentru a construi instrumente digitale utile pentru a ne face viața mai ușoară și pentru a face România mai bună. Ajută-ne să ajutăm și mai mult."
+projects_list_title: "Contribuția ta a ajutat la dezvoltarea și administrarea:"
 layout: donate
 menu:
   header:
