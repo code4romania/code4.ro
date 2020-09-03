@@ -1,12 +1,12 @@
 # Code for Romania Public Website
 
-[![Build Status](https://img.shields.io/travis/com/code4romania/code4.ro/master.svg?style=for-the-badge)](https://travis-ci.com/code4romania/code4.ro) [![GitHub contributors](https://img.shields.io/github/contributors/code4romania/code4.ro.svg?style=for-the-badge)](https://github.com/code4romania/code4.ro/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/code4.ro.svg?style=for-the-badge)](https://github.com/code4romania/code4.ro/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
+[![GitHub contributors](https://img.shields.io/github/contributors/code4romania/code4.ro.svg?style=for-the-badge)](https://github.com/code4romania/code4.ro/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/code4.ro.svg?style=for-the-badge)](https://github.com/code4romania/code4.ro/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
 [See the project live](https://code4.ro/) and [the preview environment](https://code4-ro.now.sh/) with the work in progress.
 
 ## Prerequisite tools
 
-- [Hugo](https://gohugo.io) >= v0.58.3
+- [Hugo](https://gohugo.io)
 - [npm](https://nodejs.org/en/)
 
 ## Contributing
