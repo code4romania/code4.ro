@@ -3,7 +3,7 @@
 	<section class="hero is-success">
 		<div class="hero-body container">
 			<div class="columns">
-				<div class="column is-8-tablet has-background-white has-text-black hero-donate">
+				<div class="column is-full has-background-white has-text-black hero-donate">
 					<div class="header">
 						<h1 class="is-size-2 has-text-black">{{ .Title }}</h1>
 						<h2 class="has-text-success has-text-weight-bold">{{ .Params.subtitle }}</h2>
@@ -65,25 +65,42 @@
 						</div>
 					</div>
 				</div>
-				<div class="column has-background-white has-text-black hero-donate">
+			</div>
+			<div class="columns">
+				<div class="column is-full has-background-white has-text-black hero-donate">
 					<div class="header">
 						<h2 class="has-text-success has-text-weight-bold">{{ .Params.projects_list_title }}</h2>
 					</div>
-					{{- range $.Site.Data.donate_projects -}}
+					<div class="columns">
+						{{- range $.Site.Data.donate_projects -}}
 						{{ $.Scratch.Set "path" "/apps/" }}
 						{{ $.Scratch.Add "path" . }}
 
 						{{ with $.GetPage ($.Scratch.Get "path") }}
+						<div class="column">
 							<a href="{{ .Permalink }}" class="is-block is-inverse">
-								<p>{{ .Title }}</p>
+								<!-- <p>{{ .Title }}</p> -->
 								<div class="app-brand">
 									<div class="logo-container" style="background-color:{{ .Params.color }}">
 										<img src="{{ (.Resources.GetMatch "logo.png").Permalink }}" alt="{{ .Title }}">
 									</div>
 								</div>
 							</a>
+						</div>
 						{{ end }}
-					{{- end -}}
+						{{- end -}}
+					</div>
+					<div class="header content">
+						<div>În plus, prin programul Civic Labs, am proiectat <b>zeci</b> de aplicații în 6 domenii-cheie pentru societatea Românească:</div>
+						<ul>
+							<li>Educație</li>
+							<li>Sănătate</li>
+							<li>Mediu</li>
+							<li>Transparență</li>
+							<li>Implicare civică</li>
+							<li>Grupuri vulnerabile</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
