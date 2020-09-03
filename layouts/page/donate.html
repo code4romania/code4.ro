@@ -66,13 +66,24 @@
 					</div>
 				</div>
 				<div class="column has-background-white has-text-black hero-donate">
-					<div class="header">						
+					<div class="header">
 						<h2 class="has-text-success has-text-weight-bold">{{ .Params.projects_list_title }}</h2>
 					</div>
 					{{- range $.Site.Data.donate_projects -}}
+						{{ $.Scratch.Set "path" "/apps/" }}
+						{{ $.Scratch.Add "path" . }}
 
+						{{ with $.GetPage ($.Scratch.Get "path") }}
+							<a href="{{ .Permalink }}" class="is-block is-inverse">
+								<p>{{ .Title }}</p>
+								<div class="app-brand">
+									<div class="logo-container" style="background-color:{{ .Params.color }}">
+										<img src="{{ (.Resources.GetMatch "logo.png").Permalink }}" alt="{{ .Title }}">
+									</div>
+								</div>
+							</a>
+						{{ end }}
 					{{- end -}}
-
 				</div>
 			</div>
 		</div>
