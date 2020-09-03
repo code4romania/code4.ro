@@ -14,10 +14,11 @@ const mode = process.env.NODE_ENV == 'production' ? 'production' : 'development'
 
 
 let plugins = [
-	new CopyWebpackPlugin([{
-		from: 'src/svg',
-		to: 'images',
-	}]),
+	new CopyWebpackPlugin({
+		patterns: [
+			{ from: 'src/svg', to: 'images' },
+		],
+	}),
 	new FriendlyErrorsWebpackPlugin({
 		clearConsole: true,
 	}),
