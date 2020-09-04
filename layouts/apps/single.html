@@ -10,7 +10,7 @@
 							</div>
 						{{- else -}}
 							<div class="logo-container">
-								<img src="{{ "images/logo-gray.svg" | absURL }}" alt="">
+								<img src="{{ "images/logo-gray.svg" | relURL }}" alt="">
 							</div>
 						{{- end -}}
 					</div>
@@ -88,7 +88,7 @@
 									<div class="media">
 										<div class="columns is-vcentered is-mobile is-marginless">
 											<figure class="media-left image is-64x64">
-												<img src="{{ (printf "images/%s" .image ) | absURL }}" alt="">
+												<img src="{{ (printf "images/%s" .image ) | relURL }}" alt="">
 											</figure>
 											<div class="media-content">
 												<h1 class="is-size-6 has-text-weight-bold">{{ .name }}</h1>

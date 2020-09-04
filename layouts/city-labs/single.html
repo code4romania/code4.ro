@@ -6,10 +6,10 @@
 				<div class="lab-brand">
 					<div class="logo-container">
 						{{- if (fileExists (printf "theme/images/city-labs/%s.svg" .File.ContentBaseName )) -}}
-						<img src="{{ (printf "images/city-labs/%s.svg" .File.ContentBaseName ) | absURL }}"
+						<img src="{{ (printf "images/city-labs/%s.svg" .File.ContentBaseName ) | relURL }}"
 							alt="{{ .Title }}">
 						{{- else -}}
-						<img src="{{ "images/logo-gray.svg" | absURL }}" alt="">
+						<img src="{{ "images/logo-gray.svg" | relURL }}" alt="">
 						{{- end -}}
 					</div>
 				</div>
