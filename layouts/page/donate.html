@@ -1,57 +1,64 @@
 {{- define "main" -}}
-	<div class="page-donate">
-		<section class="hero is-success">
-			<div class="hero-body container">
-				<div class="columns">
-					<div class="column is-8-tablet has-background-white has-text-black hero-donate">
-						<h1 class="title has-text-success">{{ .Title }}</h1>
-						<div class="content">{{ .Description }}</div>
+<div class="page-donate">
+	<section class="hero is-success">
+		<div class="hero-body container">
+			<div class="columns">
+				<div class="column is-full has-background-white has-text-black hero-donate">
+					<div class="header">
+						<h1 class="is-size-2 has-text-black">{{ .Title }}</h1>
+						<h2 class="has-text-success has-text-weight-bold">{{ .Params.subtitle }}</h2>
+					</div>
 
-						<div class="donate-step">
-							<div class="donate-step-label">
-								{{- i18n "support.donate.recurring.label" -}}
-							</div>
-							<form class="columns" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-								<div class="column is-7">
-									<input type="hidden" name="cmd" value="_s-xclick">
-									<input type="hidden" name="hosted_button_id" value="{{ .Site.Params.paypal.buttonID.recurring }}">
-									<input type="hidden" name="on0" value="">
-									<input type="hidden" name="currency_code" value="EUR">
-									<div class="select is-medium is-fullwidth">
-										<select id="donate-select" name="os0">
-											{{- range $amount := .Site.Params.paypal.amounts -}}
-												<option value="{{ int $amount }}">
-													{{- i18n "support.donate.recurring.currency" -}}
-													{{- float $amount | lang.NumFmt 2 }} / {{ i18n "month" -}}
-												</option>
-											{{- end -}}
-										</select>
-									</div>
-								</div>
-								<div class="column is-5">
-									<input type="submit" name="submit" class="button is-medium is-success is-fullwidth" value="{{ i18n "donate" }}">
-								</div>
-							</form>
+					<div class="content">{{ .Description }}</div>
+
+					<div class="donate-step">
+						<div class="donate-step-label">
+							{{- i18n "support.donate.recurring.label" -}}
 						</div>
-
-						<div class="donate-step">
-							<div class="donate-step-label">
-								{{- i18n "support.donate.onetime.label" -}}
-							</div>
-							<div class="columns is-multiline">
-								<div class="column is-12">
-									<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id={{ .Site.Params.paypal.buttonID.onetime }}" class="button is-medium is-success is-fullwidth" target="_blank">
-										{{- i18n "support.donate.onetime.button" -}}
-									</a>
+						<form class="columns" action="https://www.paypal.com/cgi-bin/webscr" method="post"
+							target="_top">
+							<div class="column is-7">
+								<input type="hidden" name="cmd" value="_s-xclick">
+								<input type="hidden" name="hosted_button_id"
+									value="{{ .Site.Params.paypal.buttonID.recurring }}">
+								<input type="hidden" name="on0" value="">
+								<input type="hidden" name="currency_code" value="EUR">
+								<div class="select is-medium is-fullwidth">
+									<select id="donate-select" name="os0">
+										{{- range $amount := .Site.Params.paypal.amounts -}}
+										<option value="{{ int $amount }}">
+											{{- i18n "support.donate.recurring.currency" -}}
+											{{- float $amount | lang.NumFmt 2 }} / {{ i18n "month" -}}
+										</option>
+										{{- end -}}
+									</select>
 								</div>
-								<div class="column is-12">
-									<div class="media">
-										<div class="media-left">
-											<i class="fas fa-fw fa-lock has-text-success" aria-hidden="true"></i>
-										</div>
-										<div class="media-content">
-											{{- i18n "support.donate.secure" -}}
-										</div>
+							</div>
+							<div class="column is-5">
+								<input type="submit" name="submit" class="button is-medium is-success is-fullwidth"
+									value="{{ i18n "donate" }}">
+							</div>
+						</form>
+					</div>
+
+					<div class="donate-step">
+						<div class="donate-step-label">
+							{{- i18n "support.donate.onetime.label" -}}
+						</div>
+						<div class="columns is-multiline">
+							<div class="column is-12">
+								<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id={{ .Site.Params.paypal.buttonID.onetime }}"
+									class="button is-medium is-success is-fullwidth" target="_blank">
+									{{- i18n "support.donate.onetime.button" -}}
+								</a>
+							</div>
+							<div class="column is-12">
+								<div class="media">
+									<div class="media-left">
+										<i class="fas fa-fw fa-lock has-text-success" aria-hidden="true"></i>
+									</div>
+									<div class="media-content">
+										{{- i18n "support.donate.secure" -}}
 									</div>
 								</div>
 							</div>
@@ -59,12 +66,50 @@
 					</div>
 				</div>
 			</div>
-		</section>
+			<div class="columns">
+				<div class="column is-full has-background-white has-text-black hero-donate">
+					<div class="header">
+						<h2 class="has-text-success has-text-weight-bold">{{ .Params.projects_list_title }}</h2>
+					</div>
+					<div class="columns">
+						{{- range $.Site.Data.donate_projects -}}
+						{{ $.Scratch.Set "path" "/apps/" }}
+						{{ $.Scratch.Add "path" . }}
 
-		<section class="section">
-			<div class="container">
-				{{- .Content -}}
+						{{ with $.GetPage ($.Scratch.Get "path") }}
+						<div class="column">
+							<a href="{{ .Permalink }}" class="is-block is-inverse">
+								<!-- <p>{{ .Title }}</p> -->
+								<div class="app-brand">
+									<div class="logo-container" style="background-color:{{ .Params.color }}">
+										<img src="{{ (.Resources.GetMatch "logo.png").Permalink }}" alt="{{ .Title }}">
+									</div>
+								</div>
+							</a>
+						</div>
+						{{ end }}
+						{{- end -}}
+					</div>
+					<div class="header content">
+						<div>{{ .Params.civic_labs_title | safeHTML }}</div>
+						<div class="columns">
+							{{- range .Params.civic_labs_programs -}}
+							<div class="column">
+								<a herf="{{ .url }}" rel="noopener noreferrer">{{ .name }}</a>
+							</div>
+							{{- end -}}
+						</div>
+							
+					</div>
+				</div>
 			</div>
-		</section>
-	</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			{{- .Content -}}
+		</div>
+	</section>
+</div>
 {{- end -}}
