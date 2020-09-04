@@ -157,14 +157,7 @@ module.exports = {
 				]
 			},
 			{
-				test: /\.svg$/,
-				include: [
-					path.resolve(__dirname, 'node_modules'),
-				],
-				loader: 'null-loader',
-			},
-			{
-				test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
+				test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
 				exclude: [
 					path.resolve(__dirname, 'src/svg'),
 				],
