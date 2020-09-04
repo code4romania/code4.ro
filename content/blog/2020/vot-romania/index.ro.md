@@ -57,4 +57,5 @@ Vot România este a patra aplicație din ecosistemul electoral dezvoltat de volu
   </div>
 </div>
 
+<br>
 Toate aplicațiile din ecosistemul dedicat alegerilor sunt proiectate de Code for Romania în cadrul programului Civic Labs și dezvoltate pro bono de către voluntarii noștri. [Civic Labs](http://www.civiclabs.ro) este programul prin care generăm soluții de tehnologie civică pentru probleme din șase domenii-cheie pentru România - educație, sănătate, mediu, grupuri vulnerabile, transparență și implicare civică.
