@@ -1,0 +1,30 @@
+<section class="section app-team">
+	<div class="container">
+		<header class="hex-badge columns is-mobile">
+			<div class="column is-narrow">
+				<div class="badge is-primary">
+					<i class="fas fa-users" aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="column is-narrow-tablet">
+				<h1 class="is-size-3 has-text-weight-bold">{{ i18n "community" }}</h1>
+			</div>
+		</header>
+		<div class="columns is-multiline">
+			{{- $community := getCSV "," "/csv/community.csv" -}}
+
+			{{- range $member := . -}}
+				{{- range $community -}}
+					{{- if eq $member (index . 0) -}}
+						{{ $scratch := newScratch }}
+
+						{{- $scratch.SetInMap "person" "id" (index . 0) -}}
+						{{- $scratch.SetInMap "person" "name" (index . 1) -}}
+
+						{{- partial "loop-person.html" ($scratch.Get "person") -}}
+					{{- end -}}
+				{{- end -}}
+			{{- end -}}
+		</div>
+	</div>
+</section>

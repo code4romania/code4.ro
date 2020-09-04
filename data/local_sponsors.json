@@ -1,72 +1,60 @@
 {
-    "București": {
-        "id": "bucuresti",
-        "sponsors": [
-            {
-                "id": "cegeka",
-                "name": "Cegeka",
-                "url": "https://www.cegeka.com/en/ro/"
-            },
-            {
-                "id": "sustainalytics",
-                "name": "Sustainalytics",
-                "url": "https://www.sustainalytics.com"
-            },
-            {
-                "id": "amazon",
-                "name": "Amazon",
-                "url": "http://amazon.com"
-            }
-        ]
-    },
-    "Iași": {
-        "id": "iasi",
-        "sponsors": [
-            {
-                "id": "cegeka",
-                "name": "Cegeka",
-                "url": "https://www.cegeka.com/en/ro/"
-            }
-        ]
-    },
-    "Timișoara": {
-        "id": "timisoara",
-        "sponsors": [
-            {
-                "id": "sustainalytics",
-                "name": "Sustainalytics",
-                "url": "https://www.sustainalytics.com"
-            },
-            {
-                "id": "continental",
-                "name": "Continental",
-                "url": "https://www.continental.com/ro-ro"
-            },
-            {
-                "id": "unifiedpost",
-                "name": "UnifiedPost",
-                "url": "https://www.unifiedpost.com"
-            }
-        ]
-    },
-    "Cluj-Napoca": {
-        "id": "cluj",
-        "sponsors": [
-            {
-                "id": "evozon",
-                "name": "Evozon",
-                "url": "https://www.evozon.com"
-            },
-            {
-                "id": "bosch",
-                "name": "Bosch",
-                "url": "https://www.bosch.ro"
-            },
-            {
-                "id": "macadamian",
-                "name": "Macadamian",
-                "url": "https://www.macadamian.com"
-            }
-        ]
-    }
+    "bucuresti": [
+		{
+			"id": "cegeka",
+			"name": "Cegeka",
+			"url": "https://www.cegeka.com/en/ro/"
+		},
+		{
+			"id": "sustainalytics",
+			"name": "Sustainalytics",
+			"url": "https://www.sustainalytics.com"
+		},
+		{
+			"id": "amazon",
+			"name": "Amazon",
+			"url": "http://amazon.com"
+		}
+	],
+    "iasi": [
+		{
+			"id": "cegeka",
+			"name": "Cegeka",
+			"url": "https://www.cegeka.com/en/ro/"
+		}
+	],
+    "timisoara": [
+		{
+			"id": "sustainalytics",
+			"name": "Sustainalytics",
+			"url": "https://www.sustainalytics.com"
+		},
+		{
+			"id": "continental",
+			"name": "Continental",
+			"url": "https://www.continental.com/ro-ro"
+		},
+		{
+			"id": "unifiedpost",
+			"name": "UnifiedPost",
+			"url": "https://www.unifiedpost.com"
+		}
+	],
+    "cluj": [
+		{
+			"id": "evozon",
+			"name": "Evozon",
+			"url": "https://www.evozon.com"
+		},
+		{
+			"id": "bosch",
+			"name": "Bosch",
+			"url": "https://www.bosch.ro"
+		},
+		{
+			"id": "macadamian",
+			"name": "Macadamian",
+			"url": "https://www.macadamian.com"
+		}
+	]
 }

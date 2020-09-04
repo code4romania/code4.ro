@@ -1,76 +1,55 @@
 [
     {
         "id": "seismicrisk",
-        "city": "Iași",
-        "tfsg_city": "iasi",
+        "city": "iasi",
         "name": "Seismic Risk",
         "call_to_action": "Vino la HackDay să dăm gata riscul seismic",
         "description": [
-            {
-                "paragraph": "Un cutremur în România nu este o situație ipotetică. Este o certitudine că acest lucru se va întâmpla. Ce putem face pentru a deveni mai puțin vulnerabili? Cum putem să prevenim daunele inutile și accidentele care se petrec din neștiință? Cum putem să ne asigurăm că un număr cât mai mare de victime beneficiază de ajutor și de îngrijire în timp util?"
-            },
-            {
-                "paragraph": "Putem face asta dacă știm totul despre oraș, despre clădirile în care locuim astfel încât să putem cere consolidarea lor. Aplicația Seismic Risk nu este doar \"un nou site de informare\", ci o platformă care colectează și validează apoi cu experți date despre clădirile din România, la nivel național, ajută asociațiile de proprietari să își consolideze clădirile, te ține la curent cu legislația și ți-o explică, și are grijă să ai la îndemână informații utile la orice moment."
-            }
+			"Un cutremur în România nu este o situație ipotetică. Este o certitudine că acest lucru se va întâmpla. Ce putem face pentru a deveni mai puțin vulnerabili? Cum putem să prevenim daunele inutile și accidentele care se petrec din neștiință? Cum putem să ne asigurăm că un număr cât mai mare de victime beneficiază de ajutor și de îngrijire în timp util?",
+            "Putem face asta dacă știm totul despre oraș, despre clădirile în care locuim astfel încât să putem cere consolidarea lor. Aplicația Seismic Risk nu este doar \"un nou site de informare\", ci o platformă care colectează și validează apoi cu experți date despre clădirile din România, la nivel național, ajută asociațiile de proprietari să își consolideze clădirile, te ține la curent cu legislația și ți-o explică, și are grijă să ai la îndemână informații utile la orice moment."
         ],
-        "github_links": [
+        "links": [
             {
                 "link": "https://github.com/code4romania/seismic-risc",
                 "title": "GitHub repository"
-            }
-        ],
-        "issues_links": [
-            {
-                "link": "https://github.com/orgs/code4romania/projects/16",
-                "title": "Task-uri de făcut"
-            }
+            },
+			{
+				"link": "https://github.com/orgs/code4romania/projects/16",
+				"title": "Task-uri de făcut"
+			}
         ]
     },
     {
         "id": "dataportal",
         "city": "",
-        "tfsg_city": "",
         "name": "Data Portal",
         "call_to_action": "Vrem date curate pentru orașe curate!",
         "description": [
-            {
-                "paragraph": "Data Portal va deschide publicului larg datele utilizate în cadrul proiectelor Code for Romania."
-            },
-            {
-                "paragraph": "În al doilea rând, va defini standarde și protocoale de date pentru seturi de date publicate de către Code for Romania, care vor putea fi implementate de către orice instituție interesată să ofere date publice."
-            },
-            {
-                "paragraph": "În al treilea rând, platforma va oferi un punct de pornire pentru dezvoltarea unei comunități de open data în România. Mai mult, Data Portal este un produs replicabil la nivelul oricărei administrații publice locale sau centrale cu minim de input și adaptare."
-            }
+			"Data Portal va deschide publicului larg datele utilizate în cadrul proiectelor Code for Romania.",
+            "În al doilea rând, va defini standarde și protocoale de date pentru seturi de date publicate de către Code for Romania, care vor putea fi implementate de către orice instituție interesată să ofere date publice.",
+            "În al treilea rând, platforma va oferi un punct de pornire pentru dezvoltarea unei comunități de open data în România. Mai mult, Data Portal este un produs replicabil la nivelul oricărei administrații publice locale sau centrale cu minim de input și adaptare."
         ],
-        "github_links": [
+        "links": [
             {
                 "link": "https://github.com/code4romania/ckanext-dataportaltheme",
                 "title": "GitHub repository"
-            }
-        ],
-        "issues_links": [
-            {
-                "link": "https://github.com/orgs/code4romania/projects/12#column-4243467",
-                "title": "Task-uri de făcut"
-            }
+            },
+			{
+				"link": "https://github.com/orgs/code4romania/projects/12#column-4243467",
+				"title": "Task-uri de făcut"
+			}
         ]
     },
     {
         "id": "expertconsultation",
-        "city": "București",
-        "tfsg_city": "bucuresti",
+        "city": "bucuresti",
         "name": "Expert Consultation",
         "call_to_action": "Instrumente de secol XXI pentru guvernare deschisă!",
         "description": [
-            {
-                "paragraph": "De fiecare dată când un grup sau o instituție propun o nouă lege, există o perioadă în care aceștia trebuie să se consulte cu comunități de experți. De exemplu, legislatia pe urbanism, construcții sau arhitectură în general ajunge mereu la Ordinul Arhitecților din România pentru consultare. Perioada de consultare este una foarte scurtă, iar procedura de consultare în cadrul grupului este una foarte ad-hoc, realizata prin documente fizice, social media, sau exceluri transferate pe mail înainte-înapoi între toți participanții, iar grupurile acestea au uneori peste 4-5 mii de experți la care ar trebui să ajungă informația și să se întoarcă în câteva zile. La finalul consultării lucrurile devin și mai complicate pentru că o persoană trebuie să valideze și să consolideze tot feedbackul într-o formă coerenta, care poate fi trimisă înapoi către minister."
-            },
-            {
-                "paragraph": "Expert Consultation este fix instrumentul digital în plin proces de dezvoltare în Tech for Social Good de către voluntarii Code for Romania, care să le permită acestor grupuri să lucreze direct pe textul de lege, să contribuie cu feedback, propuneri, comentarii, să voteze și să amendeze anumite propuneri, articole sau comentarii ale altor participanți etc și apoi să consolideze automat documentul final."
-            }
+			"De fiecare dată când un grup sau o instituție propun o nouă lege, există o perioadă în care aceștia trebuie să se consulte cu comunități de experți. De exemplu, legislatia pe urbanism, construcții sau arhitectură în general ajunge mereu la Ordinul Arhitecților din România pentru consultare. Perioada de consultare este una foarte scurtă, iar procedura de consultare în cadrul grupului este una foarte ad-hoc, realizata prin documente fizice, social media, sau exceluri transferate pe mail înainte-înapoi între toți participanții, iar grupurile acestea au uneori peste 4-5 mii de experți la care ar trebui să ajungă informația și să se întoarcă în câteva zile. La finalul consultării lucrurile devin și mai complicate pentru că o persoană trebuie să valideze și să consolideze tot feedbackul într-o formă coerenta, care poate fi trimisă înapoi către minister.",
+            "Expert Consultation este fix instrumentul digital în plin proces de dezvoltare în Tech for Social Good de către voluntarii Code for Romania, care să le permită acestor grupuri să lucreze direct pe textul de lege, să contribuie cu feedback, propuneri, comentarii, să voteze și să amendeze anumite propuneri, articole sau comentarii ale altor participanți etc și apoi să consolideze automat documentul final."
         ],
-        "github_links": [
+        "links": [
             {
                 "link": "https://github.com/code4romania/expert-consultation-api",
                 "title": "API GitHub repository"
@@ -78,75 +57,56 @@
             {
                 "link": "https://github.com/code4romania/expert-consultation-client",
                 "title": "Client GitHub repository"
-            }
-        ],
-        "issues_links": [
-            {
-                "link": "https://github.com/orgs/code4romania/projects/15#column-5527919",
-                "title": "Task-uri de făcut pe API"
             },
-            {
-                "link": "https://github.com/orgs/code4romania/projects/15#column-5527925",
-                "title": "Task-uri de făcut pe client"
-            }
+			{
+				"link": "https://github.com/orgs/code4romania/projects/15#column-5527919",
+				"title": "Task-uri de făcut pe API"
+			},
+			{
+				"link": "https://github.com/orgs/code4romania/projects/15#column-5527925",
+				"title": "Task-uri de făcut pe client"
+			}
         ]
     },
     {
         "id": "declaratiideavere",
-        "city": "Timișoara",
-        "tfsg_city": "timisoara",
+        "city": "timisoara",
         "name": "Declarații de Avere",
         "call_to_action": "Documente scanate != digitalizare",
         "description": [
-            {
-                "paragraph": "Digitalizarea tuturor declarațiilor de avere din România este un proiect ambițios și care va consuma multe dintre resursele celor care s-ar apuca de un asemenea demers. În același timp, informațiile din aceste documente sunt de interes public și sunt foarte relevante pentru cetățenii care trebuie să aibă acces la toate datele despre aleșii în funcții publice."
-            },
-            {
-                "paragraph": "Declăram război pdf-ului scanat și digitalizăm milioanele de documente cu date publice! Avem nevoie de ajutorul vostru în acest proces, să configurăm un instrument digital prin care să putem aduce aceste informații într-o formă standardizată, curată și actualizată."
-            }
+			"Digitalizarea tuturor declarațiilor de avere din România este un proiect ambițios și care va consuma multe dintre resursele celor care s-ar apuca de un asemenea demers. În același timp, informațiile din aceste documente sunt de interes public și sunt foarte relevante pentru cetățenii care trebuie să aibă acces la toate datele despre aleșii în funcții publice.",
+			"Declăram război pdf-ului scanat și digitalizăm milioanele de documente cu date publice! Avem nevoie de ajutorul vostru în acest proces, să configurăm un instrument digital prin care să putem aduce aceste informații într-o formă standardizată, curată și actualizată."
         ],
-        "github_links": [
+        "links": [
             {
                 "link": "https://github.com/code4romania/catpol-declaratii",
                 "title": "GitHub repository"
-            }
-        ],
-        "issues_links": [
-            {
-                "link": "https://github.com/code4romania/catpol-declaratii/issues",
-                "title": "Task-uri de făcut"
-            }
+            },
+			{
+				"link": "https://github.com/code4romania/catpol-declaratii/issues",
+				"title": "Task-uri de făcut"
+			}
         ]
     },
     {
         "id": "rezultatevot",
-        "city": "Cluj-Napoca",
-        "tfsg_city": "cluj",
+        "city": "cluj",
         "name": "Rezultate Vot",
         "call_to_action": "Votează în cunoștință de cauză!",
         "description": [
-            {
-                "paragraph": "#RezultateVot este o aplicație care a apărut din nevoia de a vedea, în timp real, rezultatele numărărilor voturilor, din seara alegerilor europarlamentare din 2019. A trecut prin îmbunătățiri succesive, iar acum este vremea să-și depășească utilitatea inițială."
-            },
-            {
-                "paragraph": "Avem nevoie să construim o platformă de date deschise care să cuprindă toate rezultatele istorice ale votului, din România. "
-            },
-            {
-                "paragraph": "Noua versiune a rezultatevot.ro va pune la dispoziție un API și un set de vizualizări a datelor colectate de data scrapers. În ziua alegerilor, pagina principală va furniza date în timp real despre prezența alegătorilor la vot și, odată cu numărătoarea parțială, va afișa rezultatele fiecărui candidat sau partid. Nu în ultimul rând, versiunea nouă a site-ului va avea o secțiune de news feed, cu articole despre procesul de votare și analize făcute de experții cu care colaborăm."
-            }
+			"#RezultateVot este o aplicație care a apărut din nevoia de a vedea, în timp real, rezultatele numărărilor voturilor, din seara alegerilor europarlamentare din 2019. A trecut prin îmbunătățiri succesive, iar acum este vremea să-și depășească utilitatea inițială.",
+			"Avem nevoie să construim o platformă de date deschise care să cuprindă toate rezultatele istorice ale votului, din România.",
+			"Noua versiune a rezultatevot.ro va pune la dispoziție un API și un set de vizualizări a datelor colectate de data scrapers. În ziua alegerilor, pagina principală va furniza date în timp real despre prezența alegătorilor la vot și, odată cu numărătoarea parțială, va afișa rezultatele fiecărui candidat sau partid. Nu în ultimul rând, versiunea nouă a site-ului va avea o secțiune de news feed, cu articole despre procesul de votare și analize făcute de experții cu care colaborăm."
         ],
-        "github_links": [
+        "links": [
             {
                 "link": "https://github.com/code4romania/rezultate-vot",
                 "title": "GitHub repository"
-            }
-        ],
-        "issues_links": [
-            {
-                "link": "https://github.com/orgs/code4romania/projects/18",
-                "title": "Task-uri de făcut"
-            }
+            },
+			{
+				"link": "https://github.com/orgs/code4romania/projects/18",
+				"title": "Task-uri de făcut"
+			}
         ]
     }
-      
 ]

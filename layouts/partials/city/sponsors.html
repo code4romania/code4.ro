@@ -1,0 +1,79 @@
+{{ $city := .File.ContentBaseName }}
+{{ $cityname := .Title }}
+
+<!-- Powered By -->
+<aside class="partners section has-background-light">
+	<div class="container">
+		<h1 class="subtitle has-text-centered has-text-weight-bold">{{ i18n "poweredby" }}</h1>
+		<div class="columns is-mobile is-multiline is-centered">
+			{{ range site.Data.poweredby }}
+				<div class="column is-three-quarters-touch is-2-desktop">
+					<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
+						<div class="logo-container">
+							<img src="{{ (printf "images/poweredby/%s.png" .id) | relURL }}" alt="{{ .name }}">
+						</div>
+					</a>
+				</div>
+			{{ end }}
+		</div>
+	</div>
+</aside>
+
+<!-- Sponsors -->
+<aside class="partners section has-background-light">
+	<div class="container">
+		<h1 class="subtitle has-text-centered has-text-weight-bold">{{ i18n "sponsors" }}</h1>
+		<div class="columns is-mobile is-multiline is-centered">
+			{{ range site.Data.sponsors }}
+				<div class="column is-three-quarters-touch is-2-desktop">
+					<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
+						<div class="logo-container">
+							<img src="{{ (printf "images/supporters/%s.png" .id) | relURL }}" alt="{{ .name }}">
+						</div>
+					</a>
+				</div>
+			{{ end }}
+		</div>
+	</div>
+</aside>
+
+
+<!-- Local sponsors -->
+{{ with (index site.Data.local_sponsors $city) }}
+	<aside class="partners section has-background-light">
+		<div class="container">
+			<h1 class="subtitle has-text-centered has-text-weight-bold">{{ printf "%s %s" (i18n "local.sponsors") $cityname }}</h1>
+			<div class="columns is-mobile is-multiline is-centered">
+				{{ range . }}
+					<div class="column is-three-quarters-touch is-2-desktop">
+						<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
+							<div class="logo-container">
+								<img src="{{ (printf "images/supporters/%s.png" .id) | relURL }}" alt="{{ .name }}">
+							</div>
+						</a>
+					</div>
+				{{ end }}
+			</div>
+		</div>
+	</aside>
+{{ end }}
+
+<!-- Local partners -->
+{{ with (index site.Data.local_partners $city) }}
+	<aside class="partners section has-background-light">
+		<div class="container">
+			<h1 class="subtitle has-text-centered has-text-weight-bold">{{ i18n "partners" }}</h1>
+			<div class="columns is-mobile is-multiline is-centered">
+				{{ range . }}
+					<div class="column is-three-quarters-touch is-2-desktop">
+						<a href="{{ .url }}" target="_blank" rel="noopener" class="app-brand link">
+							<div class="logo-container">
+								<img src="{{ (printf "images/supporters/%s.png" .id) | relURL }}" alt="{{ .name }}">
+							</div>
+						</a>
+					</div>
+				{{ end }}
+			</div>
+		</div>
+	</aside>
+{{ end }}

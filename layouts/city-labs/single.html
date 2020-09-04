@@ -1,122 +1,38 @@
 {{- define "main" -}}
-<header class="section">
-	<div class="container">
-		<div class="columns city-labs-section">
-			<div class="column is-6-tablet">
-				<div class="lab-brand">
-					<div class="logo-container">
-						{{- if (fileExists (printf "theme/images/city-labs/%s.svg" .File.ContentBaseName )) -}}
-						<img src="{{ (printf "images/city-labs/%s.svg" .File.ContentBaseName ) | relURL }}"
-							alt="{{ .Title }}">
-						{{- else -}}
-						<img src="{{ "images/logo-gray.svg" | relURL }}" alt="">
-						{{- end -}}
+	<header class="section">
+		<div class="container">
+			<div class="columns city-labs-section">
+				<div class="column is-6-tablet">
+					<div class="lab-brand">
+						<div class="logo-container">
+							{{- if (fileExists (printf "theme/images/city-labs/%s.svg" .File.ContentBaseName )) -}}
+								<img src="{{ (printf "images/city-labs/%s.svg" .File.ContentBaseName ) | relURL }}" alt="{{ .Title }}">
+							{{- else -}}
+								<img src="{{ "images/logo-gray.svg" | relURL }}" alt="">
+							{{- end -}}
+						</div>
+					</div>
+				</div>
+
+				<div class="column is-6-tablet lab-info">
+					<h1 class="title">Code for {{ .Title }}</h1>
+					<div class="content">
+						{{- .Content -}}
 					</div>
 				</div>
 			</div>
 
-			<div class="column is-6-tablet lab-info">
-				<h1 class="title">Code for {{ .Title }}</h1>
-				<div class="content">
-					{{- .Content -}}
-				</div>
-			</div>
+			<!-- Sign-up forms -->
+			{{- partial "city/projects.html" .File.ContentBaseName -}}
 		</div>
+	</header>
 
-		<!-- Sign-up forms -->
-		{{- range $.Site.Data.projects -}}
-		{{ if eq .city $.Page.Title }}
-		<header class="hex-badge columns is-mobile">
-			<div class="column is-narrow">
-				<div class="badge is-primary">
-					<i class="fas fa-users" aria-hidden="true"></i>
-				</div>
-			</div>
-			<div class="column is-narrow-tablet">
-				<h1 class="is-size-3 has-text-weight-bold">{{ .call_to_action }}
-				</h1>
-			</div>
-		</header>
-		<div class="columns">
-			<div class="column is-6-tablet">
-				<h1 class="title is-size-4 has-text-weight-bold">Proiectul lunii: {{ .name }}</h1>
-				{{- range .description -}}
-				<div class="content">
-					{{ .paragraph }}
-				</div>
-				{{- end -}}
+	<!-- {{- partial "banner-join-lab.html" . -}} -->
 
-				{{- range .github_links -}}
-				<div class="content">
-					<a target="_blank" rel="noopener" href="{{ .link }}">{{ .title }}</a>
-				</div>
-				{{- end -}}
-				{{- range .issues_links -}}
-				<div class="content">
-					<a target="_blank" rel="noopener" href="{{ .link }}">{{ .title }}</a>
-				</div>
-				{{- end -}}
-			</div>
-			<div class="column is-6-tablet">
-				<h1 class="title is-size-4 has-text-weight-bold">Hai să facem treabă!</h1>
-				<div class="content">
-					<p>
-						Unde-s mulți puterea crește. Dis-de-dimineață povestim alături de lead-ul proiectului detalii,
-						provocări și taskuri de lucru, codăm pe parcursul zilei și seara, pentru relaxare, vă propunem o
-						sesiune de brainstorming pe viitoare potențiale soluții care să ne facă mai rezistenți la
-						dezastre în toate orașele din România.
-					</p>
-					<p>
-						Înregistrează-te folosind butonul de mai jos și hai să schimbăm țara în România pe care ne-o
-						dorim cu toții!
-					</p>
-					<a class="button is-success is-fullwidth" target="_blank" rel="noopener"
-						href="https://tfsg.code4.ro/ro/hackday/?where={{ .tfsg_city }}">ÎNREGISTREAZĂ-TE</a>
-				</div>
-			</div>
-		</div>
-		{{ end }}
-		{{- end -}}
-	</div>
-</header>
+	{{ partial "city/volunteers.html" .Params.volunteers }}
 
-<!-- {{- partial "banner-join-lab.html" . -}} -->
+	{{ partial "city/sponsors.html" . }}
 
-{{- with .Params.volunteers -}}
-<section class="section app-team">
-	<div class="container">
-		<header class="hex-badge columns is-mobile">
-			<div class="column is-narrow">
-				<div class="badge is-primary">
-					<i class="fas fa-users" aria-hidden="true"></i>
-				</div>
-			</div>
-			<div class="column is-narrow-tablet">
-				<h1 class="is-size-3 has-text-weight-bold">{{ i18n "community" }}</h1>
-			</div>
-		</header>
-		<div class="columns is-multiline">
-			{{- $community := getCSV "," "/csv/community.csv" -}}
-			{{- $team := . -}}
-
-			{{- range $member := $team -}}
-			{{- range $community -}}
-			{{- if eq $member (index . 0) -}}
-			{{- $.Scratch.SetInMap "person" "id" (index . 0) -}}
-			{{- $.Scratch.SetInMap "person" "name" (index . 1) -}}
-
-			{{- partial "loop-person.html" ($.Scratch.Get "person") -}}
-
-			{{- $.Scratch.Delete "person" -}}
-			{{- end -}}
-			{{- end -}}
-			{{- end -}}
-		</div>
-	</div>
-</section>
-{{- end -}}
-
-{{ partial "per-city-sponsors.html" . }}
-<!-- {{- partial "banner-donate.html" . -}} -->
+	<!-- {{- partial "banner-donate.html" . -}} -->
 
 {{- end -}}
