@@ -1,0 +1,51 @@
+{{- range where site.Data.projects "city" . -}}
+	<header class="hex-badge columns is-mobile">
+		<div class="column is-narrow">
+			<div class="badge is-primary">
+				<i class="fas fa-users" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="column is-narrow-tablet">
+			<h1 class="is-size-3 has-text-weight-bold">{{ .call_to_action }}</h1>
+		</div>
+	</header>
+
+	<div class="columns">
+		<div class="column is-6-tablet">
+			<h1 class="title is-size-4 has-text-weight-bold">Proiectul lunii: {{ .name }}</h1>
+
+			<div class="content">
+				{{- range .description -}}
+					<p>{{ . }}</p>
+				{{- end -}}
+
+				<ul>
+					{{- range .links -}}
+						<li>
+							<a target="_blank" rel="noopener" href="{{ .link }}">{{ .title }}</a>
+						</li>
+					{{- end -}}
+				</ul>
+			</div>
+		</div>
+
+		<div class="column is-6-tablet">
+			<h1 class="title is-size-4 has-text-weight-bold">Hai să facem treabă!</h1>
+			<div class="content">
+				<p>
+					Unde-s mulți puterea crește. Dis-de-dimineață povestim alături de lead-ul proiectului detalii,
+					provocări și taskuri de lucru, codăm pe parcursul zilei și seara, pentru relaxare, vă propunem o
+					sesiune de brainstorming pe viitoare potențiale soluții care să ne facă mai rezistenți la
+					dezastre în toate orașele din România.
+				</p>
+				<p>
+					Înregistrează-te folosind butonul de mai jos și hai să schimbăm țara în România pe care ne-o
+					dorim cu toții!
+				</p>
+				<a class="button is-success is-fullwidth" target="_blank" rel="noopener" href="https://tfsg.code4.ro/ro/hackday/?where={{ .city }}">
+					ÎNREGISTREAZĂ-TE
+				</a>
+			</div>
+		</div>
+	</div>
+{{ end }}

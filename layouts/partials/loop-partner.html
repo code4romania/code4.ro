@@ -3,13 +3,13 @@
 		{{- if .url -}}
 			<a href="{{ .url }}" target="_blank" class="partner is-link">
 				<div class="logo-container">
-					<img src="{{ (printf "images/partners/%s.png" .id ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
+					<img src="{{ (printf "images/partners/%s.png" .id ) | relURL }}" alt="{{ .name }}" title="{{ .name }}">
 				</div>
 			</a>
 		{{- else -}}
 			<div class="partner">
 				<div class="logo-container">
-					<img src="{{ (printf "images/partners/%s.png" .id ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
+					<img src="{{ (printf "images/partners/%s.png" .id ) | relURL }}" alt="{{ .name }}" title="{{ .name }}">
 				</div>
 			</div>
 		{{- end -}}

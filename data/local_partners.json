@@ -1,57 +1,45 @@
 {
-    "București": {
-        "id": "bucuresti",
-        "partners": [
-            {
-                "id": "materlibrary",
-                "name": "Mater",
-                "url": "https://materlibrary.ro/"
-            },
-            {
-                "id": "eisberg",
-                "name": "Eisberg",
-                "url": "https://www.eisberg-romania.ro/ro"
-            }
-        ]
-    },
-    "Iași": {
-        "id": "iasi",
-        "partners": [
-            {
-                "id": "fablabiasi",
-                "name": "FabLab Iași",
-                "url": "http://www.fablabiasi.ro/"
-            },
-            {
-                "id": "pinmagazine",
-                "name": "PIN magazine",
-                "url": "https://www.pinmagazine.ro/"
-            }
-        ]
-    },
-    "Timișoara": {
-        "id": "timisoara",
-        "partners": [
-            {
-                "id": "devplant",
-                "name": "DevPlant",
-                "url": "https://devplant.ro/"
-            }
-        ]
-    },
-    "Cluj-Napoca": {
-        "id": "cluj",
-        "partners": [
-            {
-                "id": "acrobatica",
-                "name": "Pizza Acrobatica",
-                "url": "https://acrobatica.ro"
-            },
-			{
-				"id": "clujcowork",
-				"name": "Cluj Cowork",
-				"url": "http://clujcowork.ro/"
-			}
-        ]
-    }
+    "bucuresti": [
+		{
+			"id": "materlibrary",
+			"name": "Mater",
+			"url": "https://materlibrary.ro/"
+		},
+		{
+			"id": "eisberg",
+			"name": "Eisberg",
+			"url": "https://www.eisberg-romania.ro/ro"
+		}
+	],
+    "iasi": [
+		{
+			"id": "fablabiasi",
+			"name": "FabLab Iași",
+			"url": "http://www.fablabiasi.ro/"
+		},
+		{
+			"id": "pinmagazine",
+			"name": "PIN magazine",
+			"url": "https://www.pinmagazine.ro/"
+		}
+	],
+    "timisoara": [
+		{
+			"id": "devplant",
+			"name": "DevPlant",
+			"url": "https://devplant.ro/"
+		}
+	],
+	"cluj": [
+		{
+			"id": "acrobatica",
+			"name": "Pizza Acrobatica",
+			"url": "https://acrobatica.ro"
+		},
+		{
+			"id": "clujcowork",
+			"name": "Cluj Cowork",
+			"url": "http://clujcowork.ro/"
+		}
+	]
 }

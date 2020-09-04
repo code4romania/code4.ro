@@ -1,8 +1,8 @@
 <nav class="navbar">
 	<div class="container">
 		<div class="navbar-brand">
-			<a class="navbar-item" href="{{ "/" | absLangURL }}">
-				<img src="{{ "images/logo-full.svg" | absURL }}" class="logo" alt="{{ .Site.Title }}">
+			<a class="navbar-item" href="{{ "/" | relLangURL }}">
+				<img src="{{ "images/logo-full.svg" | relURL }}" class="logo" alt="{{ .Site.Title }}">
 			</a>
 			<a role="button" class="navbar-burger" data-target="header-menu" aria-label="menu" aria-expanded="false">
 				<span aria-hidden="true"></span>

@@ -4,7 +4,7 @@
 			<div class="columns is-vcentered is-mobile is-marginless">
 				<figure class="media-left image is-96x96">
 					{{- if (fileExists (printf "static/images/people/%s.jpg" .id )) -}}
-						<img src="{{ (printf "images/people/%s.jpg" .id ) | absURL }}" alt="">
+						<img src="{{ (printf "images/people/%s.jpg" .id ) | relURL }}" alt="">
 					{{- else -}}
 						<img src="//ui-avatars.com/api/?{{ (querify "name" .name "size" 96) | safeURL }}" alt="">
 					{{- end -}}

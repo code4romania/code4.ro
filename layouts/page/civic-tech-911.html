@@ -16,7 +16,7 @@
 						</div>
 					</div>
 					<div class="column is-6">
-						<img src="{{ "images/911.svg" | absURL }}" alt="Logo Civic Tech 911">
+						<img src="{{ "images/911.svg" | relURL }}" alt="Logo Civic Tech 911">
 					</div>
 				</div>
 			</div>
@@ -39,13 +39,13 @@
 						{{- if .url -}}
 							<a href="{{ .url }}" target="_blank" rel="noreferrer noopener" class="partner is-link">
 								<div class="logo-container padded">
-									<img src="{{ (printf "images/911/%s" .logo ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
+									<img src="{{ (printf "images/911/%s" .logo ) | relURL }}" alt="{{ .name }}" title="{{ .name }}">
 								</div>
 							</a>
 						{{- else -}}
 							<div class="partner">
 								<div class="logo-container padded">
-									<img src="{{ (printf "images/911/%s" .logo ) | absURL }}" alt="{{ .name }}" title="{{ .name }}">
+									<img src="{{ (printf "images/911/%s" .logo ) | relURL }}" alt="{{ .name }}" title="{{ .name }}">
 								</div>
 							</div>
 						{{- end -}}

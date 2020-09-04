@@ -73,21 +73,20 @@
 					</div>
 					<div class="columns">
 						{{- range $.Site.Data.donate_projects -}}
-						{{ $.Scratch.Set "path" "/apps/" }}
-						{{ $.Scratch.Add "path" . }}
+							{{ $.Scratch.Set "path" "/apps/" }}
+							{{ $.Scratch.Add "path" . }}
 
-						{{ with $.GetPage ($.Scratch.Get "path") }}
-						<div class="column">
-							<a href="{{ .Permalink }}" class="is-block is-inverse">
-								<!-- <p>{{ .Title }}</p> -->
-								<div class="app-brand">
-									<div class="logo-container" style="background-color:{{ .Params.color }}">
-										<img src="{{ (.Resources.GetMatch "logo.png").Permalink }}" alt="{{ .Title }}">
-									</div>
+							{{- with $.GetPage ($.Scratch.Get "path") -}}
+								<div class="column">
+									<a href="{{ .Permalink }}" class="is-block is-inverse">
+										<div class="app-brand">
+											<div class="logo-container" style="background-color:{{ .Params.color }}">
+												<img src="{{ (.Resources.GetMatch "logo.png").Permalink }}" alt="{{ .Title }}">
+											</div>
+										</div>
+									</a>
 								</div>
-							</a>
-						</div>
-						{{ end }}
+							{{- end -}}
 						{{- end -}}
 					</div>
 					<div class="header content">
@@ -99,7 +98,6 @@
 							</div>
 							{{- end -}}
 						</div>
-							
 					</div>
 				</div>
 			</div>
