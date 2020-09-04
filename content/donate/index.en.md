@@ -3,7 +3,27 @@ title: Let's digitize Romania together
 subtitle: Just in the last year, millions of Romanians used apps developed pro bono by Code for Romania
 slug: donate
 description: "Every day,  hundreds of your friends and colleagues work together to build useful digital tools that improve our lives easier and ultimately make Romania a better place. Help us help even more."
-projects_list_title: "Contribuția ta a ajutat la dezvoltarea și administrarea:"
+projects_list_title: "Your contribution helped develop and maintain, among others:"
+civic_labs_title: "Even more, through our Civic Labs program, we projected <b>dozens</b> of applications covering six essential fields in the Romanian society::"
+civic_labs_programs:
+  education:
+    name: "Education"
+    url: "https://civiclabs.ro/ro/domains/pregatirea-resurselor-umane-in-educatie-2019-2020"
+  health:
+    name: "Health"
+    url: "https://civiclabs.ro/ro/domains/sanatatea-mamei-si-a-copilului-2019-2020"
+  climate:
+    name: "Environment"
+    url: "https://civiclabs.ro/ro/domains/pregatire-si-raspuns-in-situatii-de-urgenta-2019-2020"
+  transparency:
+    name: "Transparency & accountability"
+    url: "https://civiclabs.ro/ro/domains/date-deschise-2019-2020"
+  civic:
+    name: "Civic engagement"
+    url: "https://civiclabs.ro/ro/domains/alegeri-2019-2020"
+  engagement:
+    name: "Vulnerable groups"
+    url: "https://civiclabs.ro/ro/domains/violenta-domestica-2019-2020"
 layout: donate
 menu:
   header:

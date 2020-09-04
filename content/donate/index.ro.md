@@ -4,6 +4,26 @@ subtitle: În ultimul an, milioane de români au folosit aplicații dezvoltate p
 slug: doneaza
 description: "În fiecare zi, sute dintre prietenii și colegii tăi lucrează pentru a construi instrumente digitale utile pentru a ne face viața mai ușoară și pentru a face România mai bună. Ajută-ne să ajutăm și mai mult."
 projects_list_title: "Contribuția ta a ajutat, printre altele, la dezvoltarea și administrarea:"
+civic_labs_title: "În plus, prin programul Civic Labs, am proiectat <b>zeci</b> de aplicații în 6 domenii-cheie pentru societatea Românească:"
+civic_labs_programs:
+  education:
+    name: "Educație"
+    url: "https://civiclabs.ro/ro/domains/pregatirea-resurselor-umane-in-educatie-2019-2020"
+  health:
+    name: "Sănătate"
+    url: "https://civiclabs.ro/ro/domains/sanatatea-mamei-si-a-copilului-2019-2020"
+  climate:
+    name: "Mediu"
+    url: "https://civiclabs.ro/ro/domains/pregatire-si-raspuns-in-situatii-de-urgenta-2019-2020"
+  transparency:
+    name: "Transparență"
+    url: "https://civiclabs.ro/ro/domains/date-deschise-2019-2020"
+  civic:
+    name: "Implicare civică"
+    url: "https://civiclabs.ro/ro/domains/alegeri-2019-2020"
+  engagement:
+    name: "Grupuri vulnerabile"
+    url: "https://civiclabs.ro/ro/domains/violenta-domestica-2019-2020"
 layout: donate
 menu:
   header:
