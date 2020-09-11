@@ -40,9 +40,9 @@
 - id: results.contributors
   translation: colaboratori
 - id: results.projects.complete
-  translation: aplicații finalizate
-- id: results.hours
-  translation: ore de lucru
+  translation: aplicații live
+- id: results.projects.prototyped
+  translation: aplicații prototipate
 - id: results.timezones
   translation: fusuri orare
 - id: results.projects.pending

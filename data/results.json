@@ -1,26 +1,26 @@
 [
 	{
 		"label": "results.contributors",
-		"value": 1621
-	},
-	{
-		"label": "results.projects.complete",
-		"value": 8
-	},
-	{
-		"label": "results.hours",
-		"value": 240704
+		"value": 1773
 	},
 	{
 		"label": "results.timezones",
 		"value": 11
 	},
 	{
-		"label": "results.projects.pending",
-		"value": 11
-	},
-	{
 		"label": "results.commits",
 		"value": 21537
+	},
+	{
+		"label": "results.projects.complete",
+		"value": 20
+	},
+	{
+		"label": "results.projects.pending",
+		"value": 13
+	},
+	{
+		"label": "results.projects.prototyped",
+		"value": 81
 	}
 ]
