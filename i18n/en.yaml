@@ -40,9 +40,9 @@
 - id: results.contributors
   translation: contributors
 - id: results.projects.complete
-  translation: finished apps
-- id: results.hours
-  translation: work hours
+  translation: live apps
+- id: results.projects.prototyped
+  translation: apps prototyped
 - id: results.timezones
   translation: timezones
 - id: results.projects.pending

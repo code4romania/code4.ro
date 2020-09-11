@@ -50,7 +50,7 @@ The developers of Moonsheep have maintained a Python-based ecosystem, which serv
 
 ## Data, ahoy!
 
-The Code for Romania team has its eyes on the Moonsheep framework as well. [The "Catalog Politic" project][6] aims to centralize all public data on Romanian elected officials. The development team soon hit the same roadblock described above when it came to data availability: the data is there, but it is impossible to parse automatically. Thus, we are building our own Moonsheep application. A datathon looms on the horizon…
+The Code for Romania team has its eyes on the Moonsheep framework as well. The "Catalog Politic" project aims to centralize all public data on Romanian elected officials. The development team soon hit the same roadblock described above when it came to data availability: the data is there, but it is impossible to parse automatically. Thus, we are building our own Moonsheep application. A datathon looms on the horizon…
 
 
 [1]: http://moonsheep.org
@@ -58,4 +58,3 @@ The Code for Romania team has its eyes on the Moonsheep framework as well. [The 
 [3]: https://github.com/themoonsheep/project-template
 [4]: https://github.com/themoonsheep?q=project-
 [5]: https://docs.google.com/document/d/1HdxOXWgfzClokilRHaRrX897iHI4hTOf5tZd4t930cs/view
-[6]: {{< relref "/apps/catalog-politic" >}}
