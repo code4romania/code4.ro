@@ -26,8 +26,6 @@ Hai să lăsăm vorbăria și ciorbăria și să ne uităm la niște cooltură c
 
 **Filmul Săptămânii**
 
-**Filmul Săptămânii**
-
 <div class="embed-responsive is-16by9">
   <iframe src="https://www.youtube-nocookie.com/embed/3RtGq58LZnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
