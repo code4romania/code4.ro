@@ -33,7 +33,7 @@ In order for us to assemble the right team to work on your problem, we require y
 
 <span class="has-background-warning">**Choose an interval when we can talk**.</span>
 
-A consulting session is 120 minutes long, and Civic Tech 911 is a program that runs on Mondays, Thursdays and Fridays. You can not set an appointment with less than 48 hours left before it starts - this allows us to prepare as best we can for our talk.
+A consulting session is 120 minutes long, and Civic Tech 911 is a program that runs on Thursdays and Fridays. You can not set an appointment with less than 48 hours left before it starts - this allows us to prepare as best we can for our talk.
 
 <a class="button is-success" href="https://calendly.com/civictech911" target="_blank" rel="noopener noreferrer">Set an appointment!</a>
 

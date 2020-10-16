@@ -34,7 +34,7 @@ Pentru a putea să configurăm echipa potrivită pentru problema ta, este import
 
 <span class="has-background-warning">**Alege un interval orar în care putem să discutăm împreună**.</span>
 
-O sesiune de consultare durează 120 de minute, iar zilele în care noi derulăm programul Civic Tech 911 sunt luni, joi și vineri. Nu poți seta o consultare cu mai puțin de 48 ore înainte de momentul începerii - asta ne permite și nouă să ne pregătim cât mai bine pentru discuție.
+O sesiune de consultare durează 120 de minute, iar zilele în care noi derulăm programul Civic Tech 911 sunt joi și vineri. Nu poți seta o consultare cu mai puțin de 48 ore înainte de momentul începerii - asta ne permite și nouă să ne pregătim cât mai bine pentru discuție.
 
 <a class="button is-success" href="https://calendly.com/civictech911" target="_blank" rel="noopener noreferrer">Setează o programare!</a>
 
