@@ -1,14 +1,14 @@
 ---
-title: "Suplimentul Cooltural vol 18"
+title: "Suplimentul Cooltural vol 19"
 excerpt: ""
 cover: cover.png
-slug: cooltural-18
+slug: cooltural-19
 
 date: 2020-10-24
 author: Dragoș Costache
 ---
 
-{{< figure src="main_image.gif" alt="Logo Suplimentul Cooltural volumul 18 animat" >}}
+{{< figure src="main_image.gif" alt="Logo Suplimentul Cooltural volumul 19 animat" >}}
 
 Salutare din Nou, prieteni, la acest al doilea supliment special super duper scary pentru luna Octombrie, cunoscută ca fiind cea mai înfricoșătoare lună. Și cum ne place, ca cultură, să ne speriem, am creat de-a lungul vremii o serie de idei, [de tropi](https://tvtropes.org/) care ne urmăresc de la [hidra din Lerna](https://ro.wikipedia.org/wiki/Hidra_(mitologie)) la [zmei](https://en.wikipedia.org/wiki/Zmeu) și [balauri](https://en.wikipedia.org/wiki/Balaur) și până la [Dagon](https://lovecraft.fandom.com/wiki/Dagon#:~:text=Dagon%20is%20a%20deity%20who,mentioned%20extensively%20throughout%20the%20mythos.) (Cel Lovecraftian nu Mesopotamian) și regina mamă [a Alienilor](https://www.youtube.com/watch?v=01NO-0lASUw). Idei care revin, sub forme noi. Fear is a flat circle, ca să parafrazez [un clasic](https://www.youtube.com/watch?v=0mhZBLUyybo). Așa că hai să onorăm această lună Înfricoșătoare făcând ceva ușor diferit, să ne dedicăm coolturii Halloweenului și să deschidem listele de chestii spooky de parcă suntem un partid fără candidați. Bașca mai e o săptămână până la Halloween ca să aveți timp să vă uitați la tot.
 
