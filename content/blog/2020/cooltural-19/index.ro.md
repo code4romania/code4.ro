@@ -69,7 +69,7 @@ Nu o să vă recomand mai multe lucruri [cenzurat] pentru că nu e nevoie. [Arhi
 
 **Playlistul Săptămânii**
 
-Playlistul săptămânii ne vine de la Cătălina Coca, unul dintre voluntarii noștri de cursă lungă din echipa de comunicare. I-am făcut un profil Cătălinei aici, și vă încurajez să îl citiți pentru că a noastră Cătălina e cu adevărat o persoană fantastică. Băgați urechea la playlistul său mai jos.
+Playlistul săptămânii ne vine de la Cătălina Coca, unul dintre voluntarii noștri de cursă lungă din echipa de comunicare. I-am făcut un profil Cătălinei [aici](https://www.iqads.ro/articol/48860/heroesoftech-imi-place-sa-am-grija-de-oameni), și vă încurajez să îl citiți pentru că a noastră Cătălina e cu adevărat o persoană fantastică. Băgați urechea la playlistul său mai jos.
 
 <div class="embed-responsive is-16by9">
   <iframe src="https://open.spotify.com/embed/playlist/58osBxz7oHuLSlwyntFHeL" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
