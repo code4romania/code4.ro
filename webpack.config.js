@@ -38,7 +38,7 @@ if (isProd) {
 			'layouts/**/*.html',
 			'src/js/**/*.js',
 		]),
-		whitelistPatterns: [
+		safelist: [
 			/^narrow$/,
 			/^app-status-/,
 			/^fa-/,
